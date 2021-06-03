@@ -24,7 +24,7 @@ include "./components/fixednavbarlight.php";
             </div>
             <div class="py-160">
                 <div class="container mb-8">
-                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110">
+                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="run">
                         <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/runway.jpg" alt="">
                         </div>
@@ -36,7 +36,7 @@ include "./components/fixednavbarlight.php";
                         </div>
                     </div>
 
-                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110">
+                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="ex">
                         <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/exhibition.jpg" alt="">
                         </div>
@@ -48,7 +48,7 @@ include "./components/fixednavbarlight.php";
                         </div>
                     </div>
 
-                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110">
+                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="mas">
                         <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/masterclass.jpg" alt="">
                         </div>
@@ -60,7 +60,7 @@ include "./components/fixednavbarlight.php";
                         </div>
                     </div>
 
-                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110">
+                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="con">
                         <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/contest.jpg" alt="">
                         </div>
@@ -82,9 +82,9 @@ include "./components/fixednavbarlight.php";
                 </div>
                 <div class="container">
                     <div class="row gh-1 gv-5">
-                        <div class="col-12 col-lg-4">
+                        <div class="col-12 col-lg-3">
                         </div>
-                        <div class="col-12 col-lg-7">
+                        <div class="col-12 col-lg-9">
                             <div class="tab-content text-white mr-n30" id="workTabContent">
                                 <div class="tab-pane fade show active" id="idea" role="tabpanel" aria-labelledby="idea-tab">
                                     <div class="row gh-5 gv-5">
