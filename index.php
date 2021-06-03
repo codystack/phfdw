@@ -1,7 +1,8 @@
 <?php
 $page = 'home';
 include "./components/header.php";
-include "./components/navbarlight.php"
+include "./components/navbarlight.php";
+include "./components/mobilenavbar.php";
 ?>
 
         <div class="banner banner-dark shape-parent">

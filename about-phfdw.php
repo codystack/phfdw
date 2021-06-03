@@ -2,6 +2,7 @@
 $page = 'about';
 include "./components/header.php";
 include "./components/fixednavbarlight.php";
+include "./components/mobilenavbar.php";
 ?>
         <div class="content-wrap">
             <div class="py-160 min-vh-100 d-flex align-items-center position-relative lines-style-3">

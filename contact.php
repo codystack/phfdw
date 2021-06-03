@@ -2,6 +2,7 @@
 $page = 'contact';
 include "./components/header.php";
 include "./components/navbar.php";
+include "./components/mobilenavbar.php";
 ?>
         
         
