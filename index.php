@@ -66,18 +66,18 @@ include "./components/navbarlight.php"
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-12 col-lg-7 text-center show-on-scroll" data-show-delay="100" data-show-duration="800">
-                            <p class="subtitle mt-n10">who we are</p>
-                            <h1 class="h3 mb-0">An award-winning design & dev team that is proud of our work 👋</h1>
+                            <p class="subtitle mt-n10">what to expect</p>
+                            <h1 class="h3 mb-0">Runway - Exhibition - Masterclass</h1>
                         </div>
                     </div>
                     <div class="row justify-content-center gh-5 mt-100">
                         <div class="col-lg-5 show-on-scroll" data-show-delay="200" data-show-duration="800">
                             <hr class="mt-0">
-                            <p class="lead">Over 10 years of combined experience, and know a thing or two about designing websites and mobile apps.</p>
+                            <p class="lead">The Fashion industry on its own is a key component of global economy and certainly an important sector to consider when thinking about sustainable development.👋</p>
                         </div>
                         <div class="col-lg-5 show-on-scroll" data-show-delay="300" data-show-duration="800">
-                            <p>Were divided, a moved night light darkness winged may also make man for. Winged the for Earth creeping appear evening, gathered Forth so he. Life that dry of created greater can't also gathered female green.</p>
-                            <a href="about-us.html" class="btn btn-dark btn-with-ball">about us</a>
+                            <p>The Port Harcourt Fashion and Design Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths.</p>
+                            <a href="about-phfdw" class="btn btn-dark btn-with-ball">about us</a>
                         </div>
                     </div>
                 </div>
@@ -162,23 +162,23 @@ include "./components/navbarlight.php"
                 <div class="container">
                     <div class="row gh-1 gv-1 justify-content-xl-end">
                         <div class="col-lg-5 show-on-scroll" data-show-duration="600">
-                            <img class="w-100" src="assets/images/service/service-1-940-580.jpg" alt="">
+                            <img class="w-100" src="assets/images/service/hme1.jpg" alt="">
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-1"></div>
                         <div class="col-lg-6 col-xl-4 align-self-center order-11 order-lg-2">
-                            <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">We create everything digital, printable and analytical 🔥</h2>
+                            <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">Fashion... The New Oil and Gas 🔥</h2>
                         </div>
                         <div class="d-none d-xl-block col-2 order-lg-3"></div>
                         <div class="d-none d-lg-block col-lg-2 col-xl-auto order-10 order-lg-4 show-on-scroll" data-show-delay="100" data-show-duration="600">
-                            <img class="mw-100" width="140" src="assets/images/service/service-2-280-280.jpg" alt="">
+                            <img class="mw-100" width="140" src="assets/images/service/hme2.jpg" alt="">
                         </div>
                         <div class="d-none d-lg-block col-lg-3 order-9 order-lg-5 show-on-scroll" data-show-delay="200" data-show-duration="600">
-                            <img class="w-100" src="assets/images/service/service-3-540-500.jpg" alt="">
+                            <img class="w-100" src="assets/images/service/hme3.jpg" alt="">
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-6"></div>
                         <div class="col-lg-6 col-xl-5 mt-xl-n60 order-12 order-lg-7">
-                            <p>Won't seasons, appear days them stars replenish divided. All second forth. Him place was seas man and gathering creepeth called fly. Them sea place lights, midst bearing fourth above.</p>
-                            <a href="services.html" class="btn btn-dark btn-with-ball">read more</a>
+                            <p>The influence and power of fashion extends far beyond the runways. The fashion industry is not a sector that exists in vacuum. In fact, the industry is not unlike any other key economic drivers, it is a key component of global economy and certainly an important sector to consider when thinking about sustainable development.</p>
+                            <a href="about-phfdw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
                 </div>
