@@ -1,6 +1,6 @@
 <?php
 include "./components/header.php";
-include "./components/navbarlight.php";
+include "./components/fixednavbarlight.php";
 ?>
 
         <div class="content-wrap">

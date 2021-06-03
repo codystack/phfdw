@@ -1012,47 +1012,6 @@ include "./components/navbarlight.php"
                         <div class="d-none d-xl-block col-lg-1"></div>
                     </div>
                 </div>
-                <div class="pt-160">
-                    <h2 class="text-center mb-100 mt-n10">What’s new?</h2>
-                    <div class="row gh-1 gv-4 pb-30">
-                        <div class="col-12 col-sm-6 col-lg-4 show-on-scroll" data-show-delay="100" data-show-duration="500" data-show-distance="20">
-                            <a class="card card-blog card-vertical" href="single-post.html">
-                                <span class="card-img">
-                                    <img src="assets/images/blog/blog-1.jpg" alt="">
-                                </span>
-                                <span class="card-body">
-                                    <span class="card-title h5">Office explained in fewer than 100+ Characters</span>
-                                    <span class="card-date">12 may, 2020</span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4 show-on-scroll" data-show-delay="200" data-show-duration="500" data-show-distance="20">
-                            <a class="card card-blog card-vertical" href="single-post.html">
-                                <span class="card-img">
-                                    <img src="assets/images/blog/blog-2.jpg" alt="">
-                                </span>
-                                <span class="card-body">
-                                    <span class="card-title h5">This week&#39;s top Stories about Development</span>
-                                    <span class="card-date">08 may, 2020</span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4 show-on-scroll" data-show-delay="300" data-show-duration="500" data-show-distance="20">
-                            <a class="card card-blog card-vertical" href="single-post.html">
-                                <span class="card-img">
-                                    <img src="assets/images/blog/blog-3.jpg" alt="">
-                                </span>
-                                <span class="card-body">
-                                    <span class="card-title h5">Facts about Business that you never knew</span>
-                                    <span class="card-date">05 may, 2020</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="text-center pt-60 mt-n8">
-                        <a href="blog-col-3.html" class="btn btn-dark btn-with-ball">all posts</a>
-                    </div>
-                </div>
                 <div class="pt-160 pb-130 text-center text-md-left">
                     <hr class="mt-0 mb-100 pb-7">
                     <div class="row gv-1 pb-7 mb-n30 align-items-center justify-content-center justify-content-md-between">
