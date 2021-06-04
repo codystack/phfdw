@@ -44,3 +44,27 @@ if (isset($_POST['exhibit_btn'])) {
 
 }
 
+
+//Contact Query
+if (isset($_POST['contact_btn'])) {
+
+    $email = $conn->real_escape_string($_POST['email']);
+    $fullName = $conn->real_escape_string($_POST['fullName']);
+    $companyName = $conn->real_escape_string($_POST['companyName']);
+    $phoneNum = $conn->real_escape_string($_POST['phoneNum']);
+    $subject = $conn->real_escape_string($_POST['subject']);
+    $comment = $conn->real_escape_string($_POST['comment']);
+
+    // Finally, insert details into database
+    $query = "INSERT INTO contact (email, fullName, companyName, phoneNum, subject, comment) 
+  			        VALUES('$email', '$fullName', '$companyName', '$phoneNum', '$subject', '$comment')";
+    mysqli_query($conn, $query);
+    if (mysqli_affected_rows($conn) > 0) {
+        $_SESSION['contact_success_message_title'] = "Contact Request Sent!";
+        $_SESSION['contact_success_message'] = "We will get back to you ASAP.";
+    }else {
+        $_SESSION['message_title']  = "Request Failed";
+        $_SESSION['message']    = "Error sending request now: ".mysqli_error($conn).$id;
+    }
+}
+

@@ -80,6 +80,26 @@
             }
         ?>
 
+    <?php
+            if (isset($_SESSION['contact_success_message']))
+            {
+                ?>
+                <script>
+                    swal({
+                        title: "<?php echo $_SESSION['contact_success_message_title']; ?>",
+                        text: "<?php echo $_SESSION['contact_success_message']; ?>",
+                        icon: "success",
+                        buttons: false,
+                        timer: 4000
+                    }).then(function() {
+                        window.location = "contact";
+                    });
+                </script>
+                <?php
+                unset($_SESSION['contact_success_message']);
+            }
+        ?>
+
         <?php
             if (isset($_SESSION['message']))
             {
@@ -92,7 +112,7 @@
                         buttons: false,
                         timer: 3000
                     }).then(function() {
-                        window.location = "support";
+                        window.location = "contact";
                     });
                 </script>
                 <?php

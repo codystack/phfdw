@@ -3,6 +3,7 @@ $page = 'contact';
 include "./components/header.php";
 include "./components/navbar.php";
 include "./components/mobilenavbar.php";
+require_once "./controller/auth.php";
 ?>
         
         
@@ -25,25 +26,25 @@ include "./components/mobilenavbar.php";
                             </div>
                         </div>
                         <div class="col-12 col-lg-8 mt-5 mt-lg-0">
-                            <form action="#">
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
                                 <div class="row gh-1 gv-2">
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="100">
-                                        <input type="name" class="form-control" placeholder="Your Name *">
+                                        <input type="text" name="fullName" class="form-control" placeholder="Full Name *">
                                     </div>
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="150">
-                                        <input type="email" class="form-control" placeholder="Your Email *">
+                                        <input type="email" name="email" class="form-control" placeholder="Email *">
                                     </div>
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="200">
-                                        <input type="phone" class="form-control" placeholder="Your Phone *">
+                                        <input type="tel" name="phoneNum" class="form-control" placeholder="Phone *">
                                     </div>
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="250">
-                                        <input type="company" class="form-control" placeholder="Company">
+                                        <input type="text" name="companyName" class="form-control" placeholder="Company Name">
                                     </div>
                                     <div class="col-12 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="400">
-                                        <input type="text" class="form-control" placeholder="Subject">
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject">
                                     </div>
                                     <div class="col-12 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="450">
-                                        <textarea class="form-control" rows="1" placeholder="Message *"></textarea>
+                                        <textarea class="form-control" name="comment" rows="1" placeholder="Message *"></textarea>
                                     </div>
                                     <div class="col-12 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="470">
                                         <button class="btn btn-dark btn-with-ball mt-20" name="contact_btn" type="submit">submit</button>

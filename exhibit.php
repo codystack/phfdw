@@ -4,7 +4,6 @@ include "./components/header.php";
 include "./components/fixednavbarlight.php";
 include "./components/mobilenavbar.php";
 require_once "./controller/auth.php";
-
 ?>
 
         <div class="content-wrap">

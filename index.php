@@ -18,24 +18,6 @@ include "./components/mobilenavbar.php";
                         <div class="swiper-slide">
                             <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
-                                    <img src="assets/images/slide1.jpg" alt="">
-                                    <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
-                                </span>
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
-                                <span class="card-img swiper-image" data-swiper-parallax-x="20%">
-                                    <img src="assets/images/slide2.jpg" alt="">
-                                    <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
-                                </span>
-                            </a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
-                                <span class="card-img swiper-image" data-swiper-parallax-x="20%">
                                     <img src="assets/images/slide3.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
                                 </span>
@@ -45,7 +27,25 @@ include "./components/mobilenavbar.php";
                         <div class="swiper-slide">
                             <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
+                                    <img src="assets/images/slide1.jpg" alt="">
+                                    <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
+                                <span class="card-img swiper-image" data-swiper-parallax-x="20%">
                                     <img src="assets/images/slide4.jpg" alt="">
+                                    <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
+                                <span class="card-img swiper-image" data-swiper-parallax-x="20%">
+                                    <img src="assets/images/slide2.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
                                 </span>
                             </a>
