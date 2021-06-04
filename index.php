@@ -218,7 +218,7 @@ include "./components/mobilenavbar.php";
                         <div class="d-none d-xl-block col-lg-1"></div>
                         <div class="col-12 col-lg-4">
                             <p class="subtitle mt-n10">our clients</p>
-                            <h2 class="h3">We've worked with 50+ brands</h2>
+                            <h2 class="h3">Brands we've<br>worked with.</h2>
                         </div>
                         <div class="d-none d-lg-block col-lg-2 col-xl-1"></div>
                         <div class="col-md-8 col-lg ml-lg-n30 text-center">
