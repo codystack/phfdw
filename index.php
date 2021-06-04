@@ -145,7 +145,7 @@ include "./components/mobilenavbar.php";
                                 <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
                             </span>
                             <span class="card-img-overlay">
-                                <span class="card-title h5">Creative Promise & Fashion Contest</span>
+                                <span class="card-title h5">Creative Promise in Fashion Contest</span>
                                 <span class="btn btn-clean">read more
                                     <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
                                         <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
@@ -177,7 +177,7 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-6"></div>
                         <div class="col-lg-6 col-xl-5 mt-xl-n60 order-12 order-lg-7">
-                            <p>The influence and power of fashion extends far beyond the runways. The fashion industry is not a sector that exists in vacuum. In fact, the industry is not unlike any other key economic drivers, it is a key component of global economy and certainly an important sector to consider when thinking about sustainable development.</p>
+                            <p>Fashion tourism is an alternative form of tourism that attracts tourists from different part of the world; this trend is gradually becoming one of the more sought after niche in the tourism markets. Tourists seek destination that fulfills their needs, wants and desires for new tastes in the overall experience of the destination’s culture that reflects its creativity, innovation and intricate tapestry of skills and knowledge of the host.</p>
                             <a href="about-phfdw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
