@@ -117,7 +117,15 @@ session_start();
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p class="text-center pt-20 mb-20">Pay the sum of ₦ <?php echo $_SESSION['contactperson']; ?> using the details below.<br>
+                                <?php
+                                    if ($_SESSION['boothSize'] == '2x2'){
+                                        $booth1 = '50,000';
+                                    }
+                                    if ($_SESSION['boothSize'] == '3x2'){
+                                        $booth1 = '75,000';
+                                    }
+                                ?>
+                                <p class="text-center pt-20 mb-20">Pay the sum of ₦<b><?php echo $booth1; ?></b> using the details below.<br>
                                     <b>Bank: </b>Guarantee Trust Bank<br>
                                     <b>Account Name: </b>Wave Event Global Ltd.<br>
                                     <b>Account Number: </b>0122830052
