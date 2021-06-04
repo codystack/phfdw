@@ -203,9 +203,9 @@ include "./components/mobilenavbar.php";
                                         </svg>
                                     </div>
                                     <div class="review-text">
-                                        <p class="mb-0">“ You can have anything<br>you want in life if you dress for it. ”</p>
+                                        <p class="mb-0">Historically the fashion industry has been used to uplift urban-based development objectives and the sector continues to be viewed as an important tool for economic and tourism development at a local and international level.</p>
                                     </div>
-                                    <div class="review-author">Edith Head</div>
+                                    <!--<div class="review-author">Edith Head</div>-->
                                 </div>
                             </div>
                         </div>
