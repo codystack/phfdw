@@ -57,7 +57,68 @@
         <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
         <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
         <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="assets/js/main.min.js"></script>
+
+        <?php
+            if (isset($_SESSION['success_message']))
+            {
+                ?>
+                <script>
+                    swal({
+                        title: "<?php echo $_SESSION['success_message_title']; ?>",
+                        text: "<?php echo $_SESSION['success_message']; ?>",
+                        icon: "success",
+                        buttons: false,
+                        timer: 4000
+                    }).then(function() {
+                        window.location = "regSuccess";
+                    });
+                </script>
+                <?php
+                unset($_SESSION['success_message']);
+            }
+        ?>
+
+        <?php
+            if (isset($_SESSION['message']))
+            {
+                ?>
+                <script>
+                    swal({
+                        title: "<?php echo $_SESSION['message_title']; ?>",
+                        text: "<?php echo $_SESSION['message']; ?>",
+                        icon: "error",
+                        buttons: false,
+                        timer: 3000
+                    }).then(function() {
+                        window.location = "support";
+                    });
+                </script>
+                <?php
+                unset($_SESSION['message']);
+            }
+        ?>
+
+        <?php
+            if (isset($_SESSION['user_message']))
+            {
+                ?>
+                <script>
+                    swal({
+                        title: "<?php echo $_SESSION['user_message_title']; ?>",
+                        text: "<?php echo $_SESSION['user_message']; ?>",
+                        icon: "error",
+                        buttons: false,
+                        timer: 4000
+                    }).then(function() {
+                        window.location = "contact";
+                    });
+                </script>
+                <?php
+                unset($_SESSION['user_message']);
+            }
+        ?>
     </body>
 
 </html>
