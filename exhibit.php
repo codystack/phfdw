@@ -13,7 +13,7 @@ require_once "./controller/auth.php";
                     <div class="row justify-content-center text-white">
                         <div class="col-lg-10">
                             <h1 class="display-5 text-white mt-5 mb-30 show-on-scroll" data-show-duration="500" data-show-distance="10">Exhibitors Form.</h1>
-                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
                                 <div class="row gh-1 gv-3 mt-30">
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="50">
                                         <input type="text" name="companyName" required class="form-control form-control-lg form-control-white" placeholder="Company Name *">
