@@ -6,23 +6,24 @@ $contactid = 0;
 if(isset($_POST['contactid'])){
    $contactid = mysqli_real_escape_string($conn,$_POST['contactid']);
 }
-$sql = "SELECT * FROM inforequest WHERE id=".$contactid;
+$sql = "SELECT * FROM contact WHERE id=".$contactid;
 $result = mysqli_query($conn,$sql);
 
 $response = "<table border='0' width='100%'>";
 while( $row = mysqli_fetch_array($result) ){
  $id = $row['id'];
  $fullName = $row['fullName'];
- $service = $row['service'];
+ $companyName = $row['companyName'];
  $email = $row['email'];
  $phoneNum = $row['phoneNum'];
  $comment = $row['comment'];
  $date = $row['date'];
+ $subject = $row['subject'];
 
  $response .= "<div class=\"card-body\" style='margin-top: -20px'>";
 
  $response .= "<div class=\"text-center\">";
- $response .= "<img src=\"../assets/images/vinelogo.png\" style=\"width: 100px;\"><br>";
+ $response .= "<img src=\"./assets/images/logoblack.svg\" style=\"width: 200px;\"><br>";
  $response .= "</div>";
 
         $response .= "<div class=\"table-responsive\">";
@@ -34,8 +35,8 @@ while( $row = mysqli_fetch_array($result) ){
         $response .= "</tr>";
 
         $response .= "<tr>";
-            $response .= "<th style=\"background-color: #ececef;\"><strong>Purpose:</strong></th>";
-            $response .= "<td>" .$service. "</td>";
+            $response .= "<th style=\"background-color: #ececef;\"><strong>Company Name:</strong></th>";
+            $response .= "<td>" .$companyName . "</td>";
         $response .= "</tr>";
 
         $response .= "<tr>";
@@ -51,6 +52,11 @@ while( $row = mysqli_fetch_array($result) ){
         $response .= "<tr>";
             $response .= "<th style=\"background-color: #ececef;\"><strong>Request Date:</strong></th>";
             $response .= "<td>" .date("d(D) M Y", strtotime($date)). "</td>";
+        $response .= "</tr>";
+
+        $response .= "<tr>";
+            $response .= "<th style=\"background-color: #ececef;\"><strong>Subject:</strong></th>";
+            $response .= "<td>" .$subject. "</td>";
         $response .= "</tr>";
 
         $response .= "<tr>";

@@ -18,8 +18,8 @@
     <!-- / footer -->
     <?php include "modal.php"; ?>
 
-    <script src="../assets/js/vendor.js"></script>
-    <script src="../assets/js/app.js"></script>
+    <script src="./assets/js/vendor.js"></script>
+    <script src="./assets/js/app.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 

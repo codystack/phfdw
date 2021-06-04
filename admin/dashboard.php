@@ -38,8 +38,7 @@ require_once "../controller/adminauth.php";
         <div class="row justify-content-center">
           <div class="col col-md-10 col-lg-8">
             <div class="nav nav-tabs mb-1">
-              <a class="nav-item nav-link active" data-toggle="tab" href="#demo-2-1">Profile</a>
-              <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-2">Connections</a>
+              <a class="nav-item nav-link active" data-toggle="tab" href="#demo-2-1">Dashboard</a>
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-3">Info Request</a>
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-5">Exhibitors</a>
             </div>
@@ -116,42 +115,6 @@ require_once "../controller/adminauth.php";
           <!-- / tab -->
 
 
-          <!-- tab connections -->
-          <div class="tab-pane" id="demo-2-2" role="tabpanel" aria-labelledby="demo-2-2">
-            <div class="row justify-content-center">
-              <div class="col-md-10 col-lg-8">
-                <div class="row gutter-1">
-                  <div class="col-12">
-                    <div class="boxed p-2">
-                      <div class="row align-items-center justify-content-between">
-                        <div class="col-10">
-                          <div class="media align-items-center">
-                            <img src="../upload/healthplus.jpg" alt="Avatar" class="avatar avatar-lg rounded mr-3">
-                            <div class="media-body">
-                              <h5 class="mb-0">Health Plus</h5>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-2 text-md-right">
-                          <div class="dropdown">
-                            <a class="btn btn-ico btn-outline-light text-dark rounded btn-sm" href="#" role="button" id="dropdownMenuLink-7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              <i class="icon-more-vertical fs-22"></i>
-                            </a>
-
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink-7">
-                              <a class="dropdown-item" href="#">Make Primary</a>
-                              <a class="dropdown-item" href="#">Remove</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- / tab -->
 
           <!-- tab groups -->
           <div class="tab-pane" id="demo-2-3" role="tabpanel" aria-labelledby="demo-2-3">
@@ -180,7 +143,7 @@ require_once "../controller/adminauth.php";
                                         $fullName = $row['fullName'];
                                         $email = $row['email'];
                                         $date = $row['date'];
-
+ 
                                         echo "<tr>";
                                         echo "<td class=\"budget\">" .$fullName. "</td>";
                                         echo "<td class=\"budget\">" .date("d(D) M Y", strtotime($date)). "</td>";
@@ -231,7 +194,7 @@ require_once "../controller/adminauth.php";
                         <table id="spacerequest-datatables" class="table table-striped" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th>Client Name</th>
+                                    <th>Exhibitors Name</th>
                                     <th>Date</th>
                                     <th class="text-right">Action</th>
                                 </tr>
@@ -244,12 +207,12 @@ require_once "../controller/adminauth.php";
                                     // output data of each row
                                     while($row = mysqli_fetch_assoc($result)) {
                                         $id = $row['id'];
-                                        $fullName = $row['fullName'];
+                                        $contactperson = $row['contactperson'];
                                         $email = $row['email'];
                                         $date = $row['date'];
 
                                         echo "<tr>";
-                                        echo "<td class=\"budget\">" .$fullName. "</td>";
+                                        echo "<td class=\"budget\">" .$contactperson. "</td>";
                                         echo "<td class=\"budget\">" .date("d(D) M Y", strtotime($date)). "</td>";
 
                                         echo "<td class='text-right'>"
@@ -272,7 +235,7 @@ require_once "../controller/adminauth.php";
                                 </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>Client Name</th>
+                                    <th>Exhibitors Name</th>
                                     <th>Date</th>
                                     <th class="text-right">Action</th>
                                 </tr>
