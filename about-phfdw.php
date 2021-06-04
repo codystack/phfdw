@@ -17,7 +17,7 @@ include "./components/mobilenavbar.php";
                     <div class="row">
                         <div class="col-lg-1"></div>
                         <div class="col-12 col-lg-8 show-on-scroll" data-show-duration="700">
-                            <h1 class="text-white mb-0">Fashion... The New Oil and Gas</h1>
+                            <h1 class="text-white mb-0">Revitalizing the Economy through Fashion Tourism</h1>
                         </div>
                     </div>
                 </div>
@@ -33,8 +33,8 @@ include "./components/mobilenavbar.php";
                         <div class="col-12 col-lg-10">
                             <div class="row gh-5 gv-5">
                                 <div class="col-12 col-md-10 col-lg-9">
-                                    <p class="subtitle mt-n10 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="50">who we are</p>
-                                    <h3 class="mb-n7 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">The Fashion industry on its own is a key component of global economy and certainly an important sector to consider when thinking about sustainable development. 👋</h3>
+                                    <!--<p class="subtitle mt-n10 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="50">who we are</p>-->
+                                    <h3 class="mb-n7 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">Historically the fashion industry has been used to uplift urban-based development objectives and the sector continues to be viewed as an important tool for economic and tourism development at a local and international level. 👋</h3>
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                                     <p class="lead mb-20">BACKGROUND: The Port Harcourt Fashion Week.</p>
