@@ -63,7 +63,7 @@ include "./components/mobilenavbar.php";
             </div>
         </div>
         <div class="content-wrap">
-            <div class="py-160">
+            <div class="py-60">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-12 col-lg-7 text-center show-on-scroll" data-show-delay="100" data-show-duration="800">
@@ -73,7 +73,7 @@ include "./components/mobilenavbar.php";
                     <div class="row justify-content-center gh-5 mt-100">
                         <div class="col-lg-5 show-on-scroll" data-show-delay="200" data-show-duration="800">
                             <hr class="mt-0">
-                            <p class="lead">The Fashion industry on its own is a key component of global economy and certainly an important sector to consider when thinking about sustainable development.👋</p>
+                            <p class="lead">"The Fashion industry on its own is a key component of global economy and certainly an important sector to consider when thinking about sustainable development."</p>
                         </div>
                         <div class="col-lg-5 show-on-scroll" data-show-delay="300" data-show-duration="800">
                             <p>The Port Harcourt Fashion and Design Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths.</p>
@@ -145,7 +145,7 @@ include "./components/mobilenavbar.php";
                                 <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
                             </span>
                             <span class="card-img-overlay">
-                                <span class="card-title h5">Contest</span>
+                                <span class="card-title h5">Creative Promise & Fashion Contest</span>
                                 <span class="btn btn-clean">read more
                                     <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
                                         <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
@@ -166,7 +166,7 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-1"></div>
                         <div class="col-lg-6 col-xl-4 align-self-center order-11 order-lg-2">
-                            <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">Fashion... The New Oil and Gas 🔥</h2>
+                            <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">Revitalizing the Economy through Fashion Tourism🔥</h2>
                         </div>
                         <div class="d-none d-xl-block col-2 order-lg-3"></div>
                         <div class="d-none d-lg-block col-lg-2 col-xl-auto order-10 order-lg-4 show-on-scroll" data-show-delay="100" data-show-duration="600">
