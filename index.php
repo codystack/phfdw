@@ -67,8 +67,7 @@ include "./components/mobilenavbar.php";
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-12 col-lg-7 text-center show-on-scroll" data-show-delay="100" data-show-duration="800">
-                            <p class="subtitle mt-n10">what to expect</p>
-                            <h1 class="h3 mb-0">Runway - Exhibition - Masterclass</h1>
+                            <h1 class="h3 mb-0">About PHFDW</h1>
                         </div>
                     </div>
                     <div class="row justify-content-center gh-5 mt-100">
@@ -78,7 +77,7 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="col-lg-5 show-on-scroll" data-show-delay="300" data-show-duration="800">
                             <p>The Port Harcourt Fashion and Design Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths.</p>
-                            <a href="about-phfdw" class="btn btn-dark btn-with-ball">about us</a>
+                            <re href="about-phfdw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
                 </div>
