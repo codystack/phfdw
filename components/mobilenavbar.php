@@ -7,7 +7,7 @@
             <div class="navbar-head">
                 <div class="container">
                     <a class="navbar-brand" href="home.html">
-                        <img width="107" src="assets/images/newlogoblack.svg" alt="">
+                        <img width="170" src="assets/images/logoblack.svg" alt="">
                     </a>
                     <a class="navbar-toggle" href="#" data-fancybox-close>
                         <span></span>

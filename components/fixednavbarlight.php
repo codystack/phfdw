@@ -1,7 +1,7 @@
         <header class="navbar navbar-top navbar-expand-lg navbar-dark navbar-fixed">
             <div class="container">
                 <a class="navbar-brand" href="\">
-                    <img width="107" src="assets/images/newlogowhite.svg" alt="">
+                    <img width="200" src="assets/images/logowhite.svg" alt="">
                 </a>
                 <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
                     <span></span>
