@@ -18,7 +18,7 @@ include "./components/mobilenavbar.php";
                     <div class="row">
                         <div class="col-lg-1"></div>
                         <div class="col-12 col-lg-8 col-xl-7 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left">
-                            <h1 class="text-white mb-0">Fashion allows you to be whoever you want to be.</h1>
+                            <h1 class="text-white mb-0">Revitalizing the Economy through Fashion Tourism.</h1>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ include "./components/mobilenavbar.php";
                             <img class="w-100" src="assets/images/service/contest.jpg" alt="">
                         </div>
                         <div class="col-12 col-lg-5 order-lg-1 pl-lg-0 ml-lg-30 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="50">
-                            <h3 class="mb-n10">Contest</h3>
+                            <h3 class="mb-n10">Creative Promise in Fashion Contest</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">This segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage the best talents. Winner  will have the opportunity of doing a short fashion course with London College of Fashion (virtual)runners up will have opportunity to intern with renowned fashion brands in the country.</p>
                             <a class="btn btn-dark btn-with-ball" href="contact">compete</a>
