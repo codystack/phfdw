@@ -60,6 +60,12 @@
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="assets/js/main.min.js"></script>
 
+        <script type="text/javascript">
+            $(window).on('load', function() {
+                $('#designersCategory').modal('show');
+            });
+        </script>
+
         <?php
             if (isset($_SESSION['success_message']))
             {
@@ -77,6 +83,26 @@
                 </script>
                 <?php
                 unset($_SESSION['success_message']);
+            }
+        ?>
+
+        <?php
+            if (isset($_SESSION['des_success_message']))
+            {
+                ?>
+                <script>
+                    swal({
+                        title: "<?php echo $_SESSION['des_success_message_title']; ?>",
+                        text: "<?php echo $_SESSION['des_success_message']; ?>",
+                        icon: "success",
+                        buttons: false,
+                        timer: 4000
+                    }).then(function() {
+                        window.location = "designer_regSuccess";
+                    });
+                </script>
+                <?php
+                unset($_SESSION['des_success_message']);
             }
         ?>
 

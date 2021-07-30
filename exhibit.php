@@ -1,55 +1,38 @@
 <?php
 session_start();
 include "./components/header.php";
-include "./components/fixednavbarlight.php";
+include "./components/navbar.php";
 include "./components/mobilenavbar.php";
 require_once "./controller/auth.php";
 ?>
 
-        <div class="content-wrap">
-            <div class="py-160 bg-dark">
-                <div class="container">
-                    <div class="row justify-content-center text-white">
-                        <div class="col-lg-10">
-                            <h1 class="display-5 text-white mt-5 mb-30 show-on-scroll" data-show-duration="500" data-show-distance="10">Exhibitors Form.</h1>
-                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
-                                <div class="row gh-1 gv-3 mt-30">
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="50">
-                                        <input type="text" name="companyName" required class="form-control form-control-lg form-control-white" placeholder="Company Name *">
-                                    </div>
-
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="address" required class="form-control form-control-lg form-control-white" placeholder="Address *">
-                                    </div>
-
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">
-                                        <input type="email" name="email" required class="form-control form-control-lg form-control-white" placeholder="Email *">
-                                    </div>
-
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">
-                                        <input type="tel" name="phoneNum" required class="form-control form-control-lg form-control-white" placeholder="Phone *">
-                                    </div>
-
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="contactperson" required class="form-control form-control-lg form-control-white" placeholder="Name of Contact Person *">
-                                    </div>
-
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <select class="form-control form-control-lg form-control-white" name="boothSize">
-                                            <option value="" style="color: black">Choose booth size:</option>
-                                            <option value="2x2" style="color: black">2x2 = 50k</option>
-                                            <option value="3x2" style="color: black">3x2 = 75k</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="350">
-                                        <textarea type="text" name="items" required class="form-control form-control-lg form-control-white" rows="2" placeholder="Items to be exhibited *"></textarea>
-                                    </div>
-                                </div>
-
-                                <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="submit" name="exhibit_btn" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
-                            </form>
-                        </div>
+        <div class="content-wrap pt-160 pb-160">
+            <div class="container">
+                <div class="row gv-3 align-items-center mb-100 mb-lg-0">
+                    <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="left" data-show-delay="250">
+                        <a href="showcase" class="gallery-item gallery-item-lg" data-animation-effect="fade">
+                            <img src="assets/images/designers.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-none d-lg-block col-1 mr-xl-10"></div>
+                    <div class="col-12 col-lg ml-xl-5 mr-xl-n10 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
+                        <h3>Designers</h3>
+                        <p>Showcase your latest collection on our runway with other famous guests designers.</p>
+                        <a href="showcase" class="btn btn-dark btn-with-ball">showcase</a>
+                    </div>
+                    <div class="d-none d-xl-block col-1"></div>
+                </div>
+                <div class="row gv-3 align-items-center">
+                    <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
+                        <a href="exhibition" class="gallery-item gallery-item-lg" data-animation-effect="fade">
+                            <img src="assets/images/exhibit.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-none d-lg-block col-1 order-lg-1"></div>
+                    <div class="col-12 col-lg-5 order-lg-0 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="left" data-show-delay="250">
+                        <h3>Exhibition</h3>
+                        <p>Exhibit your products to a wide range of audience. Deliberate efforts have been put in place to attract the right audience to the benefits of the exhibitors.</p>
+                        <a href="exhibition" class="btn btn-dark btn-with-ball">exhibit</a>
                     </div>
                 </div>
             </div>
