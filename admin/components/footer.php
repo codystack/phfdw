@@ -39,10 +39,26 @@
 		});
 	</script>
 
-<script>
+  <script>
 		$(function() {
 			// Datatables basic
 			$('#inforequest-datatables').DataTable({
+				responsive: true
+			});
+			// Datatables with Buttons
+			var datatablesButtons = $('#datatables-buttons').DataTable({
+				lengthChange: !1,
+				buttons: ["copy", "print"],
+				responsive: true
+			});
+			datatablesButtons.buttons().container().appendTo("#datatables-buttons_wrapper .col-md-6:eq(0)")
+		});
+	</script>
+
+<script>
+		$(function() {
+			// Datatables basic
+			$('#designersrequest-datatables').DataTable({
 				responsive: true
 			});
 			// Datatables with Buttons
@@ -102,6 +118,31 @@
         });
 	</script>
   <!-- Contact Info Modal -->
+
+
+  <!-- Designers Info Modal -->
+  <script>
+        $(document).ready(function(){
+            $('.designersinfo').click(function(){
+            
+                var designerid = $(this).data('id');
+                
+                // AJAX request
+                $.ajax({
+                    url: './designerselect.php',
+                    type: 'post',
+                    data: {designerid: designerid},
+                    success: function(response){ 
+                        // Add response in Modal body
+                        $('.modal-body').html(response);
+                        // Display Modal
+                        $('#viewDesignersModal').modal('show'); 
+                    }
+                });
+            });
+        });
+	</script>
+  <!-- Designers Info Modal -->
 
     <?php
     if (isset($_SESSION['message']))

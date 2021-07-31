@@ -17,7 +17,7 @@ require_once "./controller/auth.php";
                     <div class="d-none d-lg-block col-1 mr-xl-10"></div>
                     <div class="col-12 col-lg ml-xl-5 mr-xl-n10 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
                         <h3>Designers</h3>
-                        <p>Showcase your latest collection on our runway with other famous guests designers.</p>
+                        <p>Showcase your latest collection on our runway and leverage on the power of our strong media partner and guest/buyers to positive your brand to the next level.</p>
                         <a href="showcase" class="btn btn-dark btn-with-ball">showcase</a>
                     </div>
                     <div class="d-none d-xl-block col-1"></div>

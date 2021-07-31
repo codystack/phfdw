@@ -41,6 +41,7 @@ require_once "../controller/adminauth.php";
               <a class="nav-item nav-link active" data-toggle="tab" href="#demo-2-1">Dashboard</a>
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-3">Info Request</a>
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-5">Exhibitors</a>
+              <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-2">Designers</a>
             </div>
           </div>
         </div>
@@ -102,6 +103,21 @@ require_once "../controller/adminauth.php";
                         </div>
                         <div class="equal-footer">
                           <span class="text-muted">Exhibitors</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="equal">
+                      <div class="boxed">
+                        <div class="equal-header">
+                        <?php
+                        $countDesigners = mysqli_query($conn, "SELECT id FROM designers");
+                        echo "<b class=\"h2\">".mysqli_num_rows($countDesigners)."</b>";
+                        ?>
+                        </div>
+                        <div class="equal-footer">
+                          <span class="text-muted">Designers</span>
                         </div>
                       </div>
                     </div>
@@ -183,7 +199,7 @@ require_once "../controller/adminauth.php";
           </div>
           <!-- / tab -->
 
-          <!-- tab payment -->
+          <!-- tab Exhibitors -->
           <div class="tab-pane" id="demo-2-5" role="tabpanel" aria-labelledby="demo-2-5">
             <div class="row justify-content-center">
               <div class="col-md-10 col-lg-8">
@@ -195,6 +211,7 @@ require_once "../controller/adminauth.php";
                             <thead>
                                 <tr>
                                     <th>Exhibitors Name</th>
+                                    <th>Reg Code</th>
                                     <th>Date</th>
                                     <th class="text-right">Action</th>
                                 </tr>
@@ -209,10 +226,12 @@ require_once "../controller/adminauth.php";
                                         $id = $row['id'];
                                         $contactperson = $row['contactperson'];
                                         $email = $row['email'];
+                                        $regCode = $row['regCode'];
                                         $date = $row['date'];
 
                                         echo "<tr>";
                                         echo "<td class=\"budget\">" .$contactperson. "</td>";
+                                        echo "<td class=\"budget\">" .$regCode. "</td>";
                                         echo "<td class=\"budget\">" .date("d(D) M Y", strtotime($date)). "</td>";
 
                                         echo "<td class='text-right'>"
@@ -236,6 +255,80 @@ require_once "../controller/adminauth.php";
                             <tfoot>
                                 <tr>
                                     <th>Exhibitors Name</th>
+                                    <th>Reg Code</th>
+                                    <th>Date</th>
+                                    <th class="text-right">Action</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- / tab -->
+
+          <!-- tab Designers -->
+          <div class="tab-pane" id="demo-2-2" role="tabpanel" aria-labelledby="demo-2-5">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-8">
+                <div class="row">
+                  <div class="col">
+                    <div class="boxed p-3">
+                      <div class="table-responsive">
+                        <table id="designersrequest-datatables" class="table table-striped" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Designers Name</th>
+                                    <th>Reg Code</th>
+                                    <th>Date</th>
+                                    <th class="text-right">Action</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                <?php
+                                $select_query = "SELECT * FROM designers ORDER BY date ASC";;
+                                $result = mysqli_query($conn, $select_query);
+                                if (mysqli_num_rows($result) > 0) {
+                                    // output data of each row
+                                    while($row = mysqli_fetch_assoc($result)) {
+                                        $id = $row['id'];
+                                        $firstName = $row['firstName'];
+                                        $lastName = $row['lastName'];
+                                        $regCode = $row['regCode'];
+                                        $email = $row['email'];
+                                        $date = $row['date'];
+
+                                        echo "<tr>";
+                                        echo "<td class=\"budget\">" .$contactperson. "</td>";
+                                        echo "<td class=\"budget\">" .$regCode. "</td>";
+                                        echo "<td class=\"budget\">" .date("d(D) M Y", strtotime($date)). "</td>";
+
+                                        echo "<td class='text-right'>"
+                                            ."<button class=\"btn btn-icon designersinfo btn-sm btn-info\" data-id='".$id."'>
+                                                <span class=\"btn-inner--icon\"><i class=\"ni ni-zoom-split-in\"></i></span>
+                                                <span class=\"btn-inner--text\"><i class='far fa-eye'></i>View</span>
+                                            </button>
+                                            
+                                            <a href=\"\" class=\"btn btn-icon btn-sm btn-danger\">
+                                                <span class=\"btn-inner--icon\"><i class=\"ni ni-ruler-pencil\"></i></span>
+                                                <span class=\"btn-inner--text\">Delete</span>
+                                            </a>".
+                                            "</td >";
+                                        "</tr>";
+                                    }
+                                }else {
+                                    echo "<td><p>No Designers Yet!</p></td>";
+                                }
+                                ?>
+                                </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Designers Name</th>
+                                    <th>Reg Code</th>
                                     <th>Date</th>
                                     <th class="text-right">Action</th>
                                 </tr>

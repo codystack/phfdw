@@ -47,6 +47,11 @@ require_once "./controller/auth.php";
                                         <input type="text" name="instagram" class="form-control form-control-lg form-control-white" placeholder="Instagram handle">
                                     </div>
 
+                                    <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="350">
+                                        Have you participated in a fashion show?
+                                        <textarea type="text" name="participated" class="form-control form-control-lg form-control-white" rows="2" placeholder="If yes give details..."></textarea>
+                                    </div>
+
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
                                         <select class="form-control form-control-lg form-control-white" name="specialty">
                                             <option value="" style="color: black">Select Area of Specialty </option>
@@ -64,10 +69,6 @@ require_once "./controller/auth.php";
                                         </select>
                                     </div>
 
-                                    <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="350">
-                                        Have you participated in a fashion show?
-                                        <textarea type="text" name="participated" class="form-control form-control-lg form-control-white" rows="2" placeholder="If yes give details..."></textarea>
-                                    </div>
                                 </div>
 
                                 <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="submit" name="showcase_btn" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
