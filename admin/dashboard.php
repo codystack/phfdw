@@ -395,7 +395,7 @@ require_once "../controller/adminauth.php";
                                         "</tr>";
                                     }
                                 }else {
-                                    echo "<td><p>No Designers Yet!</p></td>";
+                                    echo "<td><p>No Models Yet!</p></td>";
                                 }
                                 ?>
                                 </tbody>
