@@ -344,6 +344,79 @@ require_once "../controller/adminauth.php";
             </div>
           </div>
           <!-- / tab -->
+
+          <!-- tab Models -->
+          <div class="tab-pane" id="demo-2-4" role="tabpanel" aria-labelledby="demo-2-4">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-8">
+                <div class="row">
+                  <div class="col">
+                    <div class="boxed p-3">
+                      <div class="table-responsive">
+                        <table id="modelsrequest-datatables" class="table table-striped" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Model's Name</th>
+                                    <th>Height</th>
+                                    <th>Age</th>
+                                    <th class="text-right">Action</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                <?php
+                                $select_query = "SELECT * FROM models ORDER BY date ASC";;
+                                $result = mysqli_query($conn, $select_query);
+                                if (mysqli_num_rows($result) > 0) {
+                                    // output data of each row
+                                    while($row = mysqli_fetch_assoc($result)) {
+                                        $id = $row['id'];
+                                        $firstName = $row['firstName'];
+                                        $lastName = $row['lastName'];
+                                        $age = $row['age'];
+                                        $email = $row['email'];
+                                        $height = $row['height'];
+
+                                        echo "<tr>";
+                                        echo "<td class=\"budget\">" .$firstName." ".$lastName. "</td>";
+                                        echo "<td class=\"budget\">" .$height. "</td>";
+                                        echo "<td class=\"budget\">" .$age. "</td>";
+
+                                        echo "<td class='text-right'>"
+                                            ."<button class=\"btn btn-icon modelsinfo btn-sm btn-info\" data-id='".$id."'>
+                                                <span class=\"btn-inner--icon\"><i class=\"ni ni-zoom-split-in\"></i></span>
+                                                <span class=\"btn-inner--text\"><i class='far fa-eye'></i>View Profile</span>
+                                            </button>
+                                            
+                                            <!--<a href=\"\" class=\"btn btn-icon btn-sm btn-danger\">
+                                                <span class=\"btn-inner--icon\"><i class=\"ni ni-ruler-pencil\"></i></span>
+                                                <span class=\"btn-inner--text\">Delete</span>
+                                            </a>-->".
+                                            "</td >";
+                                        "</tr>";
+                                    }
+                                }else {
+                                    echo "<td><p>No Designers Yet!</p></td>";
+                                }
+                                ?>
+                                </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Designers Name</th>
+                                    <th>Reg Code</th>
+                                    <th>Date</th>
+                                    <th class="text-right">Action</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- / tab -->
         </div>
       </div>
     </section>

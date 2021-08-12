@@ -55,10 +55,26 @@
 		});
 	</script>
 
-<script>
+    <script>
 		$(function() {
 			// Datatables basic
 			$('#designersrequest-datatables').DataTable({
+				responsive: true
+			});
+			// Datatables with Buttons
+			var datatablesButtons = $('#datatables-buttons').DataTable({
+				lengthChange: !1,
+				buttons: ["copy", "print"],
+				responsive: true
+			});
+			datatablesButtons.buttons().container().appendTo("#datatables-buttons_wrapper .col-md-6:eq(0)")
+		});
+	</script>
+
+    <script>
+		$(function() {
+			// Datatables basic
+			$('#modelsrequest-datatables').DataTable({
 				responsive: true
 			});
 			// Datatables with Buttons
@@ -143,6 +159,30 @@
         });
 	</script>
   <!-- Designers Info Modal -->
+
+  <!-- Models Info Modal -->
+  <script>
+        $(document).ready(function(){
+            $('.modelsinfo').click(function(){
+            
+                var modelid = $(this).data('id');
+                
+                // AJAX request
+                $.ajax({
+                    url: './modelselect.php',
+                    type: 'post',
+                    data: {modelid: modelid},
+                    success: function(response){ 
+                        // Add response in Modal body
+                        $('.modal-body').html(response);
+                        // Display Modal
+                        $('#viewModelsModal').modal('show'); 
+                    }
+                });
+            });
+        });
+	</script>
+  <!-- Models Info Modal -->
 
     <?php
     if (isset($_SESSION['message']))
