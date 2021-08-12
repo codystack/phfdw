@@ -42,6 +42,7 @@ require_once "../controller/adminauth.php";
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-3">Info Request</a>
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-5">Exhibitors</a>
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-2">Designers</a>
+              <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-4">Models</a>
             </div>
           </div>
         </div>
@@ -303,7 +304,7 @@ require_once "../controller/adminauth.php";
                                         $date = $row['date'];
 
                                         echo "<tr>";
-                                        echo "<td class=\"budget\">" .$contactperson. "</td>";
+                                        echo "<td class=\"budget\">" .$firstName." ".$lastName. "</td>";
                                         echo "<td class=\"budget\">" .$regCode. "</td>";
                                         echo "<td class=\"budget\">" .date("d(D) M Y", strtotime($date)). "</td>";
 
