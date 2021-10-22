@@ -1,37 +1,39 @@
 <?php
 session_start();
 
-require_once "config/db.php";
+include "config/db.php";
 
-//Verify user Start
-if (isset($_POST['verify_access_btn'])) {
+    //Verify user Start
+    if (isset($_POST['verify_access_btn'])) {
 
-  
-    $accessCode = $conn->real_escape_string($_POST['accessCode']);
-  
-        $query = "SELECT * FROM access WHERE accessCode='$accessCode'";
-        $results = mysqli_query($conn, $query);
-        while($row = mysqli_fetch_array($results)) {
-            $accessCode = $row['accessCode'];
-            $firstName = $row['firstName'];
-            $lastName = $row['lastName'];
-            $email = $row['email'];
-            $phoneNum = $row['phoneNum'];
-            $companyName = $row['companyName'];
-        }
-        if (mysqli_num_rows($results) == 1) {
-            $_SESSION['accessCode'] = $accessCode;
-            $_SESSION['firstName'] = $firstName;
-            $_SESSION['lastName'] = $lastName;
-            $_SESSION['email'] = $email;
-            $_SESSION['phoneNum'] = $phoneNum;
-            $_SESSION['companyName'] = $companyName;
-        header('location: access-details');
-        }else {
-            $_SESSION['message_title'] = "Incorrect access code!";
-            $_SESSION['message'] = "Please correct access code";
-        }
-  }
+        $accessCode = $conn->real_escape_string($_POST['accessCode']);
+
+            $query = "SELECT * FROM access WHERE accessCode='$accessCode'";
+            $results = mysqli_query($conn, $query);
+            while($row = mysqli_fetch_array($results)) {
+                $accessCode = $row['accessCode'];
+                $firstName = $row['firstName'];
+                $lastName = $row['lastName'];
+                $email = $row['email'];
+                $phoneNum = $row['phoneNum'];
+                $companyName = $row['companyName'];
+                $position = $row['position'];
+            }
+            if (mysqli_num_rows($results) == 1) {
+                $_SESSION['accessCode'] = $accessCode;
+                $_SESSION['firstName'] = $firstName;
+                $_SESSION['lastName'] = $lastName;
+                $_SESSION['email'] = $email;
+                $_SESSION['phoneNum'] = $phoneNum;
+                $_SESSION['companyName'] = $companyName;
+                $_SESSION['position'] = $position;
+            header('location: access-details');
+            }else {
+                $_SESSION['message_title'] = "Incorrect access code!";
+                $_SESSION['message'] = "Please correct access code";
+            }
+    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -116,7 +118,7 @@ if (isset($_POST['verify_access_btn'])) {
                         <div class="col-12 col-lg-6">
                             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
                                 <div class="form-group-overlay">
-                                    <input class="form-control form-control-dark" type="text" placeholder="Access Code">
+                                    <input class="form-control form-control-dark" name="accessCode" type="text" placeholder="Access Code">
                                     <button type="submit" name="verify_access_btn" class="btn btn-dark btn-with-ball text-white">send<span class="btn-ball" style="transform: translateY(0px);"></span></button>
                                 </div>
                             </form>

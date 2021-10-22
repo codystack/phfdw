@@ -6,7 +6,7 @@ require_once "config/db.php";
 if (isset($_GET['close'])) {
   session_destroy();
   unset($_SESSION['accessCode']);
-  header("location: what-to-expect");
+  header("location: check-in");
 }
 session_start();
 ?>
@@ -128,10 +128,7 @@ session_start();
                                 <hr class="mt-0 mb-10 pt-5">
                                 <p class="text-center pt-0 mb-20">Please save, print or screenshot this page or the <b>access code,</b><br>you will need it to gain access to the event.</p>
                                 <div class="text-center pb-3">
-                                    <button type="button" class="btn btn-info text-white" onclick="window.print()">
-                                        <span class="btn-inner--text">Print</span>
-                                    </button>
-                                    <a href="close" class="btn btn-danger text-white">
+                                    <a href="close" class="btn btn-dark text-white">
                                         <span class="btn-inner--text">Close</span>
                                     </a>
                                 </div>
