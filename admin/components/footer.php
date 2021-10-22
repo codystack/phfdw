@@ -24,58 +24,35 @@
     <script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 
     <script>
-		$(function() {
-			// Datatables basic
-			$('#spacerequest-datatables').DataTable({
-				responsive: true
-			});
-			// Datatables with Buttons
-			var datatablesButtons = $('#datatables-buttons').DataTable({
-				lengthChange: !1,
-				buttons: ["copy", "print"],
-				responsive: true
-			});
-			datatablesButtons.buttons().container().appendTo("#datatables-buttons_wrapper .col-md-6:eq(0)")
-		});
-	</script>
-
-  <script>
-		$(function() {
-			// Datatables basic
-			$('#inforequest-datatables').DataTable({
-				responsive: true
-			});
-			// Datatables with Buttons
-			var datatablesButtons = $('#datatables-buttons').DataTable({
-				lengthChange: !1,
-				buttons: ["copy", "print"],
-				responsive: true
-			});
-			datatablesButtons.buttons().container().appendTo("#datatables-buttons_wrapper .col-md-6:eq(0)")
-		});
-	</script>
-
-    <script>
-		$(function() {
-			// Datatables basic
-			$('#designersrequest-datatables').DataTable({
-				responsive: true
-			});
-			// Datatables with Buttons
-			var datatablesButtons = $('#datatables-buttons').DataTable({
-				lengthChange: !1,
-				buttons: ["copy", "print"],
-				responsive: true
-			});
-			datatablesButtons.buttons().container().appendTo("#datatables-buttons_wrapper .col-md-6:eq(0)")
-		});
-	</script>
-
-    <script>
-        $(document).ready(function() {
-            $('#modelsrequest-datatables').DataTable();
+        $(document).ready( function () {
+            $('#accessCard').DataTable();
         } );
-	</script>
+    </script>
+
+    <script>
+        $(document).ready( function () {
+            $('#models').DataTable();
+        } );
+    </script>
+
+    <script>
+        $(document).ready( function () {
+            $('#spacerequest').DataTable();
+        } );
+    </script>
+
+    <script>
+        $(document).ready( function () {
+            $('#inforequest').DataTable();
+        } );
+    </script>
+
+    <script>
+        $(document).ready( function () {
+            $('#designersrequest').DataTable();
+        } );
+    </script>
+
 
   <!-- Rent Space Modal -->
   <script>

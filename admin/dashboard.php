@@ -142,7 +142,7 @@ require_once "../controller/adminauth.php";
                   <div class="col">
                     <div class="boxed p-3">
                       <div class="table-responsive">
-                        <table id="inforequest-datatables" class="table table-striped" style="width:100%">
+                        <table id="inforequest" class="table table-striped" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Client Name</th>
@@ -209,7 +209,7 @@ require_once "../controller/adminauth.php";
                   <div class="col">
                     <div class="boxed p-3">
                       <div class="table-responsive">
-                        <table id="spacerequest-datatables" class="table table-striped" style="width:100%">
+                        <table id="spacerequest" class="table table-striped" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Exhibitors Name</th>
@@ -281,7 +281,7 @@ require_once "../controller/adminauth.php";
                   <div class="col">
                     <div class="boxed p-3">
                       <div class="table-responsive">
-                        <table id="designersrequest-datatables" class="table table-striped" style="width:100%">
+                        <table id="designersrequest" class="table table-striped" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Designers Name</th>
@@ -354,7 +354,7 @@ require_once "../controller/adminauth.php";
                   <div class="col">
                     <div class="boxed p-3">
                       <div class="table-responsive">
-                        <table id="modelsrequest-datatables" class="table table-striped" style="width:100%">
+                        <table id="models" class="table table-striped" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Model's Name</th>
@@ -427,7 +427,7 @@ require_once "../controller/adminauth.php";
                   <div class="col">
                     <div class="boxed p-3">
                       <div class="table-responsive">
-                        <table id="modelsrequest-datatables" class="table table-striped" style="width:100%">
+                        <table id="accessCard" class="table table-striped" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Name</th>
