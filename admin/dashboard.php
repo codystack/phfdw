@@ -43,6 +43,7 @@ require_once "../controller/adminauth.php";
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-5">Exhibitors</a>
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-2">Designers</a>
               <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-4">Models</a>
+              <a class="nav-item nav-link" data-toggle="tab" href="#demo-2-6">Access Card</a>
             </div>
           </div>
         </div>
@@ -405,6 +406,74 @@ require_once "../controller/adminauth.php";
                                     <th>Reg Code</th>
                                     <th>Date</th>
                                     <th class="text-right">Action</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- / tab -->
+
+          <!-- tab Access Card -->
+          <div class="tab-pane" id="demo-2-6" role="tabpanel" aria-labelledby="demo-2-6">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-8">
+                <div class="row">
+                  <div class="col">
+                    <div class="boxed p-3">
+                      <div class="table-responsive">
+                        <table id="modelsrequest-datatables" class="table table-striped" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Code</th>
+                                    <th>Phone</th>
+                                    <th>Company</th>
+                                    <th>Position</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                <?php
+                                $select_query = "SELECT * FROM access";;
+                                $result = mysqli_query($conn, $select_query);
+                                if (mysqli_num_rows($result) > 0) {
+                                    // output data of each row
+                                    while($row = mysqli_fetch_assoc($result)) {
+                                        $id = $row['id'];
+                                        $firstName = $row['firstName'];
+                                        $lastName = $row['lastName'];
+                                        $accessCode = $row['accessCode'];
+                                        $email = $row['email'];
+                                        $companyName = $row['companyName'];
+                                        $position = $row['position'];
+                                        $phoneNum = $row['phoneNum'];
+
+                                        echo "<tr>";
+                                        echo "<td class=\"budget\">" .$firstName." ".$lastName. "</td>";
+                                        echo "<td class=\"budget\">" .$accessCode. "</td>";
+                                        echo "<td class=\"budget\">" .$phoneNum. "</td>";
+                                        echo "<td class=\"budget\">" .$companyName. "</td>";
+                                        echo "<td class=\"budget\">" .$position. "</td>";
+
+                                        "</tr>";
+                                    }
+                                }else {
+                                    echo "<td><p>No Applicants Yet!</p></td>";
+                                }
+                                ?>
+                                </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Code</th>
+                                    <th>Phone</th>
+                                    <th>Company</th>
+                                    <th>Position</th>
                                 </tr>
                             </tfoot>
                         </table>
