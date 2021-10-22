@@ -133,6 +133,46 @@ if (isset($_POST['model_btn'])) {
 }
 
 
+//Access Query
+if (isset($_POST['access_btn'])) {
+
+    $firstName = $conn->real_escape_string($_POST['firstName']);
+    $lastName = $conn->real_escape_string($_POST['lastName']);
+    $email = $conn->real_escape_string($_POST['email']);
+    $phoneNum = $conn->real_escape_string($_POST['phoneNum']);
+    $companyName = $conn->real_escape_string($_POST['companyName']);
+    $position = $conn->real_escape_string($_POST['position']);
+    $accessCode = 'PHFDW'.rand(1000, 9999);
+
+
+    $check_model_query = "SELECT * FROM access WHERE email='$email'";
+    $result = mysqli_query($conn, $check_model_query);
+    if (mysqli_num_rows($result) > 0) {
+        $_SESSION['message_title'] = "User Already Exist!";
+        $_SESSION['message'] = "Please contact admin";
+    }
+
+    // Finally, insert details into database
+    $query = "INSERT INTO access (firstName, lastName, email, phoneNum, companyName, position, accessCode) 
+                VALUES('$firstName', '$lastName', '$email', '$phoneNum', '$companyName', '$position','$accessCode')";
+
+    mysqli_query($conn, $query);
+    if (mysqli_affected_rows($conn) > 0) {
+        $_SESSION['access_success_message_title']  = "Registration Successful👋";
+        $_SESSION['access_success_message']    = "You're being redirected";
+        $_SESSION['accessCode'] = $accessCode;
+        $_SESSION['firstName'] = $firstName;
+        $_SESSION['lastName'] = $lastName;
+        $_SESSION['email'] = $email;
+        $_SESSION['companyName'] = $companyName;
+    }else {
+        $_SESSION['message_title']  = "Submission Failed";
+        $_SESSION['message']    = "Error sending request now: ".mysqli_error($conn).$id;
+    }
+
+}
+
+
 //Contact Query
 if (isset($_POST['contact_btn'])) {
 

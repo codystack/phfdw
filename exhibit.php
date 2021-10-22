@@ -40,14 +40,14 @@ require_once "./controller/auth.php";
                 <div class="row gv-3 align-items-center mb-100 mb-lg-0">
                     <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="left" data-show-delay="250">
                         <a href="model" class="gallery-item gallery-item-lg" data-animation-effect="fade">
-                            <img src="assets/images/models.jpg" alt="">
+                            <img src="assets/images/participate.jpg" alt="">
                         </a>
                     </div>
                     <div class="d-none d-lg-block col-1 mr-xl-10"></div>
                     <div class="col-12 col-lg ml-xl-5 mr-xl-n10 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
-                        <h3>Models</h3>
-                        <p>A perfect opportunity for professional and upcoming models to showcase their skills the runway.  They will have the opportunity to grace the runway with famous guests designers.</p>
-                        <a href="model" class="btn btn-dark btn-with-ball">go on the runway</a>
+                        <h3>Gain Access</h3>
+                        <p>Get your access card to attend the pretigeous Port Harcourt Fashion and Design Week.</p>
+                        <a href="gain-access" class="btn btn-dark btn-with-ball">apply for access</a>
                     </div>
                     <div class="d-none d-xl-block col-1"></div>
                 </div>
