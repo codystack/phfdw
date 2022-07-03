@@ -67,7 +67,7 @@ include "./components/mobilenavbar.php";
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-12 col-lg-7 text-center show-on-scroll" data-show-delay="100" data-show-duration="800">
-                            <h1 class="h3 mb-0">About PHFDW</h1>
+                            <h1 class="h3 mb-0">About PHFW</h1>
                         </div>
                     </div>
                     <div class="row justify-content-center gh-5 mt-100">
@@ -76,7 +76,7 @@ include "./components/mobilenavbar.php";
                             <p class="lead">"The Fashion industry on its own is a key component of global economy and certainly an important sector to consider when thinking about sustainable development."</p>
                         </div>
                         <div class="col-lg-5 show-on-scroll" data-show-delay="300" data-show-duration="800">
-                            <p>The Port Harcourt Fashion and Design Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths.</p>
+                            <p>The Port Harcourt Fashion Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths.</p>
                             <re href="about-phfdw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
