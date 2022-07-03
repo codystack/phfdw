@@ -7,8 +7,8 @@
             <div class="container pt-4">
                 <ul class="nav align-items-center flex-column text-white mb-100">
                     <li class="nav-item">
-                        <a href="mailto:info@phfashionweek.com" class="nav-link h2 mb-8 mb-md-30 d-none d-md-flex">info@phfashionweek.com</a>
-                        <a href="mailto:info@phfashionweek.com" class="nav-link h4 mb-8 mb-md-30 d-md-none">info@phfashionweek.com</a>
+                        <a href="mailto:info@phfashionweek.com" class="nav-link h2 mb-8 mb-md-30 d-none d-md-flex">info@portharcourtfashionweek.com</a>
+                        <a href="mailto:info@phfashionweek.com" class="nav-link h4 mb-8 mb-md-30 d-md-none">info@portharcourtfashionweek.com</a>
                     </li>
                     <li class="nav-item">
                         <a href="tel:0803 875 3903" class="nav-link h4 mt-8 mt-md-0">0803 875 3903</a>
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="footer-copyright mb-5">&copy; <script>document.write(new Date().getFullYear());</script> PHFDW | All Rights Reserved. <br>Built by <a href="https://thankgodokoro.codes" target="_blank" style="color: white">TeeGee&trade;</a></small></div>
+                <div class="footer-copyright mb-5">&copy; <script>document.write(new Date().getFullYear());</script> PHFDW | All Rights Reserved. <br>Built by <a href="https://www.linkedin.com/in/thankgod-okoro?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FqUVmYCHTdCBYAm0wSRQCA%3D%3D" target="_blank" style="color: white">TeeGee&trade;</a></small></div>
             </div>
         </footer>
         <!-- START: Scripts -->

@@ -1,7 +1,7 @@
         <header class="navbar navbar-top navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="\">
-                    <img width="200" src="assets/images/logowhite.svg" alt="">
+                <a class="navbar-brand" href="./">
+                    <img width="200" src="assets/images/logowhite2.svg" alt="">
                 </a>
                 <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
                     <span></span>
@@ -10,13 +10,13 @@
                 </a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='home'){echo 'active';}?>">
-                        <a href="\" class="nav-link">
+                        <a href="./" class="nav-link">
                             <span class="nav-link-name">home</span>
                         </a>
                     </li>
 
                     <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='about'){echo 'active';}?>">
-                        <a href="about-phfdw" class="nav-link">
+                        <a href="about-phfw" class="nav-link">
                             <span class="nav-link-name">about</span>
                         </a>
                     </li>
@@ -37,8 +37,14 @@
                         <div class="dropdown-menu">
                             <ul class="nav navbar-nav">
                                 <li class="nav-item">
-                                    <a href="phfdw2019" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <span class="nav-link-name">PHFDW 2019</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="nav-link-name">PHFDW 2021</span>
                                     </a>
                                 </li>
                             </ul>
@@ -52,9 +58,9 @@
                     </li>
                 </ul>
                 <ul class="nav nav-gap-sm navbar-nav nav-social align-items-center">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="exhibit" class="btn btn-light">register</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a href="https://www.facebook.com/phfdweek/" target="_blank" class="nav-link">
                             <svg width="7" height="15" viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">

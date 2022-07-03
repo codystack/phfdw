@@ -18,7 +18,7 @@ include "./components/mobilenavbar.php";
                     <div class="row">
                         <div class="col-lg-1"></div>
                         <div class="col-12 col-lg-8 col-xl-7 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left">
-                            <h1 class="text-white mb-0">Revitalizing the Economy through Fashion Tourism.</h1>
+                            <h1 class="text-white mb-0">Tech: The future of Fashion.</h1>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ include "./components/mobilenavbar.php";
                             <h3 class="mb-n10">Runway</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">A perfect opportunity for established designers to showcase their latest collection. As well as a good platform for fresh and upcoming designers to make their debut, as they will have the opportunity to grace the runway with famous guests designers.</p>
-                            <a class="btn btn-dark btn-with-ball" href="exhibit">showcase</a>
+                            <!-- <a class="btn btn-dark btn-with-ball" href="exhibit">showcase</a> -->
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ include "./components/mobilenavbar.php";
                             <h3 class="mb-n10">Exhibition</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">The Port Harcourt Fashion and Design Week will offer dealers and retailers of fashion and lifestyle products, opportunity to exhibit their products to a wide range of audience. Deliberate efforts will be put in place to attract the right audience to the benefits of the exhibitors while buyers/visitors will have the rare privilege of making purchases at discounted rates as against what is obtainable in the open market.</p>
-                            <a class="btn btn-dark btn-with-ball" href="exhibit">exhibit</a>
+                            <!-- <a class="btn btn-dark btn-with-ball" href="exhibit">exhibit</a> -->
                         </div>
                     </div>
 
@@ -57,7 +57,7 @@ include "./components/mobilenavbar.php";
                             <h3 class="mb-n10">Masterclass</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">In line with our vision of promoting sustainable development, PHFDW Master Class will center around promoting entrepreneurship as topics will highlight the challenges and opportunities that abound across the industry. Participants will learn from the know-how of established industry players in redefining their crafts and business growth. By exchanging knowledge and its networking, PHFDW will build a bridge between creation and commerce.</p>
-                            <a class="btn btn-dark btn-with-ball" href="contact">learn</a>
+                            <!-- <a class="btn btn-dark btn-with-ball" href="contact">learn</a> -->
                         </div>
                     </div>
 
@@ -69,7 +69,19 @@ include "./components/mobilenavbar.php";
                             <h3 class="mb-n10">Creative Promise in Fashion Contest</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">This segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage the best talents. Winner  will have the opportunity of doing a short fashion course with London College of Fashion (virtual)runners up will have opportunity to intern with renowned fashion brands in the country.</p>
-                            <a class="btn btn-dark btn-with-ball" href="contact">compete</a>
+                            <!-- <a class="btn btn-dark btn-with-ball" href="contact">compete</a> -->
+                        </div>
+                    </div>
+
+                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="mas">
+                        <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
+                            <img class="w-100" src="assets/images/service/fashionforce.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-lg-5 pl-lg-0 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="50">
+                            <h3 class="mb-n10">Fashion Force: Converge, Converse and Connect.</h3>
+                            <hr class="mt-30 mb-60">
+                            <p class="mt-n7">The summit will provide the opportunity for players from different sectors of the economy to converge, providing a platform that serves as a springboard to converse on how to better connect and collaborate. This will provide more opportunities for the growth and development of the creative industry within the region.</p>
+                            <!-- <a class="btn btn-dark btn-with-ball" href="contact">learn</a> -->
                         </div>
                     </div>
 
@@ -90,7 +102,7 @@ include "./components/mobilenavbar.php";
                                 <div class="tab-pane fade show active" id="idea" role="tabpanel" aria-labelledby="idea-tab">
                                     <div class="row gh-5 gv-5">
                                         <div class="col-md">
-                                            <p>The Port Harcourt Fashion and Design Week will kick off with a pre-show cocktail reception. This portion of the event is by invitation only. The essence is to allow attendees mingle with government officials, investors, editors, stylists, celebrities and buyers. This high-powered one-hour reception will focus on our sponsors highlighting their contribution and congratulating everyone for their support.</p>
+                                            <p>The Port Harcourt Fashion Week will kick off with a pre-show cocktail reception. This portion of the event is by invitation only. The essence is to allow attendees mingle with government officials, investors, editors, stylists, celebrities and buyers. This high-powered one-hour reception will focus on our sponsors highlighting their contribution and congratulating everyone for their support.</p>
                                             <a href="exhibit" class="btn btn-white btn-with-ball">become a vendor</a>
                                         </div>
                                         <div class="col-auto mt-lg-n1 d-none d-md-block">

@@ -6,8 +6,8 @@
             </div>
             <div class="navbar-head">
                 <div class="container">
-                    <a class="navbar-brand" href="home.html">
-                        <img width="170" src="assets/images/logoblack.svg" alt="">
+                    <a class="navbar-brand" href="./">
+                        <img width="170" src="assets/images/logo.svg" alt="">
                     </a>
                     <a class="navbar-toggle" href="#" data-fancybox-close>
                         <span></span>
@@ -22,13 +22,13 @@
                         <div class="navbar-body">
                             <ul class="nav navbar-nav navbar-nav-collapse">
                                 <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='home'){echo 'active';}?>">
-                                    <a href="\" class="nav-link">
+                                    <a href="./" class="nav-link">
                                         <span class="nav-link-name">home</span>
                                     </a>
                                 </li>
 
                                 <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='about'){echo 'active';}?>">
-                                    <a href="about-phfdw" class="nav-link">
+                                    <a href="about-phfw" class="nav-link">
                                         <span class="nav-link-name">about</span>
                                     </a>
                                 </li>
@@ -49,8 +49,14 @@
                                     <div class="navbar-collapse-menu collapse" id="navbarCollapseArchives">
                                         <ul class="nav navbar-nav">
                                             <li class="nav-item">
-                                                <a href="phfdw2019" class="nav-link">
+                                                <a href="#" class="nav-link">
                                                     <span class="nav-link-name">PHFDW 2019</span>
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">
+                                                    <span class="nav-link-name">PHFDW 2021</span>
                                                 </a>
                                             </li>
                                         </ul>
@@ -69,12 +75,12 @@
                     <div class="col-12 col-md-4 col-lg-4 col-xl-3">
                         <div class="navbar-footer">
                             <div class="mb-60">
-                                <li class="nav-link mb-10">
+                                <!-- <li class="nav-link mb-10">
                                     <a href="exhibit" class="btn btn-dark">register</a>
-                                </li>
+                                </li> -->
                                 <p class="lead mb-17 font-weight-medium">Contact info:</p>
                                 <ul class="list-group borderless font-size-17">
-                                    <li class="list-group-item">Email: <a href="mailto:info@phfashionweek.com">info@phfashionweek.com</a></li>
+                                    <li class="list-group-item">Email: <a href="mailto:info@phfashionweek.com">info@portharcourtfashionweek.com</a></li>
                                     <li class="list-group-item">Phone: <a href="tel:0803 875 3903">0803 875 3903</a></li>
                                 </ul>
                             </div>

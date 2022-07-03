@@ -20,7 +20,7 @@ require_once "./controller/auth.php";
                             <div class="mb-60 show-on-scroll" data-show-delay="100" data-show-distance="20" data-show-duration="500" data-show-origin="left">
                                 <p class="lead mb-17 font-weight-medium">Contact info:</p>
                                 <ul class="list-group borderless font-size-17">
-                                    <li class="list-group-item">Email: <a href="mailto:info@phfashionweek.com">info@phfashionweek.com</a></li>
+                                    <li class="list-group-item">Email: <a href="mailto:info@phfashionweek.com">info@portharcourtfashionweek.com</a></li>
                                     <li class="list-group-item">Phone: <a href="tel:0803 875 3903">0803 875 3903</a></li>
                                 </ul>
                             </div>

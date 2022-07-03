@@ -7,7 +7,7 @@ if(stristr($_SERVER['HTTP_HOST'], 'localhost') === FALSE) $WEBSITE_ENVIRONMENT =
 if ($WEBSITE_ENVIRONMENT =="Development") {
     $host 		= "localhost";
     $user 		= "root";
-    $password 	= "Webify2020!!";
+    $password 	= "";
     $database 	= "phfdw";
     define("APP_ENVIRONMENT", "Development");
     define("APP_BASE_URL", "http://localhost:84/phfdw/");
