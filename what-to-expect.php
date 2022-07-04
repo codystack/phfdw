@@ -10,7 +10,7 @@ include "./components/mobilenavbar.php";
                 <div class="line text-white"></div>
                 <div class="background bg-dark">
                     <div class="background-image jarallax" data-jarallax data-speed="0.8">
-                        <img src="assets/images/service/wte.jpg" class="jarallax-img" alt="">
+                        <img src="assets/images/service/wte1.jpg" class="jarallax-img" alt="">
                     </div>
                     <div class="background-color" style="background-color: #0e0e0e; opacity: .2;"></div>
                 </div>
