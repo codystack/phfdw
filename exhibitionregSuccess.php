@@ -76,60 +76,63 @@ session_start();
     <body>
 
         <div class="content-wrap">
-            <div class="py-70">
+            <div class="py-70 text-center">
                 <div class="container shape-parent">
-                    <div class="text-center">
-                        <div class="shape mt-n160 ml-30">
-                            <svg class="mt-n160" width="500" height="318" viewBox="0 0 500 318" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="250" cy="68" r="250" fill="#F5F5F5" />
-                            </svg>
-                        </div>
-                        <div class="lines-style-6">
-                            <div class="line show-on-scroll" data-show-duration="500" data-show-distance="140" data-show-delay="400" data-show-origin="right"></div>
-                            <div class="line show-on-scroll" data-show-duration="500" data-show-distance="120" data-show-delay="200"></div>
-                        </div>
-                        <div class="svg-container">    
-                            <svg class="ft-green-tick" xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 48 48" aria-hidden="true">
-                                <circle class="circle" fill="#5bb543" cx="24" cy="24" r="22"/>
-                                <path class="tick" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14 27l5.917 4.917L34 17"/>
-                            </svg>
-                        </div>
-                        <p class="h4 mb-10 mt-5 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="100">Registration Successful</p>
-                        <p class="mb-10 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">Screenshot or print page for access.</p>
-                        
+                    <div class="shape mt-n160 ml-30">
+                        <svg class="mt-n160" width="500" height="318" viewBox="0 0 500 318" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="250" cy="68" r="250" fill="#F5F5F5" />
+                        </svg>
                     </div>
+                    <div class="lines-style-6">
+                        <div class="line show-on-scroll" data-show-duration="500" data-show-distance="140" data-show-delay="400" data-show-origin="right"></div>
+                        <div class="line show-on-scroll" data-show-duration="500" data-show-distance="120" data-show-delay="200"></div>
+                    </div>
+                    <div class="svg-container">    
+                        <svg class="ft-green-tick" xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 48 48" aria-hidden="true">
+                            <circle class="circle" fill="#5bb543" cx="24" cy="24" r="22"/>
+                            <path class="tick" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14 27l5.917 4.917L34 17"/>
+                        </svg>
+                    </div>
+                    <p class="h4 mb-10 mt-5 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="100">Registration Successful</p>
+                    <p class="mb-10 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">Make payment using the <em style="text-decoration: underline">exhibitors code</em> below.</p>
+                    
                     <div class="row justify-content-center pt-30">
                         <div class="col-12 col-lg-6">
                             <div class="table-responsive-md">
                                 <table class="table table-hover table-projects table-underline table-light table-border-dark text-white mb-0">
                                     <tbody>
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
-                                            <td class="table-projects-brand text-dark pl-15"><b>Registration Code:</b></td>
-                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['regCode']; ?></td>
+                                            <td class="table-projects-brand text-dark"><b>Exhibitors Code:</b></td>
+                                            <td class="table-projects-title text-dark"><?php echo $_SESSION['regCode']; ?></td>
                                         </tr>
 
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
-                                            <td class="table-projects-brand text-dark text-start pl-15"><b>First Name:</b></td>
-                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['firstName']; ?></td>
+                                            <td class="table-projects-brand text-dark"><b>Company Name:</b></td>
+                                            <td class="table-projects-title text-dark"><?php echo $_SESSION['companyName']; ?></td>
                                         </tr>
 
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
-                                            <td class="table-projects-brand text-dark pl-15"><b>Last Name:</b></td>
-                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['lastName']; ?></td>
-                                        </tr>
-
-                                        <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
-                                            <td class="table-projects-brand text-dark pl-15"><b>Brand Name:</b></td>
-                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['brandName']; ?></td>
-                                        </tr>
-
-                                        <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
-                                            <td class="table-projects-brand text-dark pl-15"><b>Email:</b></td>
-                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['email']; ?></td>
+                                            <td class="table-projects-brand text-dark"><b>Booth Size:</b></td>
+                                            <td class="table-projects-title text-dark"><?php echo $_SESSION['boothSize']; ?></td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="text-center pb-3 mt-15">
+                                <?php
+                                    if ($_SESSION['boothSize'] == '2x2'){
+                                        $booth1 = '50,000';
+                                    }
+                                    if ($_SESSION['boothSize'] == '3x2'){
+                                        $booth1 = '75,000';
+                                    }
+                                ?>
+                                <p class="text-center pt-20 mb-20">Pay the sum of ₦<b><?php echo $booth1; ?></b> using the details below.<br>
+                                    <b>Bank: </b>Guarantee Trust Bank<br>
+                                    <b>Account Name: </b>Wave Event Global Ltd.<br>
+                                    <b>Account Number: </b>0122830052
+                                </p>
+                                <hr class="mt-0 mb-10 pt-5">
+                                <p class="text-center pt-0 mb-20">Send proof of payment and exhibitors code<br>via WhatsApp to <b><a href="tel:+2348038753903">+234 803 875 3903</a></b></p>
+                                <div class="text-center pb-3">
                                     <button type="button" class="btn btn-info text-white" onclick="window.print()">
                                         <span class="btn-inner--text">Print</span>
                                     </button>

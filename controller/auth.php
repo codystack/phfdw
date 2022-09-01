@@ -2,6 +2,48 @@
 // Connect Database
 require_once "config/db.php";
 
+//Registration Query
+if (isset($_POST['register_btn'])) {
+
+    $email = $conn->real_escape_string($_POST['email']);
+    $brandName = $conn->real_escape_string($_POST['brandName']);
+    $phone = $conn->real_escape_string($_POST['phone']);
+    $firstName = $conn->real_escape_string($_POST['firstName']);
+    $lastName = $conn->real_escape_string($_POST['lastName']);
+    $interest = $conn->real_escape_string($_POST['interest']);
+    $regCode = 'PHFW'.rand(1000, 9999);
+
+
+    $check_exhibitor_query = "SELECT * FROM registration WHERE email='$email'";
+    $result = mysqli_query($conn, $check_exhibitor_query);
+    if (mysqli_num_rows($result) > 0) {
+        $_SESSION['user_message_title'] = "User Already Exist!";
+        $_SESSION['user_message'] = "Please contact admin";
+    }
+
+    // Finally, insert details into database
+    $query = "INSERT INTO registration (email, brandName, phone, firstName, lastName, interest, regCode) 
+                VALUES('$email', '$brandName', '$phone', '$firstName', '$lastName', '$interest', '$regCode')";
+
+    mysqli_query($conn, $query);
+    if (mysqli_affected_rows($conn) > 0) {
+        $_SESSION['success_message_title']  = "Registration Successful👋";
+        $_SESSION['success_message']    = "You're being redirected";
+        $_SESSION['regCode'] = $regCode;
+        $_SESSION['interest'] = $interest;
+        $_SESSION['firstName'] = $firstName;
+        $_SESSION['lastName'] = $lastName;
+        $_SESSION['email'] = $email;
+        $_SESSION['brandName'] = $brandName;
+    }else {
+        $_SESSION['message_title']  = "Request Failed";
+        $_SESSION['message']    = "Error sending request now: ".mysqli_error($conn).$id;
+    }
+
+}
+
+
+
 //Exhibitors Query
 if (isset($_POST['exhibit_btn'])) {
 
