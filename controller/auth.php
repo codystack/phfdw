@@ -103,13 +103,6 @@ if (isset($_POST['showcase_btn'])) {
     $paymentStatus = $conn->real_escape_string($_POST['paymentStatus']);
 
 
-    $check_exhibitor_query = "SELECT * FROM designers WHERE email='$email'";
-    $result = mysqli_query($conn, $check_exhibitor_query);
-    if (mysqli_num_rows($result) > 0) {
-        $_SESSION['user_message_title'] = "User Already Exist!";
-        $_SESSION['user_message'] = "Please contact admin";
-    }
-
     // Finally, insert details into database
     $query = "INSERT INTO designers (firstName, lastName, email, brandName, phoneNum, address, facebook, instagram, participated, regCode) 
                 VALUES('$firstName', '$lastName', '$email', '$brandName', '$phoneNum', '$address', '$facebook', '$instagram', '$participated', '$regCode')";
