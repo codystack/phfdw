@@ -85,33 +85,44 @@ require_once "./controller/auth.php";
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8 text-center py-4">
-                                <div class="py-7 pt-5 pb-5">
-                                    <img src="assets/images/sewing-machine.svg" class="img-fluid img-center svg-inject" width="100">
+                            <div class="col-lg-10 text-center py-4">
+                                <div class="py-7 pt-5 pb-5 mb-5">
+                                    <img src="assets/images/tandc.png" class="img-fluid img-center svg-inject" width="100">
                                 </div>
-                                <h6 class="h5">Designers categories & benefits</h6>
+                                <h6 class="h5">Thanking you for your interests in showcasing your collection at the PHFW 2022.  Please take a minute to read through the following guidelines. Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.</h6>
                                 <p class="mb-4">
-                                <strong>DON = ₦150,000</strong><br>
-                                2m x 2m exhibition booth<br>
-                                15-20 outfits to be showcased<br>
-                                Models for runway showcase<br>
-                                Personalized interview from our media partners<br>
-                                5 front roll tickets and 10 regular tickets<br>
+                                Registered Designers are to pay Production fee of N100, 000 each<br>
+
+                                <strong>The production fee is non-refundable</strong><br>
+
+                                All payments should be made to<br>
+                                ACCOUBT NAME: WAVE EVENTS GLOBAL LTD 
+                                ACCOUNT NUMBER: 1016456463
+                                BANK: ZENITH 
                                 </p>
-                                <hr class="mb-4 mt-4">
                                 <p class="mb-4">
-                                <strong>WOKO = ₦100,000</strong><br>
-                                15 outfits to be showcased<br>
-                                Models for runway showcase<br>
-                                Personalized interview from our media partners<br>
-                                3 front roll tickets and 7 regular tickets<br>
+                                All payments will be confirmed within 24 hours upon payment. Designers who do not get any confirmation after 24 hours are advised to reach out to the PHFW Team on <strong>08038753903</strong> with proof of payment.
                                 </p>
-                                <hr class="mb-4 mt-4">
+                                <p class="mb-4">
+                                Designers are to advised to pay with registered brand names or indicate Brand name on remarks.
+                                </p>
+                                <p class="mb-4">
+                                Each designer will showcase 15 pieces from a collection.
+                                </p>
+                                <p class="mb-4">
+                                Designers are to have their 15pcs ready and available on the day of the fitting communicated by the PHFW team.
+                                </p>
+                                <p class="mb-4">
+                                Showcasing designers must be on set 1 hour before show time.
+                                </p>
+                                <p class="mb-4">
+                                The PHFW Team reserve the right to allocate showcase day to designers as such, designers cannot alter the order of Showcase.
+                                </p>
+                                <p class="mb-4">
+                                Designers are advised to have their guests arrive at least 30 Minutes before show time.
+                                </p>
                                 <p>
-                                <strong>ETIBO = ₦50,000</strong><br>
-                                10 outfits to be showcased<br>
-                                Models for runway showcase<br>
-                                2 front roll tickets and 3 regular tickets<br>
+                                Each designer is entitled to have only one assistant backstage as access will be denied to any other assistant.
                                 </p>
                                 <button type="button" class="btn btn-dark" data-dismiss="modal">Sign me up!</button>
                             </div>

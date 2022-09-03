@@ -76,7 +76,7 @@
                         <div class="navbar-footer">
                             <div class="mb-60">
                                 <li class="nav-link mb-10">
-                                    <a href="register" class="btn btn-dark">register</a>
+                                    <a href="exhibit" class="btn btn-dark">register</a>
                                 </li>
                                 <p class="lead mb-17 font-weight-medium">Contact info:</p>
                                 <ul class="list-group borderless font-size-17">

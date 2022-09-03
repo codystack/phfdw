@@ -59,7 +59,7 @@
                 </ul>
                 <ul class="nav nav-gap-sm navbar-nav nav-social align-items-center">
                     <li class="nav-item">
-                        <a href="register" class="btn btn-light">register</a>
+                        <a href="exhibit" class="btn btn-light">register</a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.facebook.com/phfdweek/" target="_blank" class="nav-link">
