@@ -52,23 +52,6 @@ require_once "./controller/auth.php";
                                         <textarea type="text" name="participated" class="form-control form-control-lg form-control-white" rows="2" placeholder="If yes give details..."></textarea>
                                     </div>
 
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <select class="form-control form-control-lg form-control-white" name="specialty">
-                                            <option value="" style="color: black">Select Area of Specialty </option>
-                                            <option value="Male" style="color: black">Male</option>
-                                            <option value="Female" style="color: black">Female</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <select class="form-control form-control-lg form-control-white" name="designerCategory">
-                                            <option value="" style="color: black">Choose category:</option>
-                                            <option value="Don" style="color: black">DON = ₦150,000</option>
-                                            <option value="Woko" style="color: black">WOKO = ₦100,000</option>
-                                            <option value="Etibo" style="color: black">ETIBO = ₦50,000</option>
-                                        </select>
-                                    </div>
-
                                 </div>
 
                                 <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="submit" name="showcase_btn" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
