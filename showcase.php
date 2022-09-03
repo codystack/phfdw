@@ -81,7 +81,7 @@ require_once "./controller/auth.php";
 
         <!-- Designers Category Modal -->
         <div class="modal modal-fluid fade" id="designersCategory" tabindex="-1" role="dialog" aria-labelledby="modal_1" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" data-bs-backdrop="static" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="row justify-content-center">
@@ -96,9 +96,9 @@ require_once "./controller/auth.php";
                                 <strong>The production fee is non-refundable</strong><br>
 
                                 All payments should be made to<br>
-                                ACCOUBT NAME: WAVE EVENTS GLOBAL LTD 
-                                ACCOUNT NUMBER: 1016456463
-                                BANK: ZENITH 
+                                <strong>ACCOUNT NAME:</strong> WAVE EVENTS GLOBAL LTD <br>
+                                <strong>ACCOUNT NUMBER:</strong> 1016456463<br>
+                                <strong>BANK:</strong> ZENITH 
                                 </p>
                                 <p class="mb-4">
                                 All payments will be confirmed within 24 hours upon payment. Designers who do not get any confirmation after 24 hours are advised to reach out to the PHFW Team on <strong>08038753903</strong> with proof of payment.

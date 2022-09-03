@@ -205,6 +205,10 @@
                 unset($_SESSION['user_message']);
             }
         ?>
+
+        <script>
+            $('#designersCategory').modal({ backdrop: 'static', keyboard: true });
+        </script>
     </body>
 
 </html>
