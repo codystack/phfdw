@@ -98,10 +98,8 @@ if (isset($_POST['showcase_btn'])) {
     $address = $conn->real_escape_string($_POST['address']);
     $facebook = $conn->real_escape_string($_POST['facebook']);
     $instagram = $conn->real_escape_string($_POST['instagram']);
-    $specialty = $conn->real_escape_string($_POST['specialty']);
-    $designerCategory = $conn->real_escape_string($_POST['designerCategory']);
     $participated = $conn->real_escape_string($_POST['participated']);
-    $regCode = 'FDW'.rand(1000, 9999);
+    $regCode = 'PHFW'.rand(1000, 9999);
     $paymentStatus = $conn->real_escape_string($_POST['paymentStatus']);
 
 
@@ -113,8 +111,8 @@ if (isset($_POST['showcase_btn'])) {
     }
 
     // Finally, insert details into database
-    $query = "INSERT INTO designers (firstName, lastName, email, brandName, phoneNum, address, facebook, instagram, specialty, designerCategory, participated, regCode) 
-                VALUES('$firstName', '$lastName', '$email', '$brandName', '$phoneNum', '$address', '$facebook', '$instagram', '$specialty', '$designerCategory', '$participated', '$regCode')";
+    $query = "INSERT INTO designers (firstName, lastName, email, brandName, phoneNum, address, facebook, instagram, participated, regCode) 
+                VALUES('$firstName', '$lastName', '$email', '$brandName', '$phoneNum', '$address', '$facebook', '$instagram', '$participated', '$regCode')";
 
     mysqli_query($conn, $query);
     if (mysqli_affected_rows($conn) > 0) {
@@ -124,6 +122,7 @@ if (isset($_POST['showcase_btn'])) {
         $_SESSION['designerCategory'] = $designerCategory;
         $_SESSION['firstName'] = $firstName;
         $_SESSION['email'] = $email;
+        $_SESSION['phoneNum'] = $phoneNum;
         $_SESSION['brandName'] = $brandName;
         $_SESSION['paymentStatus'] = $paymentStatus;
     }else {
