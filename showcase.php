@@ -87,7 +87,7 @@ require_once "./controller/auth.php";
                                 All payments will be confirmed within 24 hours upon payment. Designers who do not get any confirmation after 24 hours are advised to reach out to the PHFW Team on <strong>08038753903</strong> with proof of payment.
                                 </p>
                                 <p class="mb-4">
-                                Designers are to advised to pay with registered brand names or indicate Brand name on remarks.
+                                Designers are advised to pay with registered brand names or indicate Brand name on remarks.
                                 </p>
                                 <p class="mb-4">
                                 Each designer will showcase 15 pieces from a collection.
