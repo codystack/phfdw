@@ -104,13 +104,13 @@ session_start();
                                 <table class="table table-hover table-projects table-underline table-light table-border-dark text-white mb-0">
                                     <tbody>
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
-                                            <td class="table-projects-brand text-dark pl-15"><b>Designers Code:</b></td>
+                                            <td class="table-projects-brand text-dark pl-15"><b>Exhibitors Code:</b></td>
                                             <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['regCode']; ?></td>
                                         </tr>
 
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
                                             <td class="table-projects-brand text-dark pl-15"><b>Brand Name:</b></td>
-                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['brandName']; ?></td>
+                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['companyName']; ?></td>
                                         </tr>
 
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
@@ -124,13 +124,13 @@ session_start();
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p class="text-center pt-20 mb-20">Registered Designers are to pay Production fee of <b>₦100,000</b> each.<br>
+                                <p class="text-center pt-20 mb-20">Registered Exhibitors are to pay the sum of <b>₦60,000</b> each.<br>
                                     <b>BANK: </b>ZENITH<br>
                                     <b>ACCOUNT NAME: </b>WAVE EVENTS GLOBAL LTD<br>
                                     <b>ACCOUNT NUMBER: </b>1016456463
                                 </p>
                                 <hr class="mt-0 mb-10 pt-5">
-                                <p class="text-center pt-0 mb-20">Send proof of payment and Designers code<br>via WhatsApp to <b><a href="tel:+2348038753903">+234 803 875 3903</a></b></p>
+                                <p class="text-center pt-0 mb-20">Send proof of payment and exhibitors code<br>via WhatsApp to <b><a href="tel:+2348038753903">+234 803 875 3903</a></b></p>
                                 <div class="text-center pb-3">
                                     <button type="button" class="btn btn-info text-white" onclick="window.print()">
                                         <span class="btn-inner--text">Print</span>

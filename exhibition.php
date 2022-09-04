@@ -15,11 +15,7 @@ require_once "./controller/auth.php";
                             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
                                 <div class="row gh-1 gv-3 mt-30">
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="50">
-                                        <input type="text" name="companyName" required class="form-control form-control-lg form-control-white" placeholder="Company Name *">
-                                    </div>
-
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="address" required class="form-control form-control-lg form-control-white" placeholder="Address *">
+                                        <input type="text" name="companyName" required class="form-control form-control-lg form-control-white" placeholder="Brand Name *">
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">
@@ -32,14 +28,6 @@ require_once "./controller/auth.php";
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
                                         <input type="text" name="contactperson" required class="form-control form-control-lg form-control-white" placeholder="Name of Contact Person *">
-                                    </div>
-
-                                    <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <select class="form-control form-control-lg form-control-white" name="boothSize">
-                                            <option value="" style="color: black">Choose booth size:</option>
-                                            <option value="2x2" style="color: black">2x2 = 50k</option>
-                                            <option value="3x2" style="color: black">3x2 = 75k</option>
-                                        </select>
                                     </div>
 
                                     <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="350">

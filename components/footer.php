@@ -86,6 +86,51 @@
             }
         ?>
 
+
+        <?php
+            if (isset($_SESSION['exhibition_success_message']))
+            {
+                ?>
+                <script>
+                    swal({
+                        title: "<?php echo $_SESSION['exhibition_success_message_title']; ?>",
+                        text: "<?php echo $_SESSION['exhibition_success_message']; ?>",
+                        icon: "success",
+                        buttons: false,
+                        timer: 4000
+                    }).then(function() {
+                        window.location = "exhibition_regSuccess";
+                    });
+                </script>
+                <?php
+                unset($_SESSION['exhibition_success_message']);
+            }
+        ?>
+
+
+
+        <?php
+            if (isset($_SESSION['summit_success_message']))
+            {
+                ?>
+                <script>
+                    swal({
+                        title: "<?php echo $_SESSION['summit_success_message_title']; ?>",
+                        text: "<?php echo $_SESSION['summit_success_message']; ?>",
+                        icon: "success",
+                        buttons: false,
+                        timer: 4000
+                    }).then(function() {
+                        window.location = "summit_regSuccess";
+                    });
+                </script>
+                <?php
+                unset($_SESSION['summit_success_message']);
+            }
+        ?>
+
+
+
         <?php
             if (isset($_SESSION['access_success_message']))
             {

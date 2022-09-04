@@ -26,7 +26,7 @@ require_once "./controller/auth.php";
                 <div class="row gv-3 align-items-center">
                     <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
                         <a href="exhibition" class="gallery-item gallery-item-lg" data-animation-effect="fade">
-                            <img src="assets/images/exhibit.jpg" alt="">
+                            <img src="assets/images/exhibit1.jpg" alt="">
                         </a>
                     </div>
                     <div class="d-none d-lg-block col-1 order-lg-1"></div>
