@@ -1,5 +1,5 @@
 <?php
-include "../auth/account.php";
+include "./auth/account.php";
 ?>
 <!doctype html>
 <html lang="en">
@@ -10,7 +10,7 @@ include "../auth/account.php";
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Virtuosic">
 
-    <link rel="icon" href="assets/images/virtfavicon.png" type="image/png" /> 
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" /> 
 
     <link rel="stylesheet" href="assets/css/lib.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -27,7 +27,7 @@ include "../auth/account.php";
                 <div class="col-md-10 col-lg-8 col-xl-5">
                     <div class="text-center mb-3">
                         <a href="./">
-                            <img src="../assets/images/virtlogowhite.png" width="300" alt="Logo">
+                            <img src="assets/images/logowhite2.svg" width="300" alt="Logo">
                         </a>
                     </div>
                     <div class="card">
@@ -81,14 +81,14 @@ include "../auth/account.php";
                 </div>
             </div>
         </div>
-        <figure class="background background-overlay" style="background-image: url('../assets/images/adminbg.jpg')">
+        <figure class="background background-overlay" style="background-image: url('assets/images/adminbg.JPG')">
         </figure>
     </section>
 
 
 
-    <script src="../assets/js/vendor.js"></script>
-    <script src="../assets/js/index.js"></script>
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/index.js"></script>
 
 </body>
 

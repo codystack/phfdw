@@ -1,6 +1,6 @@
 <?php
-include '../components/adminheader.php';
-require_once '../auth/profile.php';
+include 'components/adminheader.php';
+require_once 'auth/profile.php';
 ?>
 
     <div class="offcanvas-wrap">
@@ -19,7 +19,7 @@ require_once '../auth/profile.php';
                                 </div>
                             </div>
                             <img class="position-absolute top-100 start-100 translate-middle"
-                            src="../assets/images/svg/pattern.svg" alt="Image">
+                            src="assets/images/svg/pattern.svg" alt="Image">
                         </div>
 
                         <section>
@@ -69,7 +69,7 @@ require_once '../auth/profile.php';
 
                                             <?php
 
-                                                $select_query = "SELECT * FROM users WHERE id ='".$_SESSION['id']."'";
+                                                $select_query = "SELECT * FROM admin WHERE id ='".$_SESSION['id']."'";
                                                 $result = mysqli_query($conn, $select_query);
                                                 if (mysqli_num_rows($result) > 0) {
                                                     // output data of each row
@@ -77,7 +77,6 @@ require_once '../auth/profile.php';
                                                         $id = $row['id'];
                                                         $firstName = $row['firstName'];
                                                         $lastName = $row['lastName'];
-                                                        $phone = $row['phone'];
                                                         $email = $row['email'];
 
                                             ?>
@@ -112,7 +111,7 @@ require_once '../auth/profile.php';
                                                     <input type="text" class="form-control" required name="phone" placeholder="Phone Number"
                                                     value="<?php echo $phone; if ($phone == null) {
                                                         echo "Not Available";} 
-                                                        ?> ">
+                                                        ?>" disabled >
                                                 </div>
                                                 
                                                 <div class="d-grid mb-2">
@@ -138,8 +137,8 @@ require_once '../auth/profile.php';
     </div>
 
 
-    <script src="../assets/js/vendor.js"></script>
-    <script src="../assets/js/index.js"></script>
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/index.js"></script>
 
 </body>
 

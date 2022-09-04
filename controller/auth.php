@@ -10,7 +10,7 @@ if (isset($_POST['summit_btn'])) {
     $phone = $conn->real_escape_string($_POST['phone']);
     $firstName = $conn->real_escape_string($_POST['firstName']);
     $lastName = $conn->real_escape_string($_POST['lastName']);
-    $interest = $conn->real_escape_string($_POST['interest']);
+    $instagram = $conn->real_escape_string($_POST['instagram']);
     $regCode = 'PHFW'.rand(1000, 9999);
 
 

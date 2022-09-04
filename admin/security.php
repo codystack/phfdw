@@ -1,6 +1,6 @@
 <?php
-include '../components/adminheader.php';
-require_once '../auth/password.php';
+include 'components/adminheader.php';
+require_once 'auth/password.php';
 ?>
 
     <div class="offcanvas-wrap">
@@ -19,7 +19,7 @@ require_once '../auth/password.php';
                                 </div>
                             </div>
                             <img class="position-absolute top-100 start-100 translate-middle"
-                            src="../assets/images/svg/pattern.svg" alt="Image">
+                            src="assets/images/svg/pattern.svg" alt="Image">
                         </div>
 
                         <section>
@@ -97,8 +97,8 @@ require_once '../auth/password.php';
     </div>
 
 
-    <script src="../assets/js/vendor.js"></script>
-    <script src="../assets/js/index.js"></script>
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/index.js"></script>
 
     <!-- Password Matching-->
     <script>
