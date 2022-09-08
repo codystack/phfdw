@@ -34,7 +34,7 @@ include "./components/mobilenavbar.php";
                             <div class="row gh-5 gv-5">
                                 <div class="col-12 col-md-10 col-lg-9">
                                     <!--<p class="subtitle mt-n10 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="50">who we are</p>-->
-                                    <h3 class="mb-n7 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">Revitalizing the Economy through Fashion Tourism👋</h3>
+                                    <h3 class="mb-n7 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">The future of Fashion👋</h3>
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                                     <!--<p class="lead mb-20">BACKGROUND: The Port Harcourt Fashion Week.</p>-->

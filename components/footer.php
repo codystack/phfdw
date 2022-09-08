@@ -64,6 +64,9 @@
             $(window).on('load', function() {
                 $('#designersCategory').modal('show');
             });
+            $(window).on('load', function() {
+                $('#futureDesignersCategory').modal('show');
+            });
         </script>
 
         <?php

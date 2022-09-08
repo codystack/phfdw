@@ -81,7 +81,7 @@ include "./auth/account.php";
                 </div>
             </div>
         </div>
-        <figure class="background background-overlay" style="background-image: url('assets/images/adminbg.JPG')">
+        <figure class="background background-overlay" style="background-image: url('assets/images/adminbg.jpg')">
         </figure>
     </section>
 

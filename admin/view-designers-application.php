@@ -46,7 +46,7 @@ require_once 'auth/profile.php';
                                                 // output data of each row
                                                 while($row = mysqli_fetch_assoc($result)) {
                                                     $id = $row['id'];
-                                                    $contactperson = $row['contactperson'];
+                                                    $address = $row['address'];
                                                     $firstName = $row['firstName'];
                                                     $lastName = $row['lastName'];
                                                     $email = $row['email'];
@@ -82,8 +82,8 @@ require_once 'auth/profile.php';
                                                     <input type="tel" class="form-control" required name="phone" disabled value="<?php echo $phoneNum; ?>">
                                                 </div>
                                                 <div class="col-md-6 mb-3">
-                                                    <label for="phone" class="form-label">Phone Number</label>
-                                                    <input type="tel" class="form-control" required name="phone" disabled value="<?php echo $phoneNum; ?>">
+                                                    <label for="phone" class="form-label">Address</label>
+                                                    <input type="tel" class="form-control" required name="phone" disabled value="<?php echo $address; ?>">
                                                 </div>
                                                 <div class="col-md-6 mb-3">
                                                     <label for="phone" class="form-label">Facebook ID</label>

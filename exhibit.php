@@ -56,14 +56,14 @@ require_once "./controller/auth.php";
                 <div class="row gv-3 align-items-center">
                     <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
                         <a href="exhibition" class="gallery-item gallery-item-lg" data-animation-effect="fade">
-                            <img src="assets/images/exhibit1.jpg" alt="">
+                            <img src="assets/images/service/contest.jpg" alt="">
                         </a>
                     </div>
                     <div class="d-none d-lg-block col-1 order-lg-1"></div>
                     <div class="col-12 col-lg-5 order-lg-0 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="left" data-show-delay="250">
                         <h3>Future Designers Contest</h3>
-                        <p>Exhibit your products to a wide range of audience. Deliberate efforts have been put in place to attract the right audience to the benefits of the exhibitors.</p>
-                        <a href="" class="btn btn-dark btn-with-ball">exhibit</a>
+                        <p>This segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage the best talents. Winner will have the opportunity of doing a short fashion course with London College of Fashion (virtual)runners up will have opportunity to intern with renowned fashion brands in the country.</p>
+                        <a href="future-designers" class="btn btn-dark btn-with-ball">contest</a>
                     </div>
                 </div>
 

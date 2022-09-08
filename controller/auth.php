@@ -2,6 +2,43 @@
 // Connect Database
 require_once "config/db.php";
 
+
+//Future Designers Query
+if (isset($_POST['future_designers_btn'])) {
+
+    $email = $conn->real_escape_string($_POST['email']);
+    $companyName = $conn->real_escape_string($_POST['companyName']);
+    $phoneNum = $conn->real_escape_string($_POST['phoneNum']);
+    $address = $conn->real_escape_string($_POST['address']);
+    $contactperson = $conn->real_escape_string($_POST['contactperson']);
+    $items = $conn->real_escape_string($_POST['items']);
+    $regCode = 'PHFW'.rand(1000, 9999);
+    $paymentStatus = $conn->real_escape_string($_POST['paymentStatus']);
+
+
+    // Finally, insert details into database
+    $query = "INSERT INTO exhibitors (email, companyName, phoneNum, address, contactperson, items, regCode) 
+                VALUES('$email', '$companyName', '$phoneNum', '$address', '$contactperson', '$items', '$regCode')";
+
+    mysqli_query($conn, $query);
+    if (mysqli_affected_rows($conn) > 0) {
+        $_SESSION['exhibition_success_message_title']  = "Registration Successful👋";
+        $_SESSION['exhibition_success_message']    = "You're being redirected";
+        $_SESSION['regCode'] = $regCode;
+        $_SESSION['contactperson'] = $contactperson;
+        $_SESSION['email'] = $email;
+        $_SESSION['phoneNum'] = $phoneNum;
+        $_SESSION['companyName'] = $companyName;
+        $_SESSION['paymentStatus'] = $paymentStatus;
+    }else {
+        $_SESSION['message_title']  = "Request Failed";
+        $_SESSION['message']    = "Error sending request now: ".mysqli_error($conn).$id;
+    }
+
+}
+
+
+
 //Summit Query
 if (isset($_POST['summit_btn'])) {
 

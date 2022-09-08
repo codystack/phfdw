@@ -18,7 +18,7 @@ else
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>PHFDW&trade; | Port Harcourt Fashion & Design Week</title>
+        <title>PHFW&trade; | Port Harcourt Fashion Week</title>
         <meta name="author" content="ThankGod Okoro">
         <meta property="og:url" content="https://phfashionweek.com/"/>
 	    <meta property="og:type" content="website" />

@@ -18,7 +18,7 @@ include "./components/mobilenavbar.php";
                     <div class="row">
                         <div class="col-lg-1"></div>
                         <div class="col-12 col-lg-8 col-xl-7 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left">
-                            <h1 class="text-white mb-0">Tech: The future of Fashion.</h1>
+                            <h1 class="text-white mb-0">The future of Fashion.</h1>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ include "./components/mobilenavbar.php";
                             <h3 class="mb-n10">Future Designers Contest</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">This segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage the best talents. Winner  will have the opportunity of doing a short fashion course with London College of Fashion (virtual)runners up will have opportunity to intern with renowned fashion brands in the country.</p>
-                            <a class="btn btn-dark btn-with-ball" href="">register to participate</a>
+                            <a class="btn btn-dark btn-with-ball" href="future-designers">register to participate</a>
                         </div>
                     </div>
 
