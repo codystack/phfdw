@@ -16,7 +16,7 @@ session_start();
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Registration Successful | PHFW&trade;</title>
+        <title>Registration Successful | PHFDW&trade;</title>
         <meta name="author" content="ThankGod Okoro">
         <meta property="og:url" content="https://phfashionweek.com/"/>
 	    <meta property="og:type" content="website" />
@@ -104,13 +104,13 @@ session_start();
                                 <table class="table table-hover table-projects table-underline table-light table-border-dark text-white mb-0">
                                     <tbody>
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
-                                            <td class="table-projects-brand text-dark pl-15"><b>Exhibitors Code:</b></td>
+                                            <td class="table-projects-brand text-dark pl-15"><b>Registration Code:</b></td>
                                             <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['regCode']; ?></td>
                                         </tr>
 
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
                                             <td class="table-projects-brand text-dark pl-15"><b>Brand Name:</b></td>
-                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['companyName']; ?></td>
+                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['brandName']; ?></td>
                                         </tr>
 
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
@@ -120,11 +120,11 @@ session_start();
 
                                         <tr class="show-on-scroll" data-show-delay="50" data-show-duration="400" data-show-distance="10">
                                             <td class="table-projects-brand text-dark pl-15"><b>Phone:</b></td>
-                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['phoneNum']; ?></td>
+                                            <td class="table-projects-title text-dark text-right pr-15"><?php echo $_SESSION['phone']; ?></td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p class="text-center pt-20 mb-20">Registered Exhibitors are to pay the sum of <b>₦60,000</b> each.<br>
+                                <p class="text-center pt-20 mb-20">Shortlisted designers are to pay the sum of <b>₦10,000</b> each.<br>
                                     <b>BANK: </b>ZENITH<br>
                                     <b>ACCOUNT NAME: </b>WAVE EVENTS GLOBAL LTD<br>
                                     <b>ACCOUNT NUMBER: </b>1016456463

@@ -111,6 +111,27 @@
         ?>
 
 
+        <?php
+            if (isset($_SESSION['future_success_message']))
+            {
+                ?>
+                <script>
+                    swal({
+                        title: "<?php echo $_SESSION['future_success_message_title']; ?>",
+                        text: "<?php echo $_SESSION['future_success_message']; ?>",
+                        icon: "success",
+                        buttons: false,
+                        timer: 4000
+                    }).then(function() {
+                        window.location = "future_regSuccess";
+                    });
+                </script>
+                <?php
+                unset($_SESSION['future_success_message']);
+            }
+        ?>
+
+
 
         <?php
             if (isset($_SESSION['summit_success_message']))
