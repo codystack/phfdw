@@ -79,7 +79,7 @@ require_once 'auth/account.php';
                                             </div>
 
                                             <div class="col-md-6" data-aos-delay="100">
-                                                <a href="designers-application" class="card equal-md-4-3 card-hover-border bg-white">
+                                                <a href="future-application" class="card equal-md-4-3 card-hover-border bg-white">
                                                     <div class="card-wrap text-center">
                                                         <div class="card-header pb-0">
                                                             <img src="./assets/images/future-designers.svg" alt="Logo" class="mb-2 w-40">
