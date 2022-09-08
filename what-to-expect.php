@@ -80,7 +80,9 @@ include "./components/mobilenavbar.php";
                         <div class="col-12 col-lg-5 order-lg-1 pl-lg-0 ml-lg-30 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="50">
                             <h3 class="mb-n10">Future Designers Contest</h3>
                             <hr class="mt-30 mb-60">
-                            <p class="mt-n7">This segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage the best talents. Winner  will have the opportunity of doing a short fashion course with London College of Fashion (virtual)runners up will have opportunity to intern with renowned fashion brands in the country.</p>
+                            <p class="mt-n7">Powered by GODWIN ETIM FOUNDATION, this segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage young designers who are just staring off in business.<br>
+                                Contesting designers will be judged on Inspiration, Illustration, Presentation, finishing and personal brand marketing skills.<br>
+                                 Winner of the future designers contest will receive a  start up fund of N1, 000 ,000 from GODWIN ETIM FOUNDATION</p>
                             <a class="btn btn-dark btn-with-ball" href="future-designers">register to participate</a>
                         </div>
                     </div>
