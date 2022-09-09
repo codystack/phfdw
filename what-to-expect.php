@@ -30,10 +30,10 @@ include "./components/mobilenavbar.php";
                             <img class="w-100" src="assets/images/service/fashionforce.jpg" alt="">
                         </div>
                         <div class="col-12 col-lg-5 pl-lg-0 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="50">
-                            <h3 class="mb-n10">Fashion Force: Converge, Converse and Connect.</h3>
+                            <h3 class="mb-n10">PH Fashion Week Creative Summit.</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">The summit will provide the opportunity for players from different sectors of the economy to converge, providing a platform that serves as a springboard to converse on how to better connect and collaborate. This will provide more opportunities for the growth and development of the creative industry within the region.</p>
-                            <!-- <a class="btn btn-dark btn-with-ball" href="contact">learn</a> -->
+                            <a class="btn btn-dark btn-with-ball" href="creatives-summit">register to attend</a>
                         </div>
                     </div>
 

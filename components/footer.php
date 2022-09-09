@@ -37,7 +37,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="footer-copyright mb-5">&copy; <script>document.write(new Date().getFullYear());</script> PHFDW | All Rights Reserved. <br>Built by <a href="https://www.linkedin.com/in/thankgod-okoro?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FqUVmYCHTdCBYAm0wSRQCA%3D%3D" target="_blank" style="color: white">TeeGee&trade;</a></small></div>
+                <div class="footer-copyright mb-5">&copy; <script>document.write(new Date().getFullYear());</script> PHFW | All Rights Reserved. <br>Built by <a href="https://www.linkedin.com/in/thankgod-okoro" target="_blank" style="color: white">TeeGee&trade;</a></small></div>
             </div>
         </footer>
         <!-- START: Scripts -->
