@@ -30,7 +30,7 @@ include "./components/mobilenavbar.php";
                             <img class="w-100" src="assets/images/service/fashionforce.jpg" alt="">
                         </div>
                         <div class="col-12 col-lg-5 pl-lg-0 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="50">
-                            <h3 class="mb-n10">PH Fashion Week Creative Summit.</h3>
+                            <h3 class="mb-n10">PHFW Creative Summit.</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">The summit will provide the opportunity for players from different sectors of the economy to converge, providing a platform that serves as a springboard to converse on how to better connect and collaborate. This will provide more opportunities for the growth and development of the creative industry within the region.</p>
                             <a class="btn btn-dark btn-with-ball" href="creatives-summit">register to attend</a>
@@ -61,7 +61,7 @@ include "./components/mobilenavbar.php";
                         </div>
                     </div>
 
-                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="mas">
+                    <!-- <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="mas">
                         <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/masterclass.jpg" alt="">
                         </div>
@@ -71,13 +71,13 @@ include "./components/mobilenavbar.php";
                             <p class="mt-n7">In line with our vision of promoting sustainable development, PHFDW Master Class will center around promoting entrepreneurship as topics will highlight the challenges and opportunities that abound across the industry. Participants will learn from the know-how of established industry players in redefining their crafts and business growth. By exchanging knowledge and its networking, PHFDW will build a bridge between creation and commerce.</p>
                             <a class="btn btn-dark btn-with-ball" href="">register to attend</a>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="con">
-                        <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="300">
+                        <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/contest.jpg" alt="">
                         </div>
-                        <div class="col-12 col-lg-5 order-lg-1 pl-lg-0 ml-lg-30 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="50">
+                        <div class="col-12 col-lg-5 pl-lg-0 ml-lg-30 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="50">
                             <h3 class="mb-n10">Future Designers Contest</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">Powered by GODWIN ETIM FOUNDATION, this segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage young designers who are just staring off in business.<br>
@@ -140,11 +140,11 @@ include "./components/mobilenavbar.php";
                         <div class="col-12 col-md-10 col-lg-8 mr-md-auto">
                             <div class="interactive-links">
                                 <img class="interactive-links-image" src="assets/images/portfolio/work-together.jpg" width="230" alt="">
-                                <a href="contac" class="nav-link display-4"><u>Let’s work</u> together</a>
+                                <a href="contact" class="nav-link display-4"><u>Let’s work</u> together</a>
                             </div>
                         </div>
                         <div class="col-auto">
-                            <a href="contact-1.html" class="btn btn-clean mr-xl-100">
+                            <a href="contact" class="btn btn-clean mr-xl-100">
                                 <svg class="icon-arrow icon-arrow-right" width="69" height="30" viewBox="0 0 69 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M54 2L67 15L54 28" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
                                     <path d="M17 15L67 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />

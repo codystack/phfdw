@@ -62,6 +62,7 @@ include "./components/mobilenavbar.php";
                 <div class="swiper-pagination"></div>
             </div>
         </div>
+
         <div class="content-wrap">
             <div class="py-60">
                 <div class="container">
@@ -77,13 +78,51 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="col-lg-5 show-on-scroll" data-show-delay="300" data-show-duration="800">
                             <p>The Port Harcourt Fashion Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths.</p>
-                            <re href="about-phfdw" class="btn btn-dark btn-with-ball">read more</a>
+                            <a href="about-phfw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div class="container-fluid px-1">
                 <div class="row gh-1 gv-1 justify-content-center">
+
+                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
+                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#con">
+                            <span class="card-img">
+                                <img src="assets/images/service/contest.jpg" alt="">
+                                <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
+                            </span>
+                            <span class="card-img-overlay">
+                                <span class="card-title h5">PHFW Future Designers Contest</span>
+                                <span class="btn btn-clean">read more
+                                    <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                        <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                    </svg>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
+                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#faf">
+                            <span class="card-img">
+                                <img src="assets/images/service/masterclass.jpg" alt="">
+                                <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
+                            </span>
+                            <span class="card-img-overlay">
+                                <span class="card-title h5">PHFW Creative Summit</span>
+                                <span class="btn btn-clean">read more
+                                    <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                        <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                    </svg>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+
                     <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
                         <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#run">
                             <span class="card-img">
@@ -120,41 +159,6 @@ include "./components/mobilenavbar.php";
                         </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
-                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#mas">
-                            <span class="card-img">
-                                <img src="assets/images/service/masterclass.jpg" alt="">
-                                <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
-                            </span>
-                            <span class="card-img-overlay">
-                                <span class="card-title h5">Masterclass</span>
-                                <span class="btn btn-clean">read more
-                                    <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                                        <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
-                                        <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
-                                    </svg>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
-                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#con">
-                            <span class="card-img">
-                                <img src="assets/images/service/contest.jpg" alt="">
-                                <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
-                            </span>
-                            <span class="card-img-overlay">
-                                <span class="card-title h5">Creative Promise in Fashion Contest</span>
-                                <span class="btn btn-clean">read more
-                                    <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                                        <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
-                                        <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
-                                    </svg>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
                 </div>
             </div>
 
@@ -166,19 +170,19 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-1"></div>
                         <div class="col-lg-6 col-xl-4 align-self-center order-11 order-lg-2">
-                            <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">Revitalizing the Economy through Fashion Tourism🔥</h2>
+                            <!-- <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">Revitalizing the Economy through Fashion Tourism🔥</h2> -->
                         </div>
                         <div class="d-none d-xl-block col-2 order-lg-3"></div>
                         <div class="d-none d-lg-block col-lg-2 col-xl-auto order-10 order-lg-4 show-on-scroll" data-show-delay="100" data-show-duration="600">
                             <img class="mw-100" width="140" src="assets/images/service/hme2.jpg" alt="">
                         </div>
                         <div class="d-none d-lg-block col-lg-3 order-9 order-lg-5 show-on-scroll" data-show-delay="200" data-show-duration="600">
-                            <img class="w-100" src="assets/images/service/hme3.jpg" alt="">
+                            <img class="w-100" src="assets/images/service/hmex3.jpg" alt="">
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-6"></div>
                         <div class="col-lg-6 col-xl-5 mt-xl-n60 order-12 order-lg-7">
                             <p>Fashion tourism is an alternative form of tourism that attracts tourists from different part of the world; this trend is gradually becoming one of the more sought after niche in the tourism markets. Tourists seek destination that fulfills their needs, wants and desires for new tastes in the overall experience of the destination’s culture that reflects its creativity, innovation and intricate tapestry of skills and knowledge of the host.</p>
-                            <a href="about-phfdw" class="btn btn-dark btn-with-ball">read more</a>
+                            <a href="about-phfw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
                 </div>
@@ -273,7 +277,7 @@ include "./components/mobilenavbar.php";
                             </div>
                         </div>
                         <div class="col-auto">
-                            <a href="contact-1.html" class="btn btn-clean mr-xl-100">
+                            <a href="contact" class="btn btn-clean mr-xl-100">
                                 <svg class="icon-arrow icon-arrow-right" width="69" height="30" viewBox="0 0 69 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M54 2L67 15L54 28" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
                                     <path d="M17 15L67 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
