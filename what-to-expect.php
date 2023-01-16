@@ -25,8 +25,23 @@ include "./components/mobilenavbar.php";
             </div>
             <div class="py-160">
                 <div class="container mb-8">
-                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="faf">
+
+                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="con">
                         <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="300">
+                            <img class="w-100" src="assets/images/service/contest.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-lg-5 order-lg-1 pl-lg-0 ml-lg-30 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="50">
+                            <h3 class="mb-n10">PHFW Future Designers Contest</h3>
+                            <hr class="mt-30 mb-60">
+                            <p class="mt-n7">This segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage young designers.<br>
+                                Contesting designers will be judged on Inspiration, Illustration, Presentation, finishing and brand marketing skills.<br>
+                                This segment of the event is proudly support by the British Council, Startup South and Godwin Etim Foundation. Winner of the future designers contest will receive a  start up fund from Godwin Etim Foundation.</p>
+                            <a class="btn btn-dark btn-with-ball" href="future-designers">register to participate</a>
+                        </div>
+                    </div>
+
+                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="faf">
+                        <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/fashionforce.jpg" alt="">
                         </div>
                         <div class="col-12 col-lg-5 pl-lg-0 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="50">
@@ -38,10 +53,10 @@ include "./components/mobilenavbar.php";
                     </div>
 
                     <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="run">
-                        <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
+                        <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/runway.jpg" alt="">
                         </div>
-                        <div class="col-12 col-lg-5 pl-lg-0 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="50">
+                        <div class="col-12 col-lg-5 order-lg-1 pl-lg-0 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="50">
                             <h3 class="mb-n10">Runway</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">A perfect opportunity for established designers to showcase their latest collection. As well as a good platform for fresh and upcoming designers to make their debut, as they will have the opportunity to grace the runway with famous guests designers.</p>
@@ -50,10 +65,10 @@ include "./components/mobilenavbar.php";
                     </div>
 
                     <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="ex">
-                        <div class="col-12 col-lg-6 order-lg-2 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="300">
+                        <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/exhibition.jpg" alt="">
                         </div>
-                        <div class="col-12 col-lg-5 order-lg-1 pl-lg-0 ml-lg-30 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="50">
+                        <div class="col-12 col-lg-5 pl-lg-0 ml-lg-30 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="50">
                             <h3 class="mb-n10">Exhibition</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">The Port Harcourt Fashion and Design Week will offer dealers and retailers of fashion and lifestyle products, opportunity to exhibit their products to a wide range of audience. Deliberate efforts will be put in place to attract the right audience to the benefits of the exhibitors while buyers/visitors will have the rare privilege of making purchases at discounted rates as against what is obtainable in the open market.</p>
@@ -72,20 +87,6 @@ include "./components/mobilenavbar.php";
                             <a class="btn btn-dark btn-with-ball" href="">register to attend</a>
                         </div>
                     </div> -->
-
-                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="con">
-                        <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
-                            <img class="w-100" src="assets/images/service/contest.jpg" alt="">
-                        </div>
-                        <div class="col-12 col-lg-5 pl-lg-0 ml-lg-30 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="right" data-show-delay="50">
-                            <h3 class="mb-n10">Future Designers Contest</h3>
-                            <hr class="mt-30 mb-60">
-                            <p class="mt-n7">Powered by GODWIN ETIM FOUNDATION, this segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage young designers who are just staring off in business.<br>
-                                Contesting designers will be judged on Inspiration, Illustration, Presentation, finishing and personal brand marketing skills.<br>
-                                 Winner of the future designers contest will receive a  start up fund of N1, 000 ,000 from GODWIN ETIM FOUNDATION</p>
-                            <a class="btn btn-dark btn-with-ball" href="future-designers">register to participate</a>
-                        </div>
-                    </div>
 
                 </div>
             </div>
