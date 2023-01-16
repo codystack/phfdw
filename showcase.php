@@ -72,7 +72,7 @@ require_once "./controller/auth.php";
                                 <div class="py-7 pt-5 pb-5 mb-5">
                                     <img src="assets/images/tandc.png" class="img-fluid img-center svg-inject" width="100">
                                 </div>
-                                <h6 class="h5">Thanking you for your interests in showcasing your collection at the PHFW 2022.  Please take a minute to read through the following guidelines. Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.</h6>
+                                <h6 class="h5">Thank you for your interests in showcasing your collection at the PHFW3.  Please take a minute to read through the following guidelines. Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.</h6>
                                 <p class="mb-4">
                                 Registered Designers are to pay Production fee of N100, 000 each<br>
 
