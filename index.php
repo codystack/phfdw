@@ -282,7 +282,7 @@ include "./components/mobilenavbar.php";
                         <div class="col-md-10 col-lg-8 mr-md-auto">
                             <div class="interactive-links">
                                 <img class="interactive-links-image" src="assets/images/portfolio/work-together.jpg" width="230" alt="">
-                                <a href="contact" class="nav-link display-4"><u>Let’s work</u> together</a>
+                                <a href="contact" class="nav-link display-4"><u>Partner</u> with us</a>
                             </div>
                         </div>
                         <div class="col-auto">
