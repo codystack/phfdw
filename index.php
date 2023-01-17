@@ -16,7 +16,16 @@ include "./components/mobilenavbar.php";
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide">
-                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
+                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
+                                <span class="card-img swiper-image" data-swiper-parallax-x="20%">
+                                    <img src="assets/images/slide5.jpg" alt="">
+                                    <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
                                     <img src="assets/images/slide3.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -25,7 +34,7 @@ include "./components/mobilenavbar.php";
                         </div>
 
                         <div class="swiper-slide">
-                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
+                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
                                     <img src="assets/images/slide1.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -34,7 +43,7 @@ include "./components/mobilenavbar.php";
                         </div>
 
                         <div class="swiper-slide">
-                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
+                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
                                     <img src="assets/images/slide4.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -43,7 +52,7 @@ include "./components/mobilenavbar.php";
                         </div>
 
                         <div class="swiper-slide">
-                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="phfdw2019">
+                            <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
                                     <img src="assets/images/slide2.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -170,7 +179,7 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-1"></div>
                         <div class="col-lg-6 col-xl-4 align-self-center order-11 order-lg-2">
-                            <!-- <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">Revitalizing the Economy through Fashion Tourism🔥</h2> -->
+                            <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">TECH-The Future of Fashion🔥</h2>
                         </div>
                         <div class="d-none d-xl-block col-2 order-lg-3"></div>
                         <div class="d-none d-lg-block col-lg-2 col-xl-auto order-10 order-lg-4 show-on-scroll" data-show-delay="100" data-show-duration="600">
@@ -181,7 +190,7 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-6"></div>
                         <div class="col-lg-6 col-xl-5 mt-xl-n60 order-12 order-lg-7">
-                            <p>Fashion tourism is an alternative form of tourism that attracts tourists from different part of the world; this trend is gradually becoming one of the more sought after niche in the tourism markets. Tourists seek destination that fulfills their needs, wants and desires for new tastes in the overall experience of the destination’s culture that reflects its creativity, innovation and intricate tapestry of skills and knowledge of the host.</p>
+                            <p>As technology continues to evolve to offer innovation, improve connectivity and provide ease of doing business, industries across the global economies are beginning to adopt and apply the use of technology. The Port Harcourt Fashion Week’s third edition is themed “Tech; The Future of Fashion” As always, through the PHFW  Summit, we will pull together key stakeholders within the Fashion space and the Tech sector as players within the larger economies to share ideas and provide possibilities for sustainable fashion.</p>
                             <a href="about-phfw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
@@ -207,7 +216,7 @@ include "./components/mobilenavbar.php";
                                         </svg>
                                     </div>
                                     <div class="review-text">
-                                        <p class="mb-0">Historically the fashion industry has been used to uplift urban-based development objectives and the sector continues to be viewed as an important tool for economic and tourism development at a local and international level.</p>
+                                        <p class="mb-0">The role of technology as a tool for growth, innovation and advancement cannot be over-emphasized. It provides the opportunity for globalization, cross-border collaboration, skill enhancement and knowledge development.</p>
                                     </div>
                                     <!--<div class="review-author">Edith Head</div>-->
                                 </div>
