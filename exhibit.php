@@ -34,7 +34,7 @@ require_once "./controller/auth.php";
                     <div class="col-12 col-lg ml-xl-5 mr-xl-n10 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
                         <h3>PHFW Creatives Summit</h3>
                         <p>In line with our vision of expanding the potential power of fashion as a tool for poverty alleviation and as part of the build up activities for the Port Harcourt Fashion Week 3, the PHFW will hold her first ever creatives summit tagged <b>"Fashion Force... Converge, Converse & Connect"</b>.
-                        <br>The Summit is themed: The Future of fashion in Port Harcourt, discuss will cut accross different topics within the sector.</p>
+                        <br>The Summit which is scheduled to hold in May 2023 will welcome experts from across the business, tech and fashion industries.</p>
                         <a href="creatives-summit" class="btn btn-dark btn-with-ball">register to attend</a>
                     </div>
                     <div class="d-none d-xl-block col-1"></div>
