@@ -72,7 +72,7 @@ include "./components/mobilenavbar.php";
                                     <img src="assets/images/bout.jpg" width="430px">
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
-                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">It is on this premise that that this year’s theme, “Revitalizing the Economy through Fashion Tourism"was borne.</p>
+                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">It is on this premise that that the theme, “Revitalizing the Economy through Fashion Tourism" was borne.</p>
                                     <p class="pt-0 mt-10 mb-0" style="text-align: justify">The idea was for the world to beam its light on the city of Port Harcourt, enjoying the culture and sophistication that abound with the people.</p>
                                     <p class="pt-0 mt-10" style="text-align: justify">The second edition featured Fashion Designers from across Africa.</p>
                                     <img src="assets/images/denrele.jpg" width="430px">
