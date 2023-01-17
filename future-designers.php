@@ -74,14 +74,13 @@ require_once "./controller/auth.php";
                                 </div>
                                 <h6 class="h5">Thank you for your interest in contesting in participating at the PHFW FUTURE DESIGNERS CONTEST. Please take a minute to read through the following guidelines. Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.</h6>
                                 <p class="mb-4">
-                                Registration for the PHFW FUTURE DESIGNERS CONTEST is free<br>
-                                Shortlisted designers however will pay participation fee  of N10,000.</p>
+                                Registration for the PHFW FUTURE DESIGNERS CONTEST is free.<br></p>
                                 <p class="mb-4">
-                                Shortlisted designers must have graduated from a recognized fashion Academy within the 12 months preceding  October , or have established their brand within the 6 months preceding October 2022.
+                                Shortlisted designers must have graduated from a fashion academy within the 12 months preceding December 2022, or have established their brand within the 6 months preceding December 2022.
                                 </p>
                                 <p class="mb-4">
                                 Each contesting designer will showcase 5 pieces from a collection.<br>
-                                Contesting designers will be judged on Inspiration, Illustration, Presentation, finishing and personal brand marketing skills.
+                                Contesting designers will be judged on Inspiration, Illustration, Presentation, finishing and brand marketing skills.
                                 </p>
                                 <p class="mb-4">
                                 All contesting designers are to have their 5pcs ready and available on the day of the fitting communicated by the PHFW team.
