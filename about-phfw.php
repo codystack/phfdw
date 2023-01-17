@@ -77,18 +77,21 @@ include "./components/mobilenavbar.php";
                                     <p class="pt-0 mt-10" style="text-align: justify">The second edition featured Fashion Designers from across Africa.</p>
                                     <img src="assets/images/denrele.jpg" width="430px">
                                 </div>
-                                <div class="col-12 col-md-10 col-lg-9 mb-0">
+                                <!-- <div class="col-12 col-md-10 col-lg-9 mb-0">
                                     <h3 class="mb-0 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">TECH-The Future of Fashion</h3>
-                                </div>
-                                <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
+                                </div> -->
+                                <div class="col-12 show-on-scroll" data-show-duration="700">
+                                <h3 class="mb-0 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">TECH-The Future of Fashion</h3>
                                     <p class="pt-0 mt-10 mb-0" style="text-align: justify">As technology continues to evolve to offer innovation, improve connectivity and provide ease of doing business, industries across the global economies are beginning to adopt and apply the use of technology. The Port Harcourt Fashion Week’s third edition is themed “Tech; The Future of Fashion” As always, through the PHFW  Summit, we will pull together key stakeholders within the Fashion space and the Tech sector as players within the larger economies to share ideas and provide possibilities for sustainable fashion.</p>
                                     <p class="pt-0 mt-10 mb-0" style="text-align: justify">The role of technology as a tool for growth, innovation and advancement cannot be over-emphasized. It provides the opportunity for globalization, cross-border collaboration, skill enhancement and knowledge development. To engage and employ the technology of fashion , PHFW fashion summit will drive conversation on the evolution of technology in the business of fashion and how its application can provide and promote a more sustainable fashion ecosystem.</p>
-                                </div>
-
-                                <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                                     <p class="pt-0 mt-10 mb-0" style="text-align: justify">The Fashion Week will facilitate a young designers competition, which will serve as a platform to launch the carriers of over 15 fresh fashion designers, who will have the opportunity to be tutored. The selected winner will be given a start-up grant as well as mentorship for business and skill development. This segment of the event holds in March 2023 and is proudly supported by the British Council and Godwin Etim Foundation.</p>
                                     <p class="pt-0 mt-10 mb-0" style="text-align: justify">The Summit which is scheduled to hold in May 2023 will welcome experts from across the business, tech and fashion industries while the Fashion Week in July 2023 will have over 100 established fashion designers and exhibitors from across the region, over 25 local and international media platforms and over 5000 visitors.</p>
                                 </div>
+
+                                <!-- <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
+                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">The Fashion Week will facilitate a young designers competition, which will serve as a platform to launch the carriers of over 15 fresh fashion designers, who will have the opportunity to be tutored. The selected winner will be given a start-up grant as well as mentorship for business and skill development. This segment of the event holds in March 2023 and is proudly supported by the British Council and Godwin Etim Foundation.</p>
+                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">The Summit which is scheduled to hold in May 2023 will welcome experts from across the business, tech and fashion industries while the Fashion Week in July 2023 will have over 100 established fashion designers and exhibitors from across the region, over 25 local and international media platforms and over 5000 visitors.</p>
+                                </div> -->
                             </div>
                         </div>
                     </div>
