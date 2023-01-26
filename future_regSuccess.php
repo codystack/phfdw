@@ -131,7 +131,7 @@ session_start();
                                 </p> -->
                                 <p class="pt-20 mb-20">Dear <b><?php echo $_SESSION['firstName']; ?></b>,<br>
                                     Thank you for your interest in participating in the PHFW Future Designer Contest.
-                                    Please follow the following steps to complete your registration.</p>
+                                    Please follow the steps below to complete your registration.</p>
 
                                 <p class="mb-20">1. Make a one minute video of your design from sketch to finished work stating your name, brand name and why you wish to participate in the PHFW Future Designer Contest. This video should be tagged, <b>“My entry video to PHFW Future Designer Contest”</b></p>
                                 <p class="mb-20">2. Post the video on your Instagram page and tag <b><a href="https://www.instagram.com/phfashionweek">@phfashionweek</a></b></p>
