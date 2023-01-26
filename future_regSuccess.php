@@ -133,7 +133,7 @@ session_start();
                                     Thank you for your interest in participating in the PHFW Future Designer Contest.
                                     Please follow the steps below to complete your registration.</p>
 
-                                <p class="mb-20">1. Make a one minute video of your design from sketch to finished work stating your name, brand name and why you wish to participate in the PHFW Future Designer Contest. This video should be tagged, <b>“My entry video to PHFW Future Designer Contest”</b></p>
+                                <p class="mb-20">1. Make a one minute video of your design from sketch to finished work, stating your name, brand name and why you wish to participate in the PHFW Future Designer Contest. This video should be tagged, <b>“My entry video to PHFW Future Designer Contest”</b></p>
                                 <p class="mb-20">2. Post the video on your Instagram page and tag <b><a href="https://www.instagram.com/phfashionweek">@phfashionweek</a></b></p>
                                 <p class="mb-20">3. Get your friends and followers to follow the page, like and comment on your post on the page when reposted.</p>
                                 <p class="mb-20">4. Shortlisted designers will be contacted. If contacted, details of the physical audition will be sent to you and you’re expected to be at the venue on time. Goodluck!</p>

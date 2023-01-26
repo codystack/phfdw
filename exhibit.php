@@ -20,7 +20,7 @@ require_once "./controller/auth.php";
                         <p>This segment of the event is a contest for upcoming fashion designers. The essence is to reward and encourage young designers.<br>
                                 Contesting designers will be judged on Inspiration, Illustration, Presentation, finishing and brand marketing skills.<br>
                                 This segment of the event is proudly support by the British Council, Startup South and Godwin Etim Foundation. Winner of the future designers contest will receive a  start up fund from Godwin Etim Foundation.</p>
-                        <a href="future-designers" class="btn btn-dark btn-with-ball">contest</a>
+                        <a href="future-designers" class="btn btn-dark btn-with-ball">register to contest</a>
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ require_once "./controller/auth.php";
                     <div class="col-12 col-lg order-lg-0 ml-xl-5 mr-xl-n10 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="left" data-show-delay="50">
                         <h3>Runway Showcase</h3>
                         <p>Showcase your latest collection on our runway and leverage on the power of our strong media partners and guests/buyers to reposition your brand to the next level.</p>
-                        <a href="showcase" class="btn btn-dark btn-with-ball">showcase</a>
+                        <a href="showcase" class="btn btn-dark btn-with-ball">register to showcase</a>
                     </div>
                     <div class="d-none d-xl-block col-1"></div>
                 </div>
@@ -65,7 +65,7 @@ require_once "./controller/auth.php";
                     <div class="col-12 col-lg-5 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="left" data-show-delay="250">
                         <h3>Exhibition</h3>
                         <p>Exhibit your products to a wide range of audience. Deliberate efforts have been put in place to attract the right audience to the benefits of the exhibitors.</p>
-                        <a href="exhibition" class="btn btn-dark btn-with-ball">exhibit</a>
+                        <a href="exhibition" class="btn btn-dark btn-with-ball">register to exhibit</a>
                     </div>
                 </div>
 
