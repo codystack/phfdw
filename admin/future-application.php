@@ -46,7 +46,7 @@ require_once 'auth/profile.php';
                                                             <th scope="col">SN</th>
                                                             <th scope="col">Name</th>
                                                             <th scope="col">Brand Name</th>
-                                                            <th scope="col">Email</th>
+                                                            <th scope="col">Date Registered</th>
                                                             <th scope="col" class="text-center">Action</th>
                                                         </tr>
                                                     </thead>
@@ -69,7 +69,7 @@ require_once 'auth/profile.php';
                                                             echo "<td>" .$quote_id. "</td>";
                                                             echo "<th scope=\"row\">" .$firstName." ".$lastName. "</th>";
                                                             echo "<th scope=\"row\">" .$brandName. "</th>";
-                                                            echo "<td>" .$email. "</td>";
+                                                            echo "<td>" .date('j F Y', $date). "</td>";
                                                             echo "<td class=\"text-center\">" 
                                                             ."<a href=\"view-future-application?id=$id\" class=\"btn btn-with-icon btn-sm btn-dark\">
                                                                 <i class=\"bi bi-eye\"></i> View

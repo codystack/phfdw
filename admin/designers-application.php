@@ -45,7 +45,7 @@ require_once 'auth/profile.php';
                                                         <tr>
                                                             <th scope="col">SN</th>
                                                             <th scope="col">Brand Name</th>
-                                                            <th scope="col">Email</th>
+                                                            <th scope="col">Date Registered</th>
                                                             <th scope="col">Phone</th>
                                                             <th scope="col" class="text-center">Action</th>
                                                         </tr>
@@ -62,12 +62,12 @@ require_once 'auth/profile.php';
                                                             $phoneNum = $row['phoneNum'];
                                                             $brandName = $row['brandName'];
                                                             $email = $row['email'];
-                                                            $dateCreated = $row['dateCreated'];
-                                                            $date = strtotime($dateCreated);
+                                                            $date= $row['date'];
+                                                            $dateRegistered = strtotime($date);
                                                         echo "<tr>";
                                                             echo "<td>" .$quote_id. "</td>";
                                                             echo "<th scope=\"row\">" .$brandName. "</th>";
-                                                            echo "<td>" .$email. "</td>";
+                                                            echo "<td>" .date('j F Y', $dateRegistered). "</td>";
                                                             echo "<td>" .$phoneNum. "</td>";
                                                             echo "<td class=\"text-center\">" 
                                                             ."<a href=\"view-designers-application?id=$id\" class=\"btn btn-with-icon btn-sm btn-dark\">
