@@ -95,7 +95,7 @@ session_start();
                             </svg>
                         </div>
                         <p class="h4 mb-10 mt-5 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="100">Registration Successful</p>
-                        <p class="mb-10 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">Make payment using the designers code or brand name below.</p>
+                        <p class="mb-10 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">Follow the instructions below.</p>
                         
                     </div>
                     <div class="row justify-content-center pt-30">
@@ -124,14 +124,22 @@ session_start();
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p class="text-center pt-20 mb-20">Shortlisted designers are to pay the sum of <b>₦10,000</b> each.<br>
+                                <!-- <p class="text-center pt-20 mb-20">Shortlisted designers are to pay the sum of <b>₦10,000</b> each.<br>
                                     <b>BANK: </b>ZENITH<br>
                                     <b>ACCOUNT NAME: </b>WAVE EVENTS GLOBAL LTD<br>
                                     <b>ACCOUNT NUMBER: </b>1016456463
-                                </p>
-                                <hr class="mt-0 mb-10 pt-5">
-                                <p class="text-center pt-0 mb-20">Send proof of payment and exhibitors code<br>via WhatsApp to <b><a href="tel:+2348038753903">+234 803 875 3903</a></b></p>
-                                <div class="text-center pb-3">
+                                </p> -->
+                                <p class="pt-20 mb-20">Dear <b><?php echo $_SESSION['firstName']; ?></b>,<br>
+                                    Thank you for your interest in participating in the PHFW Future Designer Contest.
+                                    Please follow the following steps to complete your registration.</p>
+
+                                <p class="mb-20">1. Make a one minute video of your design from sketch to finished work stating your name, brand name and why you wish to participate in the PHFW Future Designer Contest. This video should be tagged, <b>“My entry video to PHFW Future Designer Contest”</b></p>
+                                <p class="mb-20">2. Post the video on your Instagram page and tag <b><a href="https://www.instagram.com/phfashionweek">@phfashionweek</a></b></p>
+                                <p class="mb-20">3. Get your friends and followers to follow the page, like and comment on your post on the page when reposted.</p>
+                                <p class="mb-20">4. Shortlisted designers will be contacted. If contacted, details of the physical audition will be sent to you and you’re expected to be at the venue on time. Goodluck!</p>
+                                <!-- <hr class="mt-0 mb-10 pt-5"> -->
+                                <!-- <p class="text-center pt-0 mb-20">Send proof of payment and exhibitors code<br>via WhatsApp to <b><a href="tel:+2348038753903">+234 803 875 3903</a></b></p> -->
+                                <div class="text-center pb-3 pt-5">
                                     <button type="button" class="btn btn-info text-white" onclick="window.print()">
                                         <span class="btn-inner--text">Print</span>
                                     </button>
