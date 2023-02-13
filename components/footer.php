@@ -37,7 +37,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="footer-copyright mb-5">&copy; <script>document.write(new Date().getFullYear());</script> PHFW | All Rights Reserved. <br>Built by <a href="https://www.linkedin.com/in/thankgod-okoro" target="_blank" style="color: white">TeeGee&trade;</a></small></div>
+                <div class="footer-copyright mb-5">&copy; <script>document.write(new Date().getFullYear());</script> PHFW | All Rights Reserved. <br>Built by <a href="https://www.webify.com.ng" target="_blank" style="color: white">Webify&trade;</a></small></div>
             </div>
         </footer>
         <!-- START: Scripts -->
