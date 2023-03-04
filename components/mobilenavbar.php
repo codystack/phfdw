@@ -39,7 +39,7 @@
                                     </a>
                                 </li>
 
-                                <li class="nav-item navbar-collapse <?php if($page=='archives'){echo 'active';}?>">
+                                <!-- <li class="nav-item navbar-collapse <?php if($page=='archives'){echo 'active';}?>">
                                     <a href="#navbarCollapseArchives" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapsePages">
                                         <span class="nav-link-name">archives</span>
                                         <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +61,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </li> 
+                                </li>  -->
 
                                 <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='contact'){echo 'active';}?>">
                                     <a href="contact" class="nav-link">
@@ -75,6 +75,9 @@
                     <div class="col-12 col-md-4 col-lg-4 col-xl-3">
                         <div class="navbar-footer">
                             <div class="mb-60">
+                                <li class="nav-link mb-10">
+                                    <a href="https://selar.co/2326" class="btn btn-outline-dark">buy ticket</a>
+                                </li>
                                 <li class="nav-link mb-10">
                                     <a href="exhibit" class="btn btn-dark">register</a>
                                 </li>
