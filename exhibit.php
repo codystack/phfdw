@@ -31,11 +31,11 @@ require_once "./controller/auth.php";
                         </a>
                     </div>
                     <div class="d-none d-lg-block col-1 mr-xl-10"></div>
-                    <div class="col-12 col-lg ml-xl-5 mr-xl-n10 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
+                    <div class="col-12 col-lg ml-xl-5 mr-xl-n10 show-on-scroll mb-5" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
                         <h3>PHFW Creatives Summit</h3>
-                        <p>In line with our vision of expanding the potential power of fashion as a tool for poverty alleviation and as part of the build up activities for the Port Harcourt Fashion Week 3, the PHFW will hold her first ever creatives summit tagged <b>"Fashion Force... Converge, Converse & Connect"</b>.
-                        <br>The Summit which is scheduled to hold in May 2023 will welcome experts from across the business, tech and fashion industries.</p>
-                        <a href="creatives-summit" class="btn btn-dark btn-with-ball">register to attend</a>
+                        <p class="mb-1">In line with our vision of expanding the potential power of fashion as a tool for poverty alleviation and as part of the build up activities for the Port Harcourt Fashion Week 3, the PHFW will hold her first ever creatives summit tagged <b>"Fashion Force... Converge, Converse & Connect"</b>.
+                        <br>The Summit which is scheduled to hold in 28th July 2023 will kick off the activities of the fashion week and will welcome experts from across the business, tech and fashion industries. This segment of the event is proudly powered by <b>Lacasera</b>.</p>
+                        <a href="#registrationCommence" class="btn btn-dark btn-with-ball">register to attend</a>
                     </div>
                     <div class="d-none d-xl-block col-1"></div>
                 </div>
