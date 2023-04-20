@@ -41,8 +41,8 @@
             </div>
         </footer>
 
-        <?php include "./register-modal.php"; ?>
-        
+        <?php include "register-modal.php"; ?>
+
         <!-- START: Scripts -->
         <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
         <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>

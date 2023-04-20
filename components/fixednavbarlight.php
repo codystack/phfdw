@@ -27,7 +27,7 @@
                         </a>
                     </li>
 
-                    <li class="nav-item navbar-dropdown <?php if($page=='archives'){echo 'active';}?>">
+                    <!-- <li class="nav-item navbar-dropdown <?php if($page=='archives'){echo 'active';}?>">
                         <a href="#" class="nav-link">
                             <span class="nav-link-name">archives</span>
                             <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='contact'){echo 'active';}?>">
                         <a href="contact" class="nav-link">

@@ -74,11 +74,14 @@ require_once "./controller/auth.php";
                                 </div>
                                 <h6 class="h5">Thank you for your interests in showcasing your collection at the PHFW3.  Please take a minute to read through the following guidelines. Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.</h6>
                                 <p class="mb-4">
-                                Registered Designers are to pay Production fee of N100, 000 each<br>
+                                The fashion week which is scheduled to hold on the 28th and 29th of July will feature three runway shows. Day one wi feature one show while day two will feature 2 shows. Registered designers are to pay a production fee. Please note that production fees vary according to the shows.<br>
 
-                                <strong>The production fee is non-refundable</strong><br>
+                                <strong class="mt-1">Production fee for Day 1 is N100,000 , Day 2 first show is N50,000 while Day 2 second show is N150,000.</strong></p>
+                                <p class="mb-2">Kindly note that we have limited slots on each show day and once the slots are full, we will close in on registration for that particular show.</p>
+                                <p>Once you’ve decided on what show to run on, please read through the terms and conditions below, fill the form and make payment accordingly to the account details provided.<br>
+                                <strong class="mt-2">Kindly note that payments are non refundable</strong></p>
 
-                                All payments should be made to<br>
+                                <p class="mt-2">All payments should be made to<br>
                                 <strong>ACCOUNT NAME:</strong> WAVE EVENTS GLOBAL LTD <br>
                                 <strong>ACCOUNT NUMBER:</strong> 1016456463<br>
                                 <strong>BANK:</strong> ZENITH 
