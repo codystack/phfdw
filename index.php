@@ -150,7 +150,7 @@ include "./components/mobilenavbar.php";
                         </a>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
+                    <!-- <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
                         <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#ex">
                             <span class="card-img">
                                 <img src="assets/images/service/exhibition.jpg" alt="">
@@ -166,7 +166,7 @@ include "./components/mobilenavbar.php";
                                 </span>
                             </span>
                         </a>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
