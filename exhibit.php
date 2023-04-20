@@ -55,7 +55,7 @@ require_once "./controller/auth.php";
                     <div class="d-none d-xl-block col-1"></div>
                 </div>
 
-                <div class="row gv-3 align-items-center">
+                <!-- <div class="row gv-3 align-items-center">
                     <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right" data-show-delay="50">
                         <a href="exhibition" class="gallery-item gallery-item-lg" data-animation-effect="fade">
                             <img src="assets/images/exhibit1.jpg" alt="">
@@ -67,7 +67,7 @@ require_once "./controller/auth.php";
                         <p>Exhibit your products to a wide range of audience. Deliberate efforts have been put in place to attract the right audience to the benefits of the exhibitors.</p>
                         <a href="exhibition" class="btn btn-dark btn-with-ball">register to exhibit</a>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>

@@ -10,7 +10,7 @@ include "./components/mobilenavbar.php";
                 <div class="line text-white"></div>
                 <div class="background bg-dark">
                     <div class="background-image jarallax" data-jarallax data-speed="0.8">
-                        <img src="assets/images/service/wte1.jpg" class="jarallax-img" alt="">
+                        <img src="assets/images/service/wte1.JPG" class="jarallax-img" alt="">
                     </div>
                     <div class="background-color" style="background-color: #0e0e0e; opacity: .2;"></div>
                 </div>
@@ -64,7 +64,7 @@ include "./components/mobilenavbar.php";
                         </div>
                     </div>
 
-                    <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="ex">
+                    <!-- <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="ex">
                         <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
                             <img class="w-100" src="assets/images/service/exhibition.jpg" alt="">
                         </div>
@@ -74,7 +74,7 @@ include "./components/mobilenavbar.php";
                             <p class="mt-n7">The Port Harcourt Fashion and Design Week will offer dealers and retailers of fashion and lifestyle products, opportunity to exhibit their products to a wide range of audience. Deliberate efforts will be put in place to attract the right audience to the benefits of the exhibitors while buyers/visitors will have the rare privilege of making purchases at discounted rates as against what is obtainable in the open market.</p>
                             <a class="btn btn-dark btn-with-ball" href="exhibition">register to exhibit</a>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- <div class="row gh-1 gv-3 align-items-center justify-content-between mb-110" id="mas">
                         <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="600" data-show-distance="20" data-show-origin="left" data-show-delay="300">
