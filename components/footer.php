@@ -72,6 +72,17 @@
             });
         </script>
 
+        <script>
+            $(document).ready(function(){
+                var show_btn=$('.show-modal');
+                var show_btn=$('.show-modal');
+                
+                    show_btn.click(function(){
+                    $("#registrationCommence").modal('show');
+                })
+            });
+        </script>
+
         <?php
             if (isset($_SESSION['success_message']))
             {

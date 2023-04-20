@@ -48,7 +48,7 @@ include "./components/mobilenavbar.php";
                             <h3 class="mb-n10">PHFW Creative Summit.</h3>
                             <hr class="mt-30 mb-60">
                             <p class="mt-n7">The summit will provide the opportunity for players from different sectors of the economy to converge, providing a platform that serves as a springboard to converse on how to better connect and collaborate. This will provide more opportunities for the growth and development of the creative industry within the region.</p>
-                            <a class="btn btn-dark btn-with-ball" href="#registrationCommence">register to attend</a>
+                            <button class="btn btn-dark btn-with-ball show-modal">register to attend</button>
                         </div>
                     </div>
 

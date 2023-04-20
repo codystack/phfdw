@@ -35,7 +35,7 @@ require_once "./controller/auth.php";
                         <h3>PHFW Creatives Summit</h3>
                         <p class="mb-1">In line with our vision of expanding the potential power of fashion as a tool for poverty alleviation and as part of the build up activities for the Port Harcourt Fashion Week 3, the PHFW will hold her first ever creatives summit tagged <b>"Fashion Force... Converge, Converse & Connect"</b>.
                         <br>The Summit which is scheduled to hold in 28th July 2023 will kick off the activities of the fashion week and will welcome experts from across the business, tech and fashion industries. This segment of the event is proudly powered by <b>Lacasera</b>.</p>
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#registrationCommence" class="btn btn-dark btn-with-ball">register to attend</button>
+                        <button type="button" class="btn btn-dark btn-with-ball show-modal">register to attend</button>
                     </div>
                     <div class="d-none d-xl-block col-1"></div>
                 </div>
