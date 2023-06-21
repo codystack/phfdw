@@ -20,7 +20,7 @@ else
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>PHFW&trade; | Port Harcourt Fashion Week</title>
         <meta name="author" content="ThankGod Okoro">
-        <meta property="og:url" content="https://phfashionweek.com/"/>
+        <meta property="og:url" content="https://portharcourtfashionweek.com"/>
 	    <meta property="og:type" content="website" />
         <meta property="og:title" content="PHFW&trade; | Port Harcourt Fashion Week" />
         <meta name="og:description" content="The Port Harcourt Fashion and Design Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths.">
