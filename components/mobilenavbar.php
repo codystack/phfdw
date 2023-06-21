@@ -76,7 +76,7 @@
                         <div class="navbar-footer">
                             <div class="mb-60">
                                 <li class="nav-link mb-10">
-                                    <a href="https://selar.co/2326" class="btn btn-outline-dark">buy ticket</a>
+                                    <a href="https://selar.co/4epm" class="btn btn-outline-dark">buy ticket</a>
                                 </li>
                                 <li class="nav-link mb-10">
                                     <a href="exhibit" class="btn btn-dark">register</a>

@@ -58,9 +58,9 @@
                     </li>
                 </ul>
                 <ul class="nav nav-gap-sm navbar-nav nav-social align-items-center text-white mx-15">
-                    <!-- <li class="nav-item mr-7">
-                        <a href="https://selar.co/2326" class="btn btn-outline-dark">buy ticket</a>
-                    </li> -->
+                    <li class="nav-item mr-7">
+                        <a href="https://selar.co/4epm" class="btn btn-outline-dark">buy ticket</a>
+                    </li>
                     <li class="nav-item">
                         <a href="exhibit" class="btn btn-dark">register</a>
                     </li>
