@@ -59,11 +59,11 @@
                 </ul>
                 <ul class="nav nav-gap-sm navbar-nav nav-social align-items-center text-white mx-15">
                     <li class="nav-item mr-7">
-                        <a href="get-ticket" class="btn btn-outline-dark">buy ticket</a>
+                        <a href="get-ticket" class="btn btn-dark">buy ticket</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="exhibit" class="btn btn-dark">register</a>
-                    </li>
+                    </li> -->
                     <!-- <li class="nav-item">
                         <a href="https://www.facebook.com/phfdweek/" target="_blank" class="nav-link">
                             <svg width="7" height="15" viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">

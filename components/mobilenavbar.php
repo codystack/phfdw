@@ -76,11 +76,11 @@
                         <div class="navbar-footer">
                             <div class="mb-60">
                                 <li class="nav-link mb-10">
-                                    <a href="get-ticket" class="btn btn-outline-dark">buy ticket</a>
+                                    <a href="get-ticket" class="btn btn-dark">buy ticket</a>
                                 </li>
-                                <li class="nav-link mb-10">
+                                <!-- <li class="nav-link mb-10">
                                     <a href="exhibit" class="btn btn-dark">register</a>
-                                </li>
+                                </li> -->
                                 <p class="lead mb-17 font-weight-medium">Contact info:</p>
                                 <ul class="list-group borderless font-size-17">
                                     <li class="list-group-item">Email: <a href="mailto:info@phfashionweek.com">info@portharcourtfashionweek.com</a></li>
