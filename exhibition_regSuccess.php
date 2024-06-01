@@ -6,7 +6,7 @@ require_once "config/db.php";
 if (isset($_GET['close'])) {
   session_destroy();
   unset($_SESSION['email']);
-  header("location: what-to-expect");
+  header("location: register");
 }
 session_start();
 ?>
@@ -95,7 +95,7 @@ session_start();
                             </svg>
                         </div>
                         <p class="h4 mb-10 mt-5 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="100">Registration Successful</p>
-                        <p class="mb-10 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">Make payment using the designers code or brand name below.</p>
+                        <p class="mb-10 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">Kindly make payment using the exhibitors code or brand name below.</p>
                         
                     </div>
                     <div class="row justify-content-center pt-30">
@@ -124,7 +124,7 @@ session_start();
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p class="text-center pt-20 mb-20">Registered Exhibitors are to pay the sum of <b>₦60,000</b> each.<br>
+                                <p class="text-center pt-20 mb-20">Registered Exhibitors are to pay the sum of <b>₦150,000</b> each.<br>
                                     <b>BANK: </b>ZENITH<br>
                                     <b>ACCOUNT NAME: </b>WAVE EVENTS GLOBAL LTD<br>
                                     <b>ACCOUNT NUMBER: </b>1016456463

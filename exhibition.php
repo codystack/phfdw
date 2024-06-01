@@ -12,6 +12,7 @@ require_once "./controller/auth.php";
                     <div class="row justify-content-center text-white">
                         <div class="col-lg-10">
                             <h1 class="display-5 text-white mt-5 mb-30 show-on-scroll" data-show-duration="500" data-show-distance="10">Exhibitors Form.</h1>
+                            <p><span class="text-danger">NOTE:</span> Exhibition stands are alloted based on first come first serve basis.</p>
                             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
                                 <div class="row gh-1 gv-3 mt-30">
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="50">

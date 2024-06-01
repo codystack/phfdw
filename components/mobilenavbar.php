@@ -33,12 +33,6 @@
                                     </a>
                                 </li>
 
-                                <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='what to expect'){echo 'active';}?>">
-                                    <a href="what-to-expect" class="nav-link">
-                                        <span class="nav-link-name">what to expect</span>
-                                    </a>
-                                </li>
-
                                 <!-- <li class="nav-item navbar-collapse <?php if($page=='archives'){echo 'active';}?>">
                                     <a href="#navbarCollapseArchives" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapsePages">
                                         <span class="nav-link-name">archives</span>
@@ -75,12 +69,12 @@
                     <div class="col-12 col-md-4 col-lg-4 col-xl-3">
                         <div class="navbar-footer">
                             <div class="mb-60">
-                                <li class="nav-link mb-10">
-                                    <a href="get-ticket" class="btn btn-dark">buy ticket</a>
-                                </li>
                                 <!-- <li class="nav-link mb-10">
-                                    <a href="exhibit" class="btn btn-dark">register</a>
+                                    <a href="get-ticket" class="btn btn-dark">buy ticket</a>
                                 </li> -->
+                                <li class="nav-link mb-10">
+                                    <a href="register" class="btn btn-dark">register</a>
+                                </li>
                                 <p class="lead mb-17 font-weight-medium">Contact info:</p>
                                 <ul class="list-group borderless font-size-17">
                                     <li class="list-group-item">Email: <a href="mailto:info@phfashionweek.com">info@portharcourtfashionweek.com</a></li>

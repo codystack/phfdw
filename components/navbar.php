@@ -21,12 +21,6 @@
                         </a>
                     </li>
 
-                    <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='what to expect'){echo 'active';}?>">
-                        <a href="what-to-expect" class="nav-link">
-                            <span class="nav-link-name">what to expect</span>
-                        </a>
-                    </li>
-
                     <!-- <li class="nav-item navbar-dropdown <?php if($page=='archives'){echo 'active';}?>">
                         <a href="#" class="nav-link">
                             <span class="nav-link-name">archives</span>
@@ -58,12 +52,12 @@
                     </li>
                 </ul>
                 <ul class="nav nav-gap-sm navbar-nav nav-social align-items-center text-white mx-15">
-                    <li class="nav-item mr-7">
+                    <!-- <li class="nav-item mr-7">
                         <a href="get-ticket" class="btn btn-dark">buy ticket</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a href="exhibit" class="btn btn-dark">register</a>
                     </li> -->
+                    <li class="nav-item">
+                        <a href="register" class="btn btn-dark">register</a>
+                    </li>
                     <!-- <li class="nav-item">
                         <a href="https://www.facebook.com/phfdweek/" target="_blank" class="nav-link">
                             <svg width="7" height="15" viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">

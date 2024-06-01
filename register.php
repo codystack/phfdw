@@ -1,13 +1,13 @@
 <?php
 session_start();
 include "./components/header.php";
-include "./components/fixednavbarlight.php";
+include "./components/navbar.php";
 include "./components/mobilenavbar.php";
 require_once "./controller/auth.php";
 ?>
 
-        <div class="content-wrap">
-            <div class="py-160 bg-dark">
+        <div class="content-wrap pt-160 pb-160">
+            <!-- <div class="py-160 bg-dark">
                 <div class="container">
                     <div class="row justify-content-center text-white">
                         <div class="col-lg-10">
@@ -48,6 +48,84 @@ require_once "./controller/auth.php";
                             </form>
                         </div>
                     </div>
+                </div>
+            </div> -->
+
+            <div class="container-fluid px-1">
+                <div class="row gh-1 gv-1 justify-content-center">
+
+                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
+                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="showcase">
+                            <span class="card-img">
+                                <img src="assets/images/service/wte1.JPG" alt="">
+                                <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
+                            </span>
+                            <span class="card-img-overlay">
+                                <span class="card-title h5">Designer Registration</span>
+                                <span class="btn btn-clean">Register Now
+                                    <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                        <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                    </svg>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
+                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="future-designers">
+                            <span class="card-img">
+                                <img src="assets/images/service/contest.jpg" alt="">
+                                <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
+                            </span>
+                            <span class="card-img-overlay">
+                                <span class="card-title h5">Future Designers Showcase</span>
+                                <span class="btn btn-clean">Register Now
+                                    <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                        <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                    </svg>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
+                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#run">
+                            <span class="card-img">
+                                <img src="assets/images/service/runway.jpg" alt="">
+                                <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
+                            </span>
+                            <span class="card-img-overlay">
+                                <span class="card-title h5">Top Model Nigeria</span>
+                                <span class="btn btn-clean">Register Now
+                                    <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                        <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                    </svg>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
+                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="exhibition">
+                            <span class="card-img">
+                                <img src="assets/images/service/exhibition.jpg" alt="">
+                                <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
+                            </span>
+                            <span class="card-img-overlay">
+                                <span class="card-title h5">Get a Stand</span>
+                                <span class="btn btn-clean">Register Now
+                                    <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                        <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                                    </svg>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>

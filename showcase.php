@@ -1,9 +1,9 @@
 <?php
-// session_start();
-// include "./components/header.php";
-// include "./components/fixednavbarlight.php";
-// include "./components/mobilenavbar.php";
-// require_once "./controller/auth.php";
+session_start();
+include "./components/header.php";
+include "./components/fixednavbarlight.php";
+include "./components/mobilenavbar.php";
+require_once "./controller/auth.php";
 ?>
 
 
@@ -33,46 +33,6 @@
 <body>
 
         <div class="content-wrap">
-            <div class="py-160 text-center">
-                <div class="container shape-parent">
-                    <div class="shape mt-n160 ml-30">
-                        <svg class="mt-n160" width="500" height="318" viewBox="0 0 500 318" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="250" cy="68" r="250" fill="#F5F5F5" />
-                        </svg>
-                    </div>
-                    <div class="lines-style-6">
-                        <div class="line show-on-scroll" data-show-duration="500" data-show-distance="140" data-show-delay="400" data-show-origin="right"></div>
-                        <div class="line show-on-scroll" data-show-duration="500" data-show-distance="120" data-show-delay="200"></div>
-                    </div>
-                    <!-- <h1 class="display-3 mb-12 mt-2 show-on-scroll" data-show-duration="600" data-show-distance="10">404</h1> -->
-                    <img src="./assets/images/do-not-enter.png" class="mb-10" width="200px" alt="">
-                    <p class="h3 alert-link mb-10 show-on-scroll mt-15" data-show-duration="500" data-show-distance="10" data-show-delay="100">Registration Closed 😿</p>
-                    <p class="mb-40 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">Perhaps you would like to go back to the home page?</p>
-                    <a href="./" class="btn btn-dark btn-with-ball mb-15 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="230">go to home</a>
-                </div>
-            </div>
-        </div>
-
-        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
-        <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
-        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/vendor/swiper/dist/js/swiper.min.js"></script>
-        <script src="assets/vendor/animejs/lib/anime.min.js"></script>
-        <script src="assets/vendor/rellax/rellax.min.js"></script>
-        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-        <script src="assets/vendor/moment/min/moment.min.js"></script>
-        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
-        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/isotope-packery/packery-mode.pkgd.min.js"></script>
-        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
-        <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
-        <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
-        <script src="assets/js/main.min.js"></script>
-    </body>
-
-        <!-- <div class="content-wrap">
             <div class="py-160 bg-dark">
                 <div class="container">
                     <div class="row justify-content-center text-white">
@@ -138,9 +98,9 @@
                                 <div class="py-7 pt-5 pb-5 mb-5">
                                     <img src="assets/images/tandc.png" class="img-fluid img-center svg-inject" width="100">
                                 </div>
-                                <h6 class="h5">Thank you for your interests in showcasing your collection at the PHFW3.  Please take a minute to read through the following guidelines. Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.</h6>
+                                <h6 class="h5">Thank you for your interests in showcasing your collection at the PHFW 4. Please take a minute to read through the following guidelines.</h6>
                                 <p class="mb-4">
-                                The fashion week which is scheduled to hold on the 28th and 29th of July will feature three runway shows. Day one wi feature one show while day two will feature 2 shows. Registered designers are to pay a production fee. Please note that production fees vary according to the shows.<br>
+                                The fashion week which is scheduled to hold on the 28th and 29th of July will feature three runway shows. Day one wi feature one show while day two will feature 2 shows. Registered designers are to pay a production fee. Please note that production fees vary according to the shows. Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.<br>
 
                                 <strong class="mt-1">Production fee for Day 1 is N100,000 , Day 2 first show is N50,000 while Day 2 second show is N150,000.</strong></p>
                                 <p class="mb-2">Kindly note that we have limited slots on each show day and once the slots are full, we will close in on registration for that particular show.</p>
@@ -182,6 +142,6 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     
-<?php //include "./components/footer.php"; ?>
+<?php include "./components/footer.php"; ?>

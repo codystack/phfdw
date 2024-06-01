@@ -1,9 +1,9 @@
 <?php
-//session_start();
-//include "./components/header.php";
-//include "./components/fixednavbarlight.php";
-//include "./components/mobilenavbar.php";
-//require_once "./controller/auth.php";
+session_start();
+include "./components/header.php";
+include "./components/fixednavbarlight.php";
+include "./components/mobilenavbar.php";
+require_once "./controller/auth.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,46 +31,6 @@
 <body>
 
         <div class="content-wrap">
-            <div class="py-160 text-center">
-                <div class="container shape-parent">
-                    <div class="shape mt-n160 ml-30">
-                        <svg class="mt-n160" width="500" height="318" viewBox="0 0 500 318" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="250" cy="68" r="250" fill="#F5F5F5" />
-                        </svg>
-                    </div>
-                    <div class="lines-style-6">
-                        <div class="line show-on-scroll" data-show-duration="500" data-show-distance="140" data-show-delay="400" data-show-origin="right"></div>
-                        <div class="line show-on-scroll" data-show-duration="500" data-show-distance="120" data-show-delay="200"></div>
-                    </div>
-                    <!-- <h1 class="display-3 mb-12 mt-2 show-on-scroll" data-show-duration="600" data-show-distance="10">404</h1> -->
-                    <img src="./assets/images/do-not-enter.png" class="mb-10" width="200px" alt="">
-                    <p class="h3 alert-link mb-10 show-on-scroll mt-15" data-show-duration="500" data-show-distance="10" data-show-delay="100">Entry Closed 😿</p>
-                    <p class="mb-40 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">Perhaps you would like to go back to the home page?</p>
-                    <a href="./" class="btn btn-dark btn-with-ball mb-15 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="230">go to home</a>
-                </div>
-            </div>
-        </div>
-
-        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
-        <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
-        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/vendor/swiper/dist/js/swiper.min.js"></script>
-        <script src="assets/vendor/animejs/lib/anime.min.js"></script>
-        <script src="assets/vendor/rellax/rellax.min.js"></script>
-        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-        <script src="assets/vendor/moment/min/moment.min.js"></script>
-        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
-        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/isotope-packery/packery-mode.pkgd.min.js"></script>
-        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
-        <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
-        <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
-        <script src="assets/js/main.min.js"></script>
-    </body>
-
-        <!-- <div class="content-wrap">
             <div class="py-160 bg-dark">
                 <div class="container">
                     <div class="row justify-content-center text-white">
@@ -123,11 +83,11 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
 
         <!-- Future Designers Modal -->
-        <!-- <div class="modal modal-fluid fade" id="futureDesignersCategory" tabindex="-1" role="dialog" aria-labelledby="modal_1" aria-hidden="true">
+        <div class="modal modal-fluid fade" id="futureDesignersCategory" tabindex="-1" role="dialog" aria-labelledby="modal_1" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" data-bs-backdrop="static" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -138,24 +98,24 @@
                                 </div>
                                 <h6 class="h5">Thank you for your interest in contesting in participating at the PHFW FUTURE DESIGNERS CONTEST. Please take a minute to read through the following guidelines. Kindly note that proceeding to sign up confirms you have accepted the terms and conditions listed below.</h6>
                                 <p class="mb-4">
-                                Registration for the PHFW FUTURE DESIGNERS CONTEST is free.<br></p>
+                                    Registration for the PHFW FUTURE DESIGNERS CONTEST is free.<br></p>
                                 <p class="mb-4">
-                                Shortlisted designers must have graduated from a fashion academy within the 12 months preceding December 2022, or have established their brand within the 6 months preceding December 2022.
+                                    Shortlisted designers must have graduated from a fashion academy within the 12 months preceding August 2024, or have established their brand within the 12 months preceding August 2024.
                                 </p>
                                 <p class="mb-4">
-                                Each contesting designer will showcase 5 pieces from a collection.<br>
-                                Contesting designers will be judged on Inspiration, Illustration, Presentation, finishing and brand marketing skills.
+                                    Each contesting designer will showcase 5 pieces from a collection.<br>
+                                    Contesting designers will be judged on Inspiration, Illustration, Presentation, finishing and brand marketing skills.
                                 </p>
                                 <p class="mb-4">
-                                All contesting designers are to have their 5pcs ready and available on the day of the fitting communicated by the PHFW team.
+                                    All contesting designers are to have their 5pcs ready and available on the day of the fitting communicated by the PHFW team.
                                 </p>
                                 <p class="mb-4">
-                                Contesting designers must be on set 1 hour before show time.<br>
+                                    Contesting designers must be on set 1 hour before show time.<br>
  
-                                Contesting designers are advised to have their guests arrive at least 30 Minutes before show time.
+                                    Contesting designers are advised to have their guests arrive at least 30 Minutes before show time.
                                 </p>
                                 <p class="mb-4">
-                                Contesting designers are not allowed to have assistants backstage as that will be taken care of by the PHFW team.
+                                    Contesting designers are not allowed to have assistants backstage as that will be taken care of by the PHFW team.
                                 </p>
                                 <button type="button" class="btn btn-dark" data-dismiss="modal">Sign me up!</button>
                             </div>
@@ -163,5 +123,6 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     
+<?php include "./components/footer.php"; ?>
