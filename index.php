@@ -83,10 +83,12 @@ include "./components/mobilenavbar.php";
                     <div class="row justify-content-center gh-5 mt-100">
                         <div class="col-lg-5 show-on-scroll" data-show-delay="200" data-show-duration="800">
                             <hr class="mt-0">
-                            <p class="lead">"The Fashion industry on its own is a key component of global economy and certainly an important sector to consider when thinking about sustainable development."</p>
+                            <h3></h3>
+                            <p class="h3">"PHFW4, embracing tomorrow’s trends today"</p>
+                            <p></p>
                         </div>
                         <div class="col-lg-5 show-on-scroll" data-show-delay="300" data-show-duration="800">
-                            <p>The Port Harcourt Fashion Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths.</p>
+                            <p>Welcome to Port Harcourt Fashion Week, a dynamic and vibrant showcase of fashion excellence in the Garden City of Nigeria. Our mission is to celebrate the rich tapestry of creativity and innovation within the local fashion industry. At Port Harcourt Fashion Week, we believe in pushing boundaries and breaking stereotypes.</p>
                             <a href="about-phfw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
@@ -97,57 +99,57 @@ include "./components/mobilenavbar.php";
                 <div class="row gh-1 gv-1 justify-content-center">
 
                     <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
-                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#con">
+                        <div class="card card-service card-image-xl card-hover-zoom card-bg-show text-white">
                             <span class="card-img">
                                 <img src="assets/images/service/contest.jpg" alt="">
                                 <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
                             </span>
                             <span class="card-img-overlay">
-                                <span class="card-title h5">PHFW Future Designers Contest</span>
-                                <span class="btn btn-clean">read more
+                                <span class="card-title h5 mb-60">PHFW Future Designers Contest</span>
+                                <!-- <span class="btn btn-clean">read more
                                     <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
                                         <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
                                         <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
                                     </svg>
-                                </span>
+                                </span> -->
                             </span>
-                        </a>
+                        </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
-                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#faf">
+                        <div class="card card-service card-image-xl card-hover-zoom card-bg-show text-white">
                             <span class="card-img">
                                 <img src="assets/images/service/masterclass.jpg" alt="">
                                 <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
                             </span>
                             <span class="card-img-overlay">
-                                <span class="card-title h5">PHFW Creative Summit</span>
-                                <span class="btn btn-clean">read more
+                                <span class="card-title h5 mb-60">PHFW Creative Summit</span>
+                                <!-- <span class="btn btn-clean">read more
                                     <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
                                         <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
                                         <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
                                     </svg>
-                                </span>
+                                </span> -->
                             </span>
-                        </a>
+                        </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
-                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#run">
+                        <div class="card card-service card-image-xl card-hover-zoom card-bg-show text-white">
                             <span class="card-img">
                                 <img src="assets/images/service/runway.jpg" alt="">
                                 <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
                             </span>
                             <span class="card-img-overlay">
-                                <span class="card-title h5">Runway</span>
-                                <span class="btn btn-clean">read more
+                                <span class="card-title h5 mb-60">Runway</span>
+                                <!-- <span class="btn btn-clean">read more
                                     <svg class='icon-arrow icon-arrow-right' width='25' height='10' viewBox='0 0 25 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
                                         <path d='M20 1L24 5L20 9' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
                                         <path d='M7 5L24 5' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
                                     </svg>
-                                </span>
+                                </span> -->
                             </span>
-                        </a>
+                        </div>
                     </div>
 
                     <!-- <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
@@ -179,7 +181,7 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-1"></div>
                         <div class="col-lg-6 col-xl-4 align-self-center order-11 order-lg-2">
-                            <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">TECH-The Future of Fashion🔥</h2>
+                            <h2 class="h3 mt-30 mt-lg-0 mt-xl-0 mb-0">Fashion Forward, Future Ready🔥</h2>
                         </div>
                         <div class="d-none d-xl-block col-2 order-lg-3"></div>
                         <div class="d-none d-lg-block col-lg-2 col-xl-auto order-10 order-lg-4 show-on-scroll" data-show-delay="100" data-show-duration="600">
@@ -190,7 +192,7 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-6"></div>
                         <div class="col-lg-6 col-xl-5 mt-xl-n60 order-12 order-lg-7">
-                            <p>As technology continues to evolve to offer innovation, improve connectivity and provide ease of doing business, industries across the global economies are beginning to adopt and apply the use of technology. The Port Harcourt Fashion Week’s third edition is themed “Tech; The Future of Fashion” As always, through the PHFW  Summit, we will pull together key stakeholders within the Fashion space and the Tech sector as players within the larger economies to share ideas and provide possibilities for sustainable fashion.</p>
+                            <p>This year’s event is themed “Fashion Forward, Future Ready,” reflecting our commitment to staying ahead of the curve and embracing the challenges of tomorrow. Through innovative designs, sustainable practices, and forward-thinking discussions at our fashion summit, we aim to pave the way for a more sustainable and inclusive fashion industry.</p>
                             <a href="about-phfw" class="btn btn-dark btn-with-ball">read more</a>
                         </div>
                     </div>
@@ -306,7 +308,7 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="col-6 col-sm-4 col-lg-auto show-on-scroll show-on-scroll-ready" data-show-delay="350" data-show-distance="20" data-show-duration="500" style="transform: translateY(0px); transition-duration: 500ms; opacity: 1;">
                             <a href="#" class="brand text-grey">
-                                <img src="assets/images/spice.jpg" width="120">
+                                <img src="assets/images/vino.png" width="120">
                             </a>
                         </div>
                     </div>
