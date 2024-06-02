@@ -57,7 +57,7 @@ require_once "./controller/auth.php";
                     <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
                         <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="showcase">
                             <span class="card-img">
-                                <img src="assets/images/service/wte1.JPG" alt="">
+                                <img src="assets/images/service/hmex3.jpg" alt="">
                                 <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>
                             </span>
                             <span class="card-img-overlay">
@@ -91,7 +91,7 @@ require_once "./controller/auth.php";
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-5 col-xl-3 show-on-scroll" data-show-delay="80" data-show-duration="600" data-show-distance="20">
-                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="what-to-expect#run">
+                        <a class="card card-service card-image-xl card-hover-zoom card-bg-show text-white" href="top-model">
                             <span class="card-img">
                                 <img src="assets/images/service/runway.jpg" alt="">
                                 <span class="background-color" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.65) 100%);"></span>

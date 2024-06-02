@@ -22,7 +22,7 @@
                     </li>
 
                     <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='gallery'){echo 'active';}?>">
-                        <a href="about-phfw" class="nav-link">
+                        <a href="gallery" class="nav-link">
                             <span class="nav-link-name">gallery</span>
                         </a>
                     </li>
