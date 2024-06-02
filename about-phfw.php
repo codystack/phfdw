@@ -47,12 +47,12 @@ include "./components/mobilenavbar.php";
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide overflow-hidden">
                                                     <div class="swiper-image" data-swiper-parallax-x="20%">
-                                                        <img class="w-100" src="assets/images/about/abt1.jpg" alt="">
+                                                        <img class="w-100" src="assets/images/about/abt2.jpg" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide overflow-hidden">
                                                     <div class="swiper-image" data-swiper-parallax-x="20%">
-                                                        <img class="w-100" src="assets/images/about/abt2.jpg" alt="">
+                                                        <img class="w-100" src="assets/images/about/abt1.jpg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
