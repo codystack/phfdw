@@ -38,7 +38,7 @@ include "./components/mobilenavbar.php";
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                                     <!--<p class="lead mb-20">BACKGROUND: The Port Harcourt Fashion Week.</p>-->
-                                    <p class="mb-3" style="text-align: justify">Welcome to Port Harcourt Fashion Week, a dynamic and vibrant showcase of fashion excellence in the Garden City of Nigeria. Our mission is to celebrate the rich tapestry of creativity and innovation within the local fashion industry. At Port Harcourt Fashion Week, we believe in pushing boundaries and breaking stereotypes. Our aim is to inspire designers, models, and fashion enthusiasts to think outside the box, experiment with new ideas, and create trends that are truly groundbreaking.</p>
+                                    <p class="mb-3" style="text-align: justify">Welcome to Port Harcourt Fashion Week, a dynamic and vibrant showcase of fashion excellence in the Garden City of Nigeria. Our mission is to celebrate the rich tapestry of creativity and innovation within the local fashion industry. At Port Harcourt Fashion Week, we believe in pushing boundaries and breaking stereotypes. Our aim is to inspire designers, models, and fashion enthusiasts to think outside the box, experiment with new ideas, and create trends that are truly groundbreaking while bringing together, the media, buyers and consumers to view the designers latest collections.</p>
                                     <img class="w-100 mt-100" src="assets/images/about/abt3.jpg" alt="">
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
@@ -67,22 +67,13 @@ include "./components/mobilenavbar.php";
                                     <p class="pt-0 mt-60 mb-0" style="text-align: justify">Diversity is at the core of our ethos. Port Harcourt Fashion Week celebrates the beauty of our different cultures, styles, and perspectives, and we strive to create a space where everyone feels represented and included. Our fashion week is a melting pot of creativity and individuality.</p>
                                     <p class="pt-0 mt-20 mb-0" style="text-align: justify">This year’s event is themed “Fashion Forward, Future Ready,” reflecting our commitment to staying ahead of the curve and embracing the challenges of tomorrow. Through innovative designs, sustainable practices, and forward-thinking discussions at our fashion summit, we aim to pave the way for a more sustainable and inclusive fashion industry.</p>
                                 </div>
-
-                            
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
+                            <div class="row pt-60">
 
-            <div class="pb-160">
-                <div class="container">
-                    <h2 class="mb-60 pb-30 text-center">Every year, <br>the Port Harcourt fashion Week features</h2>
-                    <div class="swiper mt-n4" data-swiper-slides="2" data-swiper-breakpoints="828:1, 1024:2" data-swiper-gap="60" data-swiper-free="true" data-swiper-grabcursor="true" data-swiper-freemode="true">
-                        <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-free-mode" style="cursor: grab;">
-                            <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-410px, 0px, 0px);">
-                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                <h2 class="mb-60 pb-30 text-center">Every year, <br>the Port Harcourt fashion Week features</h2>
+
+                                <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                                     <div class="feature">
                                         <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
@@ -98,14 +89,12 @@ include "./components/mobilenavbar.php";
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                <div class="col-12 col-md-6 mb-20 show-on-scroll" data-show-duration="700">
                                     <div class="feature">
-                                        <div class="feature-icon">
-                                            <svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
                                                 <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
-                                            </svg>
-                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            </svg><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
                                         </div>
@@ -116,14 +105,12 @@ include "./components/mobilenavbar.php";
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                <div class="col-12 col-md-6 mb-20 show-on-scroll" data-show-duration="700">
                                     <div class="feature">
-                                        <div class="feature-icon">
-                                            <svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
                                                 <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
-                                            </svg>
-                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            </svg><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
                                         </div>
@@ -134,23 +121,23 @@ include "./components/mobilenavbar.php";
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                <div class="col-12 col-md-6 show-on-scroll mb-20" data-show-duration="700">
                                     <div class="feature">
-                                        <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
-                                                <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
-                                            </svg><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                            </svg>
+                                            <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
+                                                    <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
+                                                </svg><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+                                            </div>
+                                            <div class="feature-body">
+                                                <h4 class="feature-title">Business of Fashion Summit</h4>
+                                                <p class="feature-text">A dynamic and insightful event that brings together, industry expects, thought leaders, and fashion enthusiasts to discuss key trends, challenges and opportunities in the ever evolving world of fashion business.it exposes attendees to valuable insights into the industry trends, market dynamics and consumer behaviours that are shaping the fashion landscape. From digital innovations to sustainability practices, the summit covers a wide range of topic relevant to the business of fashion.</p>
+                                            </div>
                                         </div>
-                                        <div class="feature-body">
-                                            <h4 class="feature-title">Business of Fashion Summit</h4>
-                                            <p class="feature-text">A dynamic and insightful event that brings together, industry expects, thought leaders, and fashion enthusiasts to discuss key trends, challenges and opportunities in the ever evolving world of fashion business.it exposes attendees to valuable insights into the industry trends, market dynamics and consumer behaviours that are shaping the fashion landscape. From digital innovations to sustainability practices, the summit covers a wide range of topic relevant to the business of fashion.</p>
-                                        </div>
-                                    </div>
                                 </div>
 
-                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                <div class="col-12 col-md-6 show-on-scroll mb-20" data-show-duration="700">
                                     <div class="feature">
                                         <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
@@ -165,9 +152,8 @@ include "./components/mobilenavbar.php";
                                         </div>
                                     </div>
                                 </div>
+                            
                             </div>
-                        <div class="swiper-scrollbar">
-                            <div class="swiper-scrollbar-drag" style="transform: translate3d(96.0127px, 0px, 0px); transition-duration: 0ms; width: 273.987px;"></div>
                         </div>
                     </div>
                 </div>
