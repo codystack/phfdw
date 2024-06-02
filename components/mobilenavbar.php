@@ -33,6 +33,12 @@
                                     </a>
                                 </li>
 
+                                <li class="nav-item navbar-dropdown navbar-dropdown-mega <?php if($page=='gallery'){echo 'active';}?>">
+                                    <a href="about-phfw" class="nav-link">
+                                        <span class="nav-link-name">gallery</span>
+                                    </a>
+                                </li>
+
                                 <!-- <li class="nav-item navbar-collapse <?php if($page=='archives'){echo 'active';}?>">
                                     <a href="#navbarCollapseArchives" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapsePages">
                                         <span class="nav-link-name">archives</span>

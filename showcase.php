@@ -99,10 +99,10 @@ require_once "./controller/auth.php";
                                     <img src="assets/images/tandc.png" class="img-fluid img-center svg-inject" width="100">
                                 </div>
                                 <h6 class="h5">Thank you for your interests in showcasing your collection at the PHFW 4. Please take a minute to read through the following guidelines.</h6>
-                                <p class="mb-4">
-                                The fashion week which is scheduled to hold on the 28th and 29th of July will feature three runway shows. Day one wi feature one show while day two will feature 2 shows. Registered designers are to pay a production fee. Please note that production fees vary according to the shows. Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.<br>
+                                <p class="mb-15">Kindly note that proceeding to make payment confirms you have accepted the terms and conditions listed below.</p>
+                                <p class="mb-15">The fashion week which is scheduled to hold in November 2024 will feature four different runway shows that is, two shows for each day. Registered designers are to pay a production fee. Please note that production fees vary according to the shows.</p>
+                                <p class="mb-15"><strong>Production fee for first shows is N100,000  for each day. <br>Day one, second show goes for N150,000 while Day two, second show is N250,000.</strong></p>
 
-                                <strong class="mt-1">Production fee for Day 1 is N100,000 , Day 2 first show is N50,000 while Day 2 second show is N150,000.</strong></p>
                                 <p class="mb-2">Kindly note that we have limited slots on each show day and once the slots are full, we will close in on registration for that particular show.</p>
                                 <p>Once you’ve decided on what show to run on, please read through the terms and conditions below, fill the form and make payment accordingly to the account details provided.<br>
                                 <strong class="mt-2">Kindly note that payments are non refundable</strong></p>
@@ -113,7 +113,7 @@ require_once "./controller/auth.php";
                                 <strong>BANK:</strong> ZENITH 
                                 </p>
                                 <p class="mb-4">
-                                All payments will be confirmed within 24 hours upon payment. Designers who do not get any confirmation after 24 hours are advised to reach out to the PHFW Team on <strong>08038753903</strong> with proof of payment..
+                                All payments will be confirmed within 24 hours upon payment. Designers who do not get any confirmation after 24 hours are advised to reach out to the PHFW Team on <strong>08038753903</strong> with proof of payment.
                                 </p>
                                 <p class="mb-4">
                                 Designers are advised to pay with registered brand names or indicate Brand name on remarks.

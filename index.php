@@ -18,7 +18,7 @@ include "./components/mobilenavbar.php";
                         <div class="swiper-slide">
                             <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
-                                    <img src="assets/images/slide5.jpg" alt="">
+                                    <img src="assets/images/slide01.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
                                 </span>
                             </a>
@@ -27,7 +27,7 @@ include "./components/mobilenavbar.php";
                         <div class="swiper-slide">
                             <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
-                                    <img src="assets/images/slide3.jpg" alt="">
+                                    <img src="assets/images/slide02.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
                                 </span>
                             </a>
@@ -36,7 +36,7 @@ include "./components/mobilenavbar.php";
                         <div class="swiper-slide">
                             <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
-                                    <img src="assets/images/slide1.jpg" alt="">
+                                    <img src="assets/images/slide03.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
                                 </span>
                             </a>
@@ -45,7 +45,7 @@ include "./components/mobilenavbar.php";
                         <div class="swiper-slide">
                             <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
-                                    <img src="assets/images/slide4.jpg" alt="">
+                                    <img src="assets/images/slide04.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
                                 </span>
                             </a>
@@ -54,7 +54,7 @@ include "./components/mobilenavbar.php";
                         <div class="swiper-slide">
                             <a class="card card-portfolio card-overlay card-image-sm card-portfolio-banner text-white" href="">
                                 <span class="card-img swiper-image" data-swiper-parallax-x="20%">
-                                    <img src="assets/images/slide2.jpg" alt="">
+                                    <img src="assets/images/slide05.jpg" alt="">
                                     <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
                                 </span>
                             </a>
