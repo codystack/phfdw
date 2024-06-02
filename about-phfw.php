@@ -38,8 +38,8 @@ include "./components/mobilenavbar.php";
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                                     <!--<p class="lead mb-20">BACKGROUND: The Port Harcourt Fashion Week.</p>-->
-                                    <p class="mb-3" style="text-align: justify">The Port Harcourt Fashion Week is a three-day fashion event targeted at promoting sustainable development through stimulating youths who have interest and potentials in the fashion industry, with the necessary tools that will enable, encourage and support their aspirations of being successful and economically empowered youths. The event also aims at increasing the visibility of the fantastic home grown fashion, showcasing the creative talents that abound in this part of the country while highlighting the culture and sophisticated glamor inherent in the people of port Harcourt and South-South at large through the language of fashion. It is a market place for the creative minds to connect with the Media and Buyers, creating industry opportunities and relationships.</p>
-                                    <img class="w-100 mt-100" src="assets/images/about/about-us-content.jpg" alt="">
+                                    <p class="mb-3" style="text-align: justify">Welcome to Port Harcourt Fashion Week, a dynamic and vibrant showcase of fashion excellence in the Garden City of Nigeria. Our mission is to celebrate the rich tapestry of creativity and innovation within the local fashion industry. At Port Harcourt Fashion Week, we believe in pushing boundaries and breaking stereotypes. Our aim is to inspire designers, models, and fashion enthusiasts to think outside the box, experiment with new ideas, and create trends that are truly groundbreaking.</p>
+                                    <img class="w-100 mt-100" src="assets/images/about/abt3.jpg" alt="">
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                                     <div class="swiper swiper-button-style-3 mt-7" data-swiper-slides="1" data-swiper-speed="600" data-swiper-loop="true" data-swiper-parallax="true">
@@ -47,12 +47,12 @@ include "./components/mobilenavbar.php";
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide overflow-hidden">
                                                     <div class="swiper-image" data-swiper-parallax-x="20%">
-                                                        <img class="w-100" src="assets/images/about/slide1.jpg" alt="">
+                                                        <img class="w-100" src="assets/images/about/abt1.jpg" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide overflow-hidden">
                                                     <div class="swiper-image" data-swiper-parallax-x="20%">
-                                                        <img class="w-100" src="assets/images/about/slide2.jpg" alt="">
+                                                        <img class="w-100" src="assets/images/about/abt2.jpg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -64,38 +64,115 @@ include "./components/mobilenavbar.php";
                                                 <path d='M5.5 1L1 5.5L5.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
                                                 <path d='M19 5.5H1' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg></div>
                                     </div>
-                                    <p class="pt-0 mt-100 mb-0" style="text-align: justify">In 2019 when we first launched the Port Harcourt Fashion Week brand, the theme of the event was “Fashion…the new Oil and Gas” The essence was to draw attention to the fshion eco system, celebrate Sme’s who are already making impact in the sector and encourage youths who had interest in the industry to genuinely pursue their interest. Port Harcourt Hitherto have been known as the Oil rich city and youths who could not find themselves in the oil and gas sector felt out of place. That narrative needed to change and we were able to achieve it through the Master classes facilitated by veterans of the Fashion industry, Lexy Mojo Eyes, Frank Osodi, international celebrity makeup artist, Marco Louis of MAC cosmetics Africa, entrepreneurship coach and formal president of the Port Harcourt Chamber of Commerce Engr. Emeka Unachukwu and Mrs Gift Nwankwo.</p>
-                                </div>
-                                <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
-                                    <p>The second edition which held in 2021 was themed “Revitalizing the Economy through Fashion Tourism”
-                                        Historically the fashion industry has been used to uplift urban-based development objectives and the sector continues to be viewed as an important tool for economic and tourism development at a local and international level. Cities like Paris, Milan, London and New York have long been applauded for their thriving fashion industries they have achieved a strong position as international fashion capitals of the world. In Africa, South Africa has also used Fashion Tourism, as a vehicle to project its cities while Lagos Nigeria is not left out.</p>
-                                    <img src="assets/images/bout.jpg" width="430px">
-                                </div>
-                                <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
-                                    <The class="pt-0 mt-10 mb-0">It is on this premise that that the theme, “Revitalizing the Economy through Fashion Tourism" was borne. <br>
-                                    The idea was for the world to beam its light on the city of Port Harcourt, enjoying the culture and sophistication that abound with the people.<br></p>
-                                    <img src="assets/images/denrele.jpg" width="430px">
-                                </div>
-                                <!-- <div class="col-12 col-md-10 col-lg-9 mb-0">
-                                    <h3 class="mb-0 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">TECH-The Future of Fashion</h3>
-                                </div> -->
-                                <div class="col-12 show-on-scroll" data-show-duration="700">
-                                <h3 class="mb-0 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">TECH-The Future of Fashion</h3>
-                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">As technology continues to evolve to offer innovation, improve connectivity and provide ease of doing business, industries across the global economies are beginning to adopt and apply the use of technology. The Port Harcourt Fashion Week’s third edition is themed “Tech; The Future of Fashion” As always, through the PHFW  Summit, we will pull together key stakeholders within the Fashion space and the Tech sector as players within the larger economies to share ideas and provide possibilities for sustainable fashion.</p>
-                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">The role of technology as a tool for growth, innovation and advancement cannot be over-emphasized. It provides the opportunity for globalization, cross-border collaboration, skill enhancement and knowledge development. To engage and employ the technology of fashion , PHFW fashion summit will drive conversation on the evolution of technology in the business of fashion and how its application can provide and promote a more sustainable fashion ecosystem.</p>
-                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">The Fashion Week will facilitate a young designers competition, which will serve as a platform to launch the carriers of over 15 fresh fashion designers, who will have the opportunity to be tutored. The selected winner will be given a start-up grant as well as mentorship for business and skill development. This segment of the event holds in March 2023 and is proudly supported by the British Council and Godwin Etim Foundation.</p>
-                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">The Summit which is scheduled to hold in May 2023 will welcome experts from across the business, tech and fashion industries while the Fashion Week in July 2023 will have over 100 established fashion designers and exhibitors from across the region, over 25 local and international media platforms and over 5000 visitors.</p>
+                                    <p class="pt-0 mt-60 mb-0" style="text-align: justify">Diversity is at the core of our ethos. Port Harcourt Fashion Week celebrates the beauty of our different cultures, styles, and perspectives, and we strive to create a space where everyone feels represented and included. Our fashion week is a melting pot of creativity and individuality.</p>
+                                    <p class="pt-0 mt-20 mb-0" style="text-align: justify">This year’s event is themed “Fashion Forward, Future Ready,” reflecting our commitment to staying ahead of the curve and embracing the challenges of tomorrow. Through innovative designs, sustainable practices, and forward-thinking discussions at our fashion summit, we aim to pave the way for a more sustainable and inclusive fashion industry.</p>
                                 </div>
 
-                                <!-- <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
-                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">The Fashion Week will facilitate a young designers competition, which will serve as a platform to launch the carriers of over 15 fresh fashion designers, who will have the opportunity to be tutored. The selected winner will be given a start-up grant as well as mentorship for business and skill development. This segment of the event holds in March 2023 and is proudly supported by the British Council and Godwin Etim Foundation.</p>
-                                    <p class="pt-0 mt-10 mb-0" style="text-align: justify">The Summit which is scheduled to hold in May 2023 will welcome experts from across the business, tech and fashion industries while the Fashion Week in July 2023 will have over 100 established fashion designers and exhibitors from across the region, over 25 local and international media platforms and over 5000 visitors.</p>
-                                </div> -->
+                            
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+            <div class="pb-160">
+                <div class="container">
+                    <h2 class="mb-60 pb-30 text-center">Every year, <br>the Port Harcourt fashion Week features</h2>
+                    <div class="swiper mt-n4" data-swiper-slides="2" data-swiper-breakpoints="828:1, 1024:2" data-swiper-gap="60" data-swiper-free="true" data-swiper-grabcursor="true" data-swiper-freemode="true">
+                        <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-free-mode" style="cursor: grab;">
+                            <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-410px, 0px, 0px);">
+                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                    <div class="feature">
+                                        <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
+                                                <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
+                                            </svg><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="feature-body">
+                                            <h4 class="feature-title">Runway</h4>
+                                            <p class="feature-text">The runway showcase is the needed platform for emerging talents to shine and established designers to thrive beyond the shores of our city and across the globe.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
+                                                <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
+                                            </svg>
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="feature-body">
+                                            <h4 class="feature-title">Marketplace</h4>
+                                            <p class="feature-text">A vibrant and dynamic space at the fashion ground that showcases a diverse range of fashion products,, accessories, and lifestyle offerings from local designers, brands and artisans. It is a hub of creativity, entrepreneurship and style where attendees can shop, discover new talents and support the burgeoning fashion industry in Port Harcourt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                    <div class="feature">
+                                        <div class="feature-icon">
+                                            <svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
+                                                <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
+                                            </svg>
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="feature-body">
+                                            <h4 class="feature-title">Young Designer and Model contest</h4>
+                                            <p class="feature-text">We are committed to nurturing the next generation of fashion stars. Through contests for young designers and upcoming models. We provide a supportive environment for emerging talent to showcase their skills, gain exposure, and kickstart their careers in the competitive fashion industry.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                    <div class="feature">
+                                        <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
+                                                <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
+                                            </svg><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="feature-body">
+                                            <h4 class="feature-title">Business of Fashion Summit</h4>
+                                            <p class="feature-text">A dynamic and insightful event that brings together, industry expects, thought leaders, and fashion enthusiasts to discuss key trends, challenges and opportunities in the ever evolving world of fashion business.it exposes attendees to valuable insights into the industry trends, market dynamics and consumer behaviours that are shaping the fashion landscape. From digital innovations to sustainability practices, the summit covers a wide range of topic relevant to the business of fashion.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide" style="width: 350px; margin-right: 60px;">
+                                    <div class="feature">
+                                        <div class="feature-icon"><svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.18911 17.7887L35 0.57735L64.8109 17.7887V52.2113L35 69.4226L5.18911 52.2113V17.7887Z" stroke="currentColor"></path>
+                                                <path d="M18.2867 65.3084L1.0754 35.4976L18.2867 5.68667H52.7094L69.9207 35.4976L52.7094 65.3084H18.2867Z" stroke="currentColor"></path>
+                                            </svg><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 1V3.18182M13 22.8182V25M4.51273 4.51273L6.06182 6.06182M19.9382 19.9382L21.4873 21.4873M1 13H3.18182M22.8182 13H25M4.51273 21.4873L6.06182 19.9382M19.9382 6.06182L21.4873 4.51273M18.4545 13C18.4545 16.0125 16.0125 18.4545 13 18.4545C9.98754 18.4545 7.54545 16.0125 7.54545 13C7.54545 9.98754 9.98754 7.54545 13 7.54545C16.0125 7.54545 18.4545 9.98754 18.4545 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="feature-body">
+                                            <h4 class="feature-title">Fashion Gala and Award</h4>
+                                            <p class="feature-text">The Fashion Gala and Award  is the grand finale of the Fashion Week, a glamorous and celebratory event that honors excellence,, creativity and innovation in the industry in Port Harcourt and beyond.. it is a night of style, elegance and recognition where, where designers, models, influencers, and industry professionals come together to celebrate the best of fashion in Port Harcourt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="swiper-scrollbar">
+                            <div class="swiper-scrollbar-drag" style="transform: translate3d(96.0127px, 0px, 0px); transition-duration: 0ms; width: 273.987px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="container">
                 <div class="pb-130 text-center text-md-left">
