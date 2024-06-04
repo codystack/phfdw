@@ -29,7 +29,7 @@ require_once 'auth/password.php';
                                         <div class="card-header">
                                             <div class="row g-2 g-xl-5 align-items-center">
                                                 <div class="col-md-6">
-                                                    <a href="dashboard" class="btn btn-with-icon btn-dark">
+                                                    <a href="archive" class="btn btn-with-icon btn-dark">
                                                         <i class="bi bi-arrow-left"></i> Go Back
                                                     </a>
                                                 </div>

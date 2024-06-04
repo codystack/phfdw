@@ -26,7 +26,7 @@ if (isset($_POST['login_btn'])) {
         $_SESSION['id'] = $id;
 
         $_SESSION['success_message'] = "Login Successful, you're been redirected...";
-        header('location: dashboard');
+        header('location: archive');
     }else {
         $_SESSION['error_message'] = "Incorrect Login Details".mysqli_error($conn);
         echo "<meta http-equiv='refresh' content='3; URL=./'>";

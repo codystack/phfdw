@@ -40,52 +40,26 @@ require_once 'auth/account.php';
                                         aria-labelledby="component-1-1-tab">
                                         <div class="row g-3 g-xl-5">
                                             <div class="col-md-6" data-aos-delay="100">
-                                                <a href="summit-application" class="card equal-md-4-3 card-hover-border bg-white">
+                                                <a href="2024" class="card equal-md-4-3 card-hover-border bg-white">
                                                     <div class="card-wrap text-center">
                                                         <div class="card-header pb-0">
-                                                            <img src="./assets/images/apply.svg" alt="Logo" class="mb-2 w-40">
+                                                            <img src="./assets/images/airchive.svg" alt="Logo" class="mb-2 w-40">
                                                         </div>
                                                         <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Summit Application</h4>
+                                                            <h4 class="card-title fw-light">2024</h4>
                                                         </div>
                                                     </div>
                                                 </a>
                                             </div>
 
                                             <div class="col-md-6" data-aos-delay="100">
-                                                <a href="exhibitors-application" class="card equal-md-4-3 card-hover-border bg-white">
+                                                <a href="2023" class="card equal-md-4-3 card-hover-border bg-white">
                                                     <div class="card-wrap text-center">
                                                         <div class="card-header pb-0">
-                                                            <img src="./assets/images/exhibit.svg" alt="Logo" class="mb-2 w-40">
+                                                            <img src="./assets/images/airchive.svg" alt="Logo" class="mb-2 w-40">
                                                         </div>
                                                         <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Exhibitors Application</h4>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <div class="col-md-6" data-aos-delay="100">
-                                                <a href="designers-application" class="card equal-md-4-3 card-hover-border bg-white">
-                                                    <div class="card-wrap text-center">
-                                                        <div class="card-header pb-0">
-                                                            <img src="./assets/images/designers.svg" alt="Logo" class="mb-2 w-40">
-                                                        </div>
-                                                        <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Designers Application</h4>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <div class="col-md-6" data-aos-delay="100">
-                                                <a href="future-application" class="card equal-md-4-3 card-hover-border bg-white">
-                                                    <div class="card-wrap text-center">
-                                                        <div class="card-header pb-0">
-                                                            <img src="./assets/images/future-designers.svg" alt="Logo" class="mb-2 w-40">
-                                                        </div>
-                                                        <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Future Designers Application</h4>
+                                                            <h4 class="card-title fw-light">2023</h4>
                                                         </div>
                                                     </div>
                                                 </a>

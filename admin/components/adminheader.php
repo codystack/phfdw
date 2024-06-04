@@ -29,7 +29,7 @@ if (isset($_GET['logout'])) {
     <link rel="stylesheet" href="./assets/font/stylesheet.css" />
     <link href="./assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
 
-    <title>Admin Dashboard :: Virtuosic Agency&trade;</title>
+    <title>Admin Dashboard :: PHFW&trade;</title>
 </head>
 
 <body>

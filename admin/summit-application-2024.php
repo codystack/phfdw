@@ -29,12 +29,12 @@ require_once 'auth/profile.php';
                                         <div class="card-header">
                                             <div class="row g-2 g-xl-5 align-items-center">
                                                 <div class="col-md-6">
-                                                    <a href="2023" class="btn btn-with-icon btn-dark">
+                                                    <a href="2024" class="btn btn-with-icon btn-dark">
                                                         <i class="bi bi-arrow-left"></i> Go Back
                                                     </a>
                                                 </div>
                                                 <div class="col-md-6 text-md-end">
-                                                    <h3 class="fs-6">Exhibitors Application</h3>
+                                                    <h3 class="fs-6">Summit Application</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -44,33 +44,34 @@ require_once 'auth/profile.php';
                                                     <thead>
                                                         <tr>
                                                             <th scope="col">SN</th>
+                                                            <th scope="col">Name</th>
                                                             <th scope="col">Brand Name</th>
                                                             <th scope="col">Date Registered</th>
-                                                            <th scope="col">Phone</th>
                                                             <th scope="col" class="text-center">Action</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                     <?php
                                                     $quote_id = 1;
-                                                    $select_query = "SELECT * FROM exhibitors WHERE year(date) BETWEEN '2022' AND '2023' ORDER BY date ASC";
+                                                    $select_query = "SELECT * FROM summit WHERE year(dateCreated) BETWEEN '2024' AND '2025' ORDER BY dateCreated ASC";
                                                     $result = mysqli_query($conn, $select_query);
                                                     if (mysqli_num_rows($result) > 0) {
                                                         // output data of each row
                                                         while($row = mysqli_fetch_assoc($result)) {
                                                             $id = $row['id'];
-                                                            $phoneNum = $row['phoneNum'];
-                                                            $companyName = $row['companyName'];
+                                                            $firstName = $row['firstName'];
+                                                            $lastName = $row['lastName'];
+                                                            $brandName = $row['brandName'];
                                                             $email = $row['email'];
-                                                            $date = $row['date'];
-                                                            $dateRegistered = strtotime($date);
+                                                            $dateCreated = $row['dateCreated'];
+                                                            $date = strtotime($dateCreated);
                                                         echo "<tr>";
                                                             echo "<td>" .$quote_id. "</td>";
-                                                            echo "<th scope=\"row\">" .$companyName. "</th>";
-                                                            echo "<td>" .date('j F Y', $dateRegistered). "</td>";
-                                                            echo "<td>" .$phoneNum. "</td>";
+                                                            echo "<th scope=\"row\">" .$firstName." ".$lastName. "</th>";
+                                                            echo "<th scope=\"row\">" .$brandName. "</th>";
+                                                            echo "<td>" .date('j F Y', $date). "</td>";
                                                             echo "<td class=\"text-center\">" 
-                                                            ."<a href=\"view-exhibitors-application?id=$id\" class=\"btn btn-with-icon btn-sm btn-dark\">
+                                                            ."<a href=\"view-application?id=$id\" class=\"btn btn-with-icon btn-sm btn-dark\">
                                                                 <i class=\"bi bi-eye\"></i> View
                                                             </a>".
                                                             "</td>";

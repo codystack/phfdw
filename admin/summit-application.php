@@ -29,7 +29,7 @@ require_once 'auth/profile.php';
                                         <div class="card-header">
                                             <div class="row g-2 g-xl-5 align-items-center">
                                                 <div class="col-md-6">
-                                                    <a href="dashboard" class="btn btn-with-icon btn-dark">
+                                                    <a href="2023" class="btn btn-with-icon btn-dark">
                                                         <i class="bi bi-arrow-left"></i> Go Back
                                                     </a>
                                                 </div>
@@ -53,7 +53,7 @@ require_once 'auth/profile.php';
                                                     <tbody>
                                                     <?php
                                                     $quote_id = 1;
-                                                    $select_query = "SELECT * FROM summit ORDER BY dateCreated ASC";
+                                                    $select_query = "SELECT * FROM summit WHERE year(dateCreated) BETWEEN '2020' AND '2023' ORDER BY dateCreated ASC";
                                                     $result = mysqli_query($conn, $select_query);
                                                     if (mysqli_num_rows($result) > 0) {
                                                         // output data of each row
