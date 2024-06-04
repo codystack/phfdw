@@ -12,7 +12,7 @@ require_once "./controller/auth.php";
                     <div class="row justify-content-center text-white">
                         <div class="col-lg-10">
                             <h1 class="display-5 text-white mt-5 mb-30 show-on-scroll" data-show-duration="500" data-show-distance="10">Top Model Form.</h1>
-                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                                 <div class="row gh-1 gv-3 mt-30">
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
@@ -28,27 +28,27 @@ require_once "./controller/auth.php";
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="guardianName" class="form-control form-control-lg form-control-white" placeholder="Name of Guardian">
+                                        <input type="text" name="guardianName" required class="form-control form-control-lg form-control-white" placeholder="Name of Guardian">
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="tel" name="guardianTel" class="form-control form-control-lg form-control-white" placeholder="Guardian Phone">
+                                        <input type="tel" name="guardianTel" required class="form-control form-control-lg form-control-white" placeholder="Guardian Phone">
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="height" class="form-control form-control-lg form-control-white" placeholder="Height">
+                                        <input type="text" name="height" required class="form-control form-control-lg form-control-white" placeholder="Height">
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="statistics" class="form-control form-control-lg form-control-white" placeholder="Statistics">
+                                        <input type="text" name="statistics" required class="form-control form-control-lg form-control-white" placeholder="Statistics">
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="shoeSize" class="form-control form-control-lg form-control-white" placeholder="Shoe Size">
+                                        <input type="text" name="shoeSize" required class="form-control form-control-lg form-control-white" placeholder="Shoe Size">
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="dressSize" class="form-control form-control-lg form-control-white" placeholder="Dress Size">
+                                        <input type="text" name="dressSize" required class="form-control form-control-lg form-control-white" placeholder="Dress Size">
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">
@@ -60,7 +60,7 @@ require_once "./controller/auth.php";
                                     </div>
 
                                     <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                        <input type="text" name="instagram" class="form-control form-control-lg form-control-white" placeholder="Instagram handle">
+                                        <input type="text" name="instagram" required class="form-control form-control-lg form-control-white" placeholder="Instagram handle">
                                     </div>
 
                                     <div class="col-12 col-md-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">

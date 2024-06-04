@@ -1,4 +1,4 @@
 <?php
     session_start();
     session_destroy();
-    header("location: what-to-expect");
+    header("location: about-phfw");

@@ -316,7 +316,7 @@ if (isset($_POST['top_model_btn'])) {
     $address = $conn->real_escape_string($_POST['address']);
 
 
-    $check_model_query = "SELECT * FROM models WHERE email='$email'";
+    $check_model_query = "SELECT * FROM top_model WHERE email='$email'";
     $result = mysqli_query($conn, $check_model_query);
     if (mysqli_num_rows($result) > 0) {
         $_SESSION['user_message_title'] = "User Already Exist!";
@@ -324,13 +324,17 @@ if (isset($_POST['top_model_btn'])) {
     }
 
     // Finally, insert details into database
-    $query = "INSERT INTO models (firstName, lastName, email, phoneNum, age, height, burstChest, waist, hip, dressSuit, shoeSize, agency, agencyContact) 
-                VALUES('$firstName', '$lastName', '$email', '$phoneNum', '$age', '$height', '$burstChest', '$waist', '$hip', '$dressSuit', '$shoeSize', '$agency','$agencyContact')";
+    $query = "INSERT INTO top_model (firstName, lastName, age, guardianName, guardianTel, height, statistics, shoeSize, dressSize, email, phoneNum, instagram, address) 
+                VALUES('$firstName', '$lastName', '$age', '$guardianName', '$guardianTel', '$height', '$statistics', '$shoeSize', '$dressSize', '$email', '$phoneNum', '$instagram', '$address')";
 
     mysqli_query($conn, $query);
     if (mysqli_affected_rows($conn) > 0) {
         $_SESSION['model_success_message_title']  = "Registration Successful👋";
         $_SESSION['model_success_message']    = "You're being redirected";
+        $_SESSION['phoneNum'] = $phoneNum;
+        $_SESSION['firstName'] = $firstName;
+        $_SESSION['lastName'] = $lastName;
+        $_SESSION['email'] = $email;
     }else {
         $_SESSION['message_title']  = "Request Failed";
         $_SESSION['message']    = "Error sending request now: ".mysqli_error($conn).$id;
