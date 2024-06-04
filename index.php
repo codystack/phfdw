@@ -177,7 +177,7 @@ include "./components/mobilenavbar.php";
                 <div class="container">
                     <div class="row gh-1 gv-1 justify-content-xl-end">
                         <div class="col-lg-5 show-on-scroll" data-show-duration="600">
-                            <img class="w-100" src="assets/images/service/hme1.jpg" alt="">
+                            <img class="w-100" src="assets/images/service/hme1x.jpg" alt="">
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-1"></div>
                         <div class="col-lg-6 col-xl-4 align-self-center order-11 order-lg-2">
@@ -185,10 +185,10 @@ include "./components/mobilenavbar.php";
                         </div>
                         <div class="d-none d-xl-block col-2 order-lg-3"></div>
                         <div class="d-none d-lg-block col-lg-2 col-xl-auto order-10 order-lg-4 show-on-scroll" data-show-delay="100" data-show-duration="600">
-                            <img class="mw-100" width="140" src="assets/images/service/hme2.jpg" alt="">
+                            <img class="mw-100" width="140" src="assets/images/service/hme2x.jpg" alt="">
                         </div>
                         <div class="d-none d-lg-block col-lg-3 order-9 order-lg-5 show-on-scroll" data-show-delay="200" data-show-duration="600">
-                            <img class="w-100" src="assets/images/service/hmex3.jpg" alt="">
+                            <img class="w-100" src="assets/images/service/hmex3x.jpg" alt="">
                         </div>
                         <div class="d-none d-lg-block col-1 order-lg-6"></div>
                         <div class="col-lg-6 col-xl-5 mt-xl-n60 order-12 order-lg-7">

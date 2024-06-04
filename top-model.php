@@ -66,10 +66,10 @@ require_once "./controller/auth.php";
                                     <div class="col-12 col-md-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
                                         <input type="text" name="address" required class="form-control form-control-lg form-control-white" placeholder="Address *">
                                     </div>
-                                    
+
                                 </div>
 
-                                <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="submit" name="showcase_btn" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
+                                <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="submit" name="top_model_btn" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
                             </form>
                         </div>
                     </div>

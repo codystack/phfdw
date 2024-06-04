@@ -296,3 +296,44 @@ if (isset($_POST['contact_btn'])) {
     }
 }
 
+
+
+//Top Model Query
+if (isset($_POST['top_model_btn'])) {
+
+    $firstName = $conn->real_escape_string($_POST['firstName']);
+    $lastName = $conn->real_escape_string($_POST['lastName']);
+    $age = $conn->real_escape_string($_POST['age']);
+    $guardianName = $conn->real_escape_string($_POST['guardianName']);
+    $guardianTel = $conn->real_escape_string($_POST['guardianTel']);
+    $height = $conn->real_escape_string($_POST['height']);
+    $statistics = $conn->real_escape_string($_POST['statistics']);
+    $shoeSize = $conn->real_escape_string($_POST['shoeSize']);
+    $dressSize = $conn->real_escape_string($_POST['dressSize']);
+    $email = $conn->real_escape_string($_POST['email']);
+    $phoneNum = $conn->real_escape_string($_POST['phoneNum']);
+    $instagram = $conn->real_escape_string($_POST['instagram']);
+    $address = $conn->real_escape_string($_POST['address']);
+
+
+    $check_model_query = "SELECT * FROM models WHERE email='$email'";
+    $result = mysqli_query($conn, $check_model_query);
+    if (mysqli_num_rows($result) > 0) {
+        $_SESSION['user_message_title'] = "User Already Exist!";
+        $_SESSION['user_message'] = "Please contact admin";
+    }
+
+    // Finally, insert details into database
+    $query = "INSERT INTO models (firstName, lastName, email, phoneNum, age, height, burstChest, waist, hip, dressSuit, shoeSize, agency, agencyContact) 
+                VALUES('$firstName', '$lastName', '$email', '$phoneNum', '$age', '$height', '$burstChest', '$waist', '$hip', '$dressSuit', '$shoeSize', '$agency','$agencyContact')";
+
+    mysqli_query($conn, $query);
+    if (mysqli_affected_rows($conn) > 0) {
+        $_SESSION['model_success_message_title']  = "Registration Successful👋";
+        $_SESSION['model_success_message']    = "You're being redirected";
+    }else {
+        $_SESSION['message_title']  = "Request Failed";
+        $_SESSION['message']    = "Error sending request now: ".mysqli_error($conn).$id;
+    }
+
+}
