@@ -54,14 +54,15 @@ require_once 'auth/account.php';
                                     <div class="tab-pane fade show active" id="component-1-1" role="tabpanel"
                                         aria-labelledby="component-1-1-tab">
                                         <div class="row g-3 g-xl-5">
+
                                             <div class="col-md-6" data-aos-delay="100">
-                                                <a href="summit-application-2024" class="card equal-md-4-3 card-hover-border bg-white">
+                                                <a href="future-application-2024" class="card equal-md-4-3 card-hover-border bg-white">
                                                     <div class="card-wrap text-center">
                                                         <div class="card-header pb-0">
-                                                            <img src="./assets/images/apply.svg" alt="Logo" class="mb-2 w-40">
+                                                            <img src="./assets/images/future-designers.svg" alt="Logo" class="mb-2 w-40">
                                                         </div>
                                                         <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Summit Application</h4>
+                                                            <h4 class="card-title fw-light">Future Designers Application</h4>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -107,13 +108,13 @@ require_once 'auth/account.php';
                                             </div>
 
                                             <div class="col-md-6" data-aos-delay="100">
-                                                <a href="future-application-2024" class="card equal-md-4-3 card-hover-border bg-white">
+                                                <a href="summit-application-2024" class="card equal-md-4-3 card-hover-border bg-white">
                                                     <div class="card-wrap text-center">
                                                         <div class="card-header pb-0">
-                                                            <img src="./assets/images/future-designers.svg" alt="Logo" class="mb-2 w-40">
+                                                            <img src="./assets/images/apply.svg" alt="Logo" class="mb-2 w-40">
                                                         </div>
                                                         <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Future Designers Application</h4>
+                                                            <h4 class="card-title fw-light">Summit Application</h4>
                                                         </div>
                                                     </div>
                                                 </a>

@@ -218,7 +218,7 @@ include "./components/mobilenavbar.php";
                                         </svg>
                                     </div>
                                     <div class="review-text">
-                                        <p class="mb-0">The role of technology as a tool for growth, innovation and advancement cannot be over-emphasized. It provides the opportunity for globalization, cross-border collaboration, skill enhancement and knowledge development.</p>
+                                        <p class="mb-0">Diversity is at the core of our ethos. Port Harcourt Fashion Week celebrates the beauty of our different cultures, styles, and perspectives, and we strive to create a space where everyone feels represented and included. Our fashion week is a melting pot of creativity and individuality.</p>
                                     </div>
                                     <!--<div class="review-author">Edith Head</div>-->
                                 </div>
