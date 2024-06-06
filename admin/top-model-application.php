@@ -53,21 +53,21 @@ require_once 'auth/profile.php';
                                                     <tbody>
                                                     <?php
                                                     $quote_id = 1;
-                                                    $select_query = "SELECT * FROM designers WHERE year(date) BETWEEN '2024' AND '2025' ORDER BY date ASC";
+                                                    $select_query = "SELECT * FROM top_model WHERE year(dateCreated) BETWEEN '2024' AND '2025' ORDER BY dateCreated ASC";
                                                     $result = mysqli_query($conn, $select_query);
                                                     if (mysqli_num_rows($result) > 0) {
                                                         // output data of each row
                                                         while($row = mysqli_fetch_assoc($result)) {
                                                             $id = $row['id'];
                                                             $phoneNum = $row['phoneNum'];
-                                                            $brandName = $row['brandName'];
-                                                            $email = $row['email'];
-                                                            $date= $row['date'];
-                                                            $dateRegistered = strtotime($date);
+                                                            $firstName = $row['firstName'];
+                                                            $lastName = $row['lastName'];
+                                                            $dateCreated = $row['dateCreated'];
+                                                            $date = strtotime($dateCreated);
                                                         echo "<tr>";
                                                             echo "<td>" .$quote_id. "</td>";
-                                                            echo "<th scope=\"row\">" .$brandName. "</th>";
-                                                            echo "<td>" .date('j F Y', $dateRegistered). "</td>";
+                                                            echo "<th scope=\"row\">" .$firstName.' '.$lastName. "</th>";
+                                                            echo "<td>" .date('j F Y', $date). "</td>";
                                                             echo "<td>" .$phoneNum. "</td>";
                                                             echo "<td class=\"text-center\">" 
                                                             ."<a href=\"view-model-application?id=$id\" class=\"btn btn-with-icon btn-sm btn-dark\">

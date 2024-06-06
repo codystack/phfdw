@@ -34,13 +34,13 @@ require_once 'auth/profile.php';
                                                     </a>
                                                 </div>
                                                 <div class="col-md-6 text-md-end">
-                                                    <h3 class="fs-6">Summit Application</h3>
+                                                    <h3 class="fs-6">Top Model Application</h3>
                                                 </div>
                                             </div>
                                         </div>
                                         <?php
                                             $id = $_GET['id'];
-                                                $select_query = "SELECT * FROM summit WHERE id ='$id'";
+                                                $select_query = "SELECT * FROM top_model WHERE id ='$id'";
                                                 $result = mysqli_query($conn, $select_query);
                                                 if (mysqli_num_rows($result) > 0) {
                                                 // output data of each row
@@ -49,22 +49,24 @@ require_once 'auth/profile.php';
                                                     $firstName = $row['firstName'];
                                                     $lastName = $row['lastName'];
                                                     $email = $row['email'];
-                                                    $phone = $row['phone'];
-                                                    $brandName = $row['brandName'];
+                                                    $phoneNum = $row['phoneNum'];
+                                                    $age = $row['age'];
+                                                    $guardianName = $row['guardianName'];
+                                                    $guardianTel = $row['guardianTel'];
+                                                    $height = $row['height'];
+                                                    $statistics = $row['statistics'];
+                                                    $shoeSize = $row['shoeSize'];
+                                                    $dressSize = $row['dressSize'];
                                                     $instagram = $row['instagram'];
-                                                    $regCode = $row['regCode'];
+                                                    $address = $row['address'];
                                                     $dateCreated = $row['dateCreated'];
                                                     $date = strtotime($dateCreated);
                                         ?>
                                         <div class="card-body bg-white">
                                             <div class="row">
                                                 <div class="col-md-6 mb-3">
-                                                    <label for="firstName" class="form-label">First Name</label>
-                                                    <input type="text" class="form-control" required name="firstName" disabled value="<?php echo $firstName; ?>">
-                                                </div>
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="lastName" class="form-label">Last Name</label>
-                                                    <input type="text" class="form-control" required name="lastName" disabled value="<?php echo $lastName; ?>">
+                                                    <label for="firstName" class="form-label">Full Name</label>
+                                                    <input type="text" class="form-control" required name="firstName" disabled value="<?php echo $firstName; ?> <?php echo $lastName; ?>">
                                                 </div>
                                                 <div class="col-md-6 mb-3">
                                                     <label for="email" class="form-label">Email</label>
@@ -72,23 +74,47 @@ require_once 'auth/profile.php';
                                                 </div>
                                                 <div class="col-md-6 mb-3">
                                                     <label for="phone" class="form-label">Phone Number</label>
-                                                    <input type="tel" class="form-control" required name="phone" disabled value="<?php echo $phone; ?>">
+                                                    <input type="tel" class="form-control" required name="phone" disabled value="<?php echo $phoneNum; ?>">
                                                 </div>
                                                 <div class="col-md-6 mb-3">
                                                     <label for="jobTitle" class="form-label">Instagram</label>
                                                     <input type="text" class="form-control" required name="jobTitle" disabled value="<?php echo $instagram; ?>">
                                                 </div>
                                                 <div class="col-md-6 mb-3">
-                                                    <label for="company" class="form-label">Brand Name</label>
-                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $brandName; ?>">
+                                                    <label for="company" class="form-label">Age</label>
+                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $age; ?>">
                                                 </div>
                                                 <div class="col-md-6 mb-3">
-                                                    <label for="company" class="form-label">Registration Code</label>
-                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $regCode; ?>">
+                                                    <label for="company" class="form-label">Guardian</label>
+                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $guardianName; ?>">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="company" class="form-label">Guardian Phone</label>
+                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $guardianTel; ?>">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="company" class="form-label">Height</label>
+                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $height; ?>">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="company" class="form-label">Statistics</label>
+                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $statistics; ?>">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="company" class="form-label">Shoe Size</label>
+                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $shoeSize; ?>">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="company" class="form-label">Dress Size</label>
+                                                    <input type="text" class="form-control" required name="company" disabled value="<?php echo $dressSize; ?>">
                                                 </div>
                                                 <div class="col-md-6 mb-3">
                                                     <label for="company" class="form-label">Registration Date</label>
                                                     <input type="text" class="form-control" required name="company" disabled value="<?php echo date('j F Y', $date); ?>">
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <label for="lastName" class="form-label">Address</label>
+                                                    <input type="text" class="form-control" required name="lastName" disabled value="<?php echo $address; ?>">
                                                 </div>
                                             </div>
                                         </div>
